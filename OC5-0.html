@@ -1,0 +1,383 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docentes do DCN</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docentes do DCN</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Iniciação científica'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2020,
+32],
+[2021,
+25],
+[2022,
+29],
+[2023,
+21],
+[2024,
+6]]}]});
+        });
+        </script>
+        
+                <h3>Iniciação científica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 113<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Abraão Braga da Silva. <b>Sinais Sísmicos de Testes Nucleares</b>. (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5722300748929381">Luiz Gabriel Souza de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Andressa do Santos Oliveira. <b>Comparação entre as características geológicas de subsuperfície (poços) e de superfície das rochas da região de São Mateus (ES), porção onshore da Bacia do Espírito Santo</b>. (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6632598745671715">Jefferson Lima Fernandes André</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Felipe dos Santos Silva. <b>Materiais Didáticos Digitais: Uso das tecnologias para a construção de um instrumento facilitador para o ensino-aprendizagem de química.</b>. (Graduando em LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gustavo Teixeira Machado. <b>Avaliação de potencial antioxidante e fotoprotetor de Carbon dots e ZnO em formulações cosméticas.</b>. (Graduando em Farmácia) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Luiza Eduarda de Paula Souza. <b>Avaliação da fibra do bagaço de cana-de-açúcar como bioadsorvente de azo coramtes</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Valdenice de Carvalho Lopes. <b>Caracterização das rochas da porção onshore da bacia do Espírito Santo da região de Conceição da Barra (ES) através de dados de poço</b>. (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6632598745671715">Jefferson Lima Fernandes André</a>.</font></td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Carolina Bazon Demonel. <b>Validação de um Método Espectrofotométrico na Região UV-Vis para Determinação de Etinilestradiol em Água.</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Universidade Federal do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Carolina Calazans. <b>Otimização de procedimento de extração para a determinação quantitativa de antraquinona em amostras de pimenta do reino produzidas no Estado do Espírito Santo</b>. (Graduando em Engenharia Química) - Centro Universitário Norte do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9434564411683567">Mellina Damasceno Rachid Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Carolina Calazans O. dos Santos. <b>Estudo do cleanup para determinação de antraquinona por CG-MS</b>. (Graduando em Engenharia Química) - Centro Universitário Norte do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Bruna Moura Martins. <b>Monitoria em Educação ambiental no combate à problemas do cotidiano (ICJr 2023)</b>. (Graduando em Engenharia Química) - Centro Universitário Norte do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Bruno Paim Targa. <b>Estudo, Reprodução e Aplicação do Experimento de Hertz</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, Universidade Federal do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5320330508972933">Andre Luíz Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Carlos Eduardo Alves da Conceição. <b>Propagação de luz estruturada em meios turbulentos</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, UFES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6095468454824366">Thonimar Vieira de Alencar Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>David Manuel Costa Passinhas. <b>síntese e caracterização de poliuretanos e seus compósitos de serragem utilizando PET (politereftalato de etileno) e PC (policarbonato) reciclados quimicamente ? Uma abordagem para a sustentabilidade</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3410912882231783">Breno Nonato de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>David Manuel Costa Passinhas. <b>síntese e caracterização de poliuretanos e seus compósitos de serragem utilizando PET (politereftalato de etileno) e PC (policarbonato) reciclados quimicamente ? Uma abordagem para a sustentabilidade</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3410912882231783">Breno Nonato de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Eduardo Andrade Vitorino. <b>Pesquisa de Novos Inibidores Seletivos da MAO-B para o Tratamento da Doença de Parkinson baseados na estrutura da Safinamida: Uma Abordagem Computacional</b>. (Graduando em Farmácia) - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9991164750729669">Marcia Helena Rodrigues Velloso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Emilio Araujo de Lima. <b>Estudo de modelos de spin clássicos: Modelos de Ising e Heisenberg revisitado.</b>. (Graduando em Engenharia da Computação) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7120418895468591">Rodrigo da Costa Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Felipe dos Santos Silva. <b>Desenvolvimento de animações usando a técnica do Stop Motion como recurso pedagógico para o ensino de química no nível fundamental.</b>. (Graduando em LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, Serviço Brasileiro de Apoio às Micro e Pequenas Empresas. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Geovana Ribeiro Cavilha. <b>É possível a aplicação direta do método PAM 404 (sem etapa de cleanup) para dosagem de carbendazim em mamão?</b>. (Graduando em Agronomia) - Centro Universitário Norte do Espírito Santo, Prefeitura Municipal de São Mateus-ES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Gledson Ferreira de Almeida. <b>Produção de membranas filtrantes, para purificação de água, a partir de resíduos agroindustriais e urbanos</b>. (Graduando em Licenciatura em Química) - Centro Universitário do Norte do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Isabelly de Oliveira Ramos Silva. <b>Aplicação de ultrassom associado a adsorvente para remoção de 17 α-Etinilestradiol em água</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Universidade Federal do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Joanna Flegler Mariano. <b>Desenvolvimento de novos fármacos para a doença de Alzheimer: uma abordagem in silico para a identificação de inibidores da BACE1</b>. (Graduando em Farmácia) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9991164750729669">Marcia Helena Rodrigues Velloso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>JOSE LUIZ DE BARROS LOURENCO. <b>Caracterização das rochas sedimentares de Pedro Canário (ES) e região, porção onshore da Bacia do Espírito Santo</b>. (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6632598745671715">Jefferson Lima Fernandes André</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Juliano Cesar Almeida Rossini Junior. <b>Adsorção de metais pesados em resíduos agroindustriais modificados com ácido cítrico</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0811158352700883">Vivian Chagas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Maria Eduarda Pereira. <b>Desenvolvimento de metodologia utilizando ultrassom auxiliado por adsorventes para mitigação de contaminantes emergentes em água.</b>. (Graduando em Farmácia) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Nathália Fernandes Gonçalves. <b>Aplicação dos métodos do anel de Du-Noüy para estudo da tensão interfacial em nanoemulsões com petróleo.</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Vitor de Oliveira Barbosa. <b>Aproveitamento de resíduos agrícolas para a dessalinização solar</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Vitor Torezani Fernandes Pinto. <b>Adsorção de íons metálicos em resíduos agroindustriais modificados quimicamente.</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0811158352700883">Vivian Chagas da Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Amanda Puttin Vidoto. <b>?Desenvolvimento de Metodologia Analítica para Eliminar Interferência de Sais na Determinação do Número de Acidez Total (NAT) em Petróleo?</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Agência Nacional do Petróleo, Gás Natural e Biocombustíveis. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Carolina Bazon Demonel. <b>Tratamentos alternativos para remoção de desreguladores endócrinos em água e efluentes: Análise bibliométrica</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Universidade Federal do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Anderson Nunes Panetto. <b>Análise do Movimento Vertical de um Minifoguete a Propelente Sólido</b>. (Graduando em Licenciatura Plena em Física) - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5320330508972933">Andre Luíz Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Bernardo Soares Pirola. <b>Monitor no projeto - Diagnóstico e Desinfecção da Água para Uso Residencial</b>. (Graduando em Agronomia) - Centro Universitário Norte do Espírito Santo, Fundação de Apoio ao Desenvolvimento da Ciência e Tecnologia. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>David Manuel Costa Passinhas. <b>DESENVOLVIMENTO DE MÉTODO ELETROANALÍTICO PARA DETERMINAÇÃO DO NÚMERO DE ACIDEZ TOTAL EM PETRÓLEOS NA PRESENÇA DE SAIS HIDROLISÁVEIS.</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Felipe dos Santos Silva. <b>Uso do Stop Motion como recurso pedagógico para o ensino dos conteúdos de química no nível médio.</b>. (Graduando em LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Giseli Will. <b>Reciclagem terciária de plásticos uma visão didática da despolimerização via hidrólise e pirólise</b>. (Graduando em Química) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3410912882231783">Breno Nonato de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GUSTAVO TEIXEIRA MACHADO. <b>Avaliação da atividade fotoprotetora in vitro de Carbon dots obtidos de rejeitos agroindustriais</b>. (Graduando em Farmácia) - Universidade Federal do Espírito Santo, UFES. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Ingrid Kelli Souza Ferraz. <b>Monitoria em projeto ICJr - Gincana da reciclagem: Praticando o conhecimento</b>. (Graduando em Engenharia Química) - Centro Universitário Norte do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Isaac dos Santos Orgino. <b>Aproveitamento de resíduos agroindustriais para produção de materiais nanoestruturados</b>. (Graduando em Química Licenciatura) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Jackson Rodrigues Souza. <b>Síntese de bis-purinas e avaliação da inibição enzimática da acetilcolinesterase visando o tratamento da Doença de Alzheimer</b>. (Graduando em Fármacia) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Joanna Flegler Mariano. <b>Estudo de docagem molecular de análogos da huperzina A como inibidores da enzima acetilcolinesterase</b>. (Graduando em Química) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9991164750729669">Marcia Helena Rodrigues Velloso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Joao Pedro Brunelli Souza. <b>Monitor no projeto - Diagnóstico e Desinfecção da Água para Uso Residencial</b>. (Graduando em Agronomia) - Centro Universitário Norte do Espírito Santo, Fundação de Apoio ao Desenvolvimento da Ciência e Tecnologia. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Johny Marcos Marinho Rocha. <b>Oficinas temáticas para divulgação científica: Plásticos biodegradáveis utilizando resíduos agroindustriais</b>. (Graduando em Licenciatura em Química) - Centro Universitário do Norte do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>JOÃO BATISTA HUDSON FRERIS. <b>Caracterização físico-química da casca do café conilon (Coffea canephora P.)</b>. (Graduando em Engenharia Química) - Centro Universitário do Norte do Espírito Santo, UFES. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0380297522790929">Ana Paula Oliveira Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>João Luca Livramento. <b>Monitor no projeto - Diagnóstico e Desinfecção da Água para Uso Residencial</b>. (Graduando em Agronomia) - Centro Universitário Norte do Espírito Santo, Fundação de Apoio ao Desenvolvimento da Ciência e Tecnologia. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>João Nilton da Conceição Bandeira. <b>Avaliação de fibras do bagaço de cana-de-açúcar e do pseudocaule da bananeira como bioadsorventes de cobre (II) em meio aquoso.</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Juliana Silva Bibiano. <b>Adsorção de Óleo em Emulsão em Água por Ferrita de Cobalto</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8285018770645807">Eduardo Perini Muniz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>kaio alan littike. <b>Construção de um Gerador Elétrico Utilizando um Motor de Máquina de lavar</b>. (Graduando em Engenharia da Computação) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5320330508972933">Andre Luíz Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Karolayne dos Reis Quintiliano. <b>Elaboração de programa em python para os cálculos petrofísicos importante à indústria utilizando as curvas de perfis de poços</b>. (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Lara Carvalho Mageste. <b>Remoção de Metais Pesados Utilizando Resíduos Agroindustriais como Biossorventes</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0811158352700883">Vivian Chagas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Luan Souza Coelho. <b>Construção de um Transformador Monofásico: Estudo das transformações de Tensão e Análise Gráfica da Curva de Histerese Magnética</b>. (Graduando em Licenciatura Plena em Física) - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5320330508972933">Andre Luíz Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Luana Laures. <b>Proposta de guia experimental para compreensão de fundamentos científico-tecnológicos no Ensino Médio através da adsorção de metais pesados</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0811158352700883">Vivian Chagas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>LUISA POEYS DO VALLE. <b>Monitoramento do Tamanho de Partícula de sedimentos da Biodiversidade Aquática na Área Ambiental?</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Fundação Espírito-santense de Tecnologia. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Millena Rodrigues Alborghetti. <b>Caracterização de filmes ativos de acetato de celulose obtido a partir da celulose da casca de café.</b>. (Graduando em ENGENHARIA QUÍMICA) - Centro Universitário do Norte do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Nathalia Fernandes Gonçalves. <b>Estudo da influência do processo de extração de sais na determinação do número de acidez total (NAT).</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>PETRONILHO DE ARAUJO NETO. <b>A avaliação da dinâmica molecular da piperina e análogos com a enzima acetilcolinesterase</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9664531819814847">Débora Pereira Araujo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Raiani Vitoria Santos. <b>Desenvolvimento de Materiais Didáticos Digitais para o ensino de química na educação básica</b>. (Graduando em LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Valdir Hastenreiter Jose. <b>Modificação química da celulose da casca de coco para obtenção de membranas para processos de separação.</b>. (Graduando em ENGENHARIA QUÍMICA) - Centro Universitário do Norte do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alexandra Delfina da Silva. <b>Monitoramento da cloração e desinfecção com dispositivo caseiro</b>. (Graduando em Engenharia Química) - Centro Universitário Norte do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AMANDA PEREIRA DOS SANTOS. <b>Preparação de nanocatalisadores baseados em SnO2/Cu para degradação de compostos orgânicos poluentes.</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>AMANDA PUTTIN VIDOTO. <b>Determinação de cátions em extrato aquoso de petróleos brasileiros por cromatografia de íons</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Carlos Alberto Barbosa Junior. <b>Estudos cinéticos de isotermas de adsorção a partir de fibras vegetais in-natura de azo corante</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Christian Jonas de Oliveira. <b>O ENSINO DE GRÁFICOS DE CINEMÁTICA PARA O ENSINO MÉDIO ATRAVÉS DE SIMULAÇÕES COMPUTACIONAIS</b>. (Graduando em Ciência da Computação) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3414799692619699">Rodrigo Dias Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Clarissa Oliveira Souto. <b>Estudo dos parâmetros petrofísicos de Archie para reservatório carbonático que auxiliem na análise do complexo poroso destes reservatórios</b>. (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CLEDRLON PEREIRA MACHADO. <b>Caracterização magnética de nanopartículas de ferritas de Co</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0422485640031962">Paulo Sérgio Moscon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>DEYWINDIR MICHELL SANTANA DA SILVA. <b>Propriedades Estruturais e Magnéticas de Nanopartículas de Ferritas mistas de Ni/Co</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0422485640031962">Paulo Sérgio Moscon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Emanuelly Souza de Menezes. <b>Monitoria no desenvolvimento e aplicação de clorador para tratamento de água residencial</b>. (Graduando em Agronomia) - Centro Universitário Norte do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Gustavo Pezzin Casagrande. <b>Series convergentes e divergentes em Fı́sica: Prolegomenos</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2699117520955351">José André Lourenço</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>GUSTAVO TEIXEIRA MACHADO. <b>Biocurativos de pele baseados em nanoestruturas híbridas do tipo CeO2/Ag e celulose</b>. (Graduando em Farmácia) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Islani de Araújo. <b>Elaboração de práticas de laboratório utilizando o arduino que auxiliem no ensino de Física Ondulatória no Ensino Médio.</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6464661567161861">Gustavo Viali Loyola</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Jeff Chandler Almeida dos Santos. <b>Estudo das fontes de incerteza no ensaio de viscosidade cinemática em petróleo.</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Joanna Flegler Mariano. <b>Estudo de docking molecular de análogos da galantamina como inibidores da enzima acetilcolinesterase</b>. (Graduando em Bacharelado em Farmácia) - Centro Universitário Norte do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9991164750729669">Marcia Helena Rodrigues Velloso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>João Paulo Amorim Nascimento. <b>Expansões Assintóticas de Integrais e o Método do Ponto de Sela</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2699117520955351">José André Lourenço</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Kaio de Vargas Miranda. <b>Utilização de Biossorventes Derivados de Resíduos Agroindustriais para a Remoção de Metais Pesados.</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0811158352700883">Vivian Chagas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Luana Laures. <b>Produção e caracterização de filmes ativos obtidos a partir da casca de café e incorporação de óleos essenciais</b>. (Graduando em ENGENHARIA QUÍMICA) - Centro Universitário do Norte do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>MAIARA DOS SANTOS OLIVEIRA. <b>Síntese de diestéres análogos da rivastigmina e avaliação da inibição enzimática da acetilcolinesterase visando o tratamento da Doença de Alzheimer</b>. (Graduando em Licenciatura em Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Maria Joana Custódio Favero. <b>Preparação de filtros fotocatalisadores auto-limpantes baseados em biossílica e nanocristais semicondutores</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Mauricio Ribeiro dos Santos Barreiros. <b>Variações de pressão em reservatórios de hidrocarbonetos induzidas por marés gravitacionais</b>. (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5722300748929381">Luiz Gabriel Souza de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Millena Rodrigues Alborgheti. <b>Incorporação de óleos essenciais para obtenção de filmes ativos de acetato de celulose</b>. (Graduando em ENGENHARIA QUÍMICA) - Centro Universitário do Norte do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Núbia Antunes de Oliveira Santos. <b>Avaliação da influência dos sais NaCl, MgCl2, CaCl2 e SrCl2 na titulação termométrica usando a norma ASTM D 8045</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>PETRONILHO DE ARAUJO NETO. <b>Avaliação por docking molecular do princípio ativo da pimenta do reino e de análogos visando o tratamento da doença de Alzheimer</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9664531819814847">Débora Pereira Araujo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Ruan Pablo Schulz Peixoto. <b>Síntese de bis-purinas e avaliação da inibição enzimática da acetilcolinesterase visando o tratamento da Doença de Alzheimer</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Vivian Braga de Oliveira. <b>Adequação e aplicação do método PAM 404 para dosagem de carbendazim em mamão.</b>. (Graduando em Engenharia Química) - Centro Universitário Norte do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AMANDA PEREIRA DOS SANTOS. <b>Heteroestruturas baseadas em CeO2/Cu para aplicações em fotocatálise</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Amanda Puttin Vidoto. <b>EFEITOS FISICOS E FISICO-QUIMICOS: INFLUENCIA DE SAIS NA ACIDEZ DE PETROLEO - DESENVOLVIMENTO DE METODOLOGIA ANALITICA PARA ELIMINAR INTERFERENCIA DE SAIS NA DETERMINAÇÃO DO NUMERO DE ACIDEZ TOTAL (TAN) EM PETROLEO</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Fundação Espírito-santense de Tecnologia. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Carlos Alberto Barbosa Junior. <b>Avaliação das Fibras do do Pseudocaule da Bananeira como Material Adsorvente</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Cledrlon Pereira Machado. <b>Caracterização estrutural e morfológica de nanopartículas magnéticas do tipo MNFe2O4</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5320330508972933">Andre Luíz Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Davi Pereira Rosa Araújo. <b>Síntese e caracterização de compósitos de PU-PET com fibras de coco-triazina</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3410912882231783">Breno Nonato de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Davi Pereira Rosa Araújo. <b>Poliuretanos de PET reciclado via glicerolise</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3410912882231783">Breno Nonato de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>DEYWINDIR MICHELL SANTANA DA SILVA. <b>"Introdução aos fenômenos de ressonância magnética</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0422485640031962">Paulo Sérgio Moscon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Débora de Jesus Campos. <b>Desenvolvimento de uma metodologia para extração de antraquinona de amostras de pimenta do reino empregando banho de ultrassom.</b>. (Graduando em Engenharia Química) - Centro Universitário Norte do Espírito Santo, Universidade Federal do Espírito Santos. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9434564411683567">Mellina Damasceno Rachid Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Emanuelle Garcia Gomes. <b>Otimização de metodologia para a determinação quantitativa de antraquinona em amostras de pimenta do reino produzidas no Estado do Espírito Santo</b>. (Graduando em Engenharia Química) - Centro Universitário Norte do Espírito Santo, Universidade Federal do Espírito Santos. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9434564411683567">Mellina Damasceno Rachid Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Franciele Fernandes Câmara. <b>Efeitos Físicos e Físico-Químicos: Influência de sais na acidez de petróleo - Desenvolvimento de Metodologia Analítica para Eliminar Interferência de Sais na Determinação do Número de Acidez Total (NAT) em Petróleo.</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Fundação Espírito-santense de Tecnologia. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Gabriel Lacerda Soares. <b>Avaliação dos parâmetros de perfilagem petrofísica do poço X do Campo de Marimbá.</b>. (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Gerlison Lopes Pinto. <b>Correlação entre os parâmetros de perfilagem petrofísica do poço A do e do poço B do Campo de Marimbá.</b>. (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Gleiciane Pisoler. <b>Síntese de bis-purinas e avaliação da inibição enzimática da acetilcolinesterase visando o tratamento da Doença de Alzheimer</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Gustavo Pezzin Casagrande. <b>A Análise Assintótica de Gevrey e suas Aplicações em Física</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2699117520955351">José André Lourenço</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Gustavo Teixeira Machado. <b>Nanocompósitos baseados em CeO2/Ag e celulose com potencial aplicação em biocurativos de pele.</b>. (Graduando em Farmácia) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>HENTONY DOS SANTOS BARBOZA. <b>PRODUÇÃO DE ATIVIDADES MULTI- INSTRUMENTOS COMO FERRAMENTA AUXILIAR NO ENSINO DOS CONCEITOS INICIAIS DE MECÂNICA NO E.M.</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3414799692619699">Rodrigo Dias Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Igor Rodrigues Lemke. <b>Introdução à Teoria de Cordas</b>. (Graduando em Fisica) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7034365539639197">Raphael Góes Furtado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Jeff Chandler Almeida dos Santos. <b>Avaliação e determinação de cátions em extrato aquoso de petróleos brasileiros por cromatografia de íons</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Universidade Federal do Espírito Santo. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>João Paulo Amorim Nascimento. <b>Somabilidade de Borel e Séries Perturbativas</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2699117520955351">José André Lourenço</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>João Pedro Biss Rossim. <b>Docking molecular de análogos da piperina como inibidores da acetilcolinesterase</b>. (Graduando em Farmácia) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9664531819814847">Débora Pereira Araujo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Lara Carvalho Mageste. <b>Otimização de procedimento de extração para a determinação quantitativa de antraquinona em amostras de pimenta do reino produzidas no Estado do Espírito Santo</b>. (Graduando em Engenharia Química) - Centro Universitário Norte do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9434564411683567">Mellina Damasceno Rachid Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>LUAN SOUZA COELHO. <b>PRODUÇÃO DE MATERIAIS INSTRUCIONAIS PARA AUXILIAR NO ENSINO DO CONCEITO DE CORRENTE ELÉTRICA NO ENSINO MÉDIO</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3414799692619699">Rodrigo Dias Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Luana Viana Araújo. <b>Síntese e caracterização de copolímeros éster-uretano de lignina e PET</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3410912882231783">Breno Nonato de Melo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>MAIARA DOS SANTOS OLIVEIRA. <b>Síntese de diestéres análogos da rivastigmina e avaliação da inibição enzimática da acetilcolinesterase visando o tratamento da Doença de Alzheimer</b>. (Graduando em Licenciatura em Química) - Universidade Federal do Espírito Santo, UFES. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Millena Rodrigues Alborghetti. <b>Incorporação de óleos essenciais para obtenção de filmes ativos de acetato de celulose</b>. (Graduando em ENGENHARIA QUÍMICA) - Centro Universitário do Norte do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Nicholas Alexandre Berger Bento. <b>Avaliar a produção de estruvita em reator de leito fluidizado: Determinação da melhor condição de precipitação</b>. (Graduando em ENGENHARIA QUÍMICA) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Núbia Antunes de Oliveira Santos. <b>Avaliar a influência dos sais NaCl, MgCl2, CaCl2 e SrCl2 em amostras de petróleos na titulação termométrica.</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Petronilho de Araújo Neto. <b>Uso de adsorventes naturais como controladores de poluentes metálicos</b>. (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0811158352700883">Vivian Chagas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>REGINA CAMARGO BEVEVINO. <b>Desenvolvimento de novos compostos derivados do eugenol como potenciais reativadores da enzima acetilcolinesterase inibida por pesticidas organofosforados</b>. (Graduando em Fármacia) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Valter Euzébio Junior. <b>Estudo das Propriedades Termodinâmicas e Dinâmicas de Skyrmions e Redes de Skyrmions.</b>. (Graduando em Física) - Universidade Federal do Espírito Santo, Universidade Federal do Espírito Santo. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7120418895468591">Rodrigo da Costa Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Vivian Braga de Oliveira. <b>"Desenvolvimento da técnica de preparo de amostras QuEChERS para análise de resíduos do herbicida Sulfentrazona</b>. (Graduando em Engenharia Química) - Centro Universitário Norte do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>VIVIANE GRONER SCHWANZ. <b>Síntese de bis-purinas e avaliação da inibição enzimática da acetilcolinesterase visando o tratamento da Doença de Alzheimer</b>. (Graduando em Fármacia) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2020 até 2024
+<br>Data de processamento: 12/12/2024 17:02:07<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:thonimar.souza@ufes.br">thonimar.souza@ufes.br</a>         </div> </body></html>
+              

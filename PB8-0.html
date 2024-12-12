@@ -1,0 +1,235 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docentes do DCN</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docentes do DCN</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Apresentações de trabalho'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2020,
+4],
+[2021,
+6],
+[2022,
+12],
+[2023,
+12],
+[2024,
+5]]}]});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 39<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BRANDAO JUNIOR, A. J. ; SILVESTRE, L. J. ; ALENCAR, THONIMAR V.. <b>Análise de agrupamento em medidas de rajadas de rádio rápidas do projeto CHIME: uma abordagem por aprendizado de máquina</b>. 2024. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Muniz, E.P.; PROVETI, J. R. C. ; CAETANO, E. P. ; DALMASCHIO, CLEOCIR JOSÉ ; Kaio Reis Costa. <b>Fotodegradação de Detergentes por Ferritas</b>. 2024. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>RIBEIRO, MARILÉA; CONRADO, V. A.. <b>Petroshow - Vitória (ES)</b>. 2024. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>RIBEIRO, MARILÉA; QUINTILIANO, K. R. ; CONRADO, V. A.. <b>Geologist and Geophysicist Day</b>. 2024. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SOARES, L.G.F. <b>Modelo Hidrodinâmico para MOTs com Desalinhamento no Plano-xy</b>. 2024. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVARENGA, NATÁLIA M. ; CAVALCANTI, E. ; LINHARES, C. A. ; LOURENÇO, J. A. ; MAHON, JOSÉ ROBERTO P. ; REIS, F. P. P.. <b>PT-symmetry breaking for the deformed Mathieu Potential</b>. 2023. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MEIRELES, CARLA; ALMEIDA, G. F. ; MACIEL, L. N. ; SANTOS, L. S. ; BERNINI, I. R. ; RODRIGUES, H. Z. ; WANDERMUREM, D. V. ; SILVA, A. C.. <b>Produção de membranas filtrantes para purificação de água a partir de resíduos agroindustriais e urbanos</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MEIRELES, CARLA; MENDES, A. N. F. ; VIANA, J. P.. <b>O protagonismo dos licenciandos de Química no desenvolvimento de experimentos para a comunidade escolar: a química do cotidiano</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MOREIRA, J. C. ; MOURA-MELO, WINDER A. ; PEREIRA, AFRANIO ; SILVA, R. C. ; Silva, R. L.. <b>Skyrmions and skyrmion Hall Effect in ferrimagnetic nanostripes with impurities</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ORGINO, I. S. ; Andrade, George R.S.. <b>Aproveitamento de folhas de café (Coffea canephora) para produção de materiais adsorventes</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SANTOS, M. F. P. <b>Desafios Analíticos da Análise do Número de Acidez Total em Petróleos</b>. 2023. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SILVA, R. L.; SILVA, R C ; Pereira, A R. <b>Skyrmion and bimeron hurdle race in antiferromagnetic racetracks</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SILVA, R. L.; SILVA, R C ; Pereira, A R ; MASAKI, Y.. <b>Proliferation of skyrmions induced by biquadratic exchange interaction</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SILVA, R. L.; Silva, R. C. ; Pereira, A R. <b>Affecting the structure of skyrmions using ferromagnetic nanodisks with inhomogeneous properties: switching skyrmion helicity and polarity</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SILVA, R. L.; Silva, R. C. ; Pereira, A R. <b>Fractionalizing biskyrmions with magnons</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SILVA, R. L.; Silva, R. C. ; Pereira, A R ; MASAKI, Y.. <b>Antiferromagnetic Bimeron surpassing Magnetic obstacles</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SOUZA, J. R. ; ARAUJO, D. P. ; VELLOSO, M. H. R. ; Nogueira, C. M.. <b>Síntese de diésteres análogos da rivastigmina e avaliação da inibição enzimática da acetilcolinesterase visando o tratamento da Doença de Alzheimer</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARAUJO, D. P.; Neto, P. A.. <b>Molecular docking evaluation of piperine and analogues for the treatment of Alzheimer's disease</b>. 2022. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cotta, Aloísio J.B.; DE ANDRADE, RENATO P. ; MENEZES, E. S. ; PIROLA, B. S. ; LIVRAMENTO, J. L. ; SOUZA, J. P. B. ; SOUZA, M. D. L. ; BRAVO, I. D. N.. <b>Níveis de cloro ativo liberados por clorador caseiro para caixa d'água</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MAGESTE, L. C. ; LAURES, L. ; MIRANDA, K. V. ; MEIRELES, C. S. ; Silveira, Vivian Chagas da. <b>Remoção dos Metais Pesados utilizando Resíduos Agroindustriais como biossorventes,</b>. 2022. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MARQUES, WILLBRYNNER P. ; de Souza, Janiomar B. ; Muniz, Eduardo P. ; PROVETI, J. R. C. ; da Silva, Adriano ; Passamani, E.C. ou Passamani, E. ; DA SILVA PORTO, PAULO SÉRGIO ; SANTORIO, Ricardo. <b>OPTIMIZING Mg/Fe BASED COMPOSITE SYNTHESIS VIA SOL-GEL METHOD FOR PHOSPHORUS REMOVAL</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MELO, B. N.; WILL, G. ; MOSE, A. S. ; GOMES, C. A. C. ; GOMES, D. D. S. ; PEREIRA, L. S. ; CORREA, W. B.. <b>ESTUDO DA DESPOLIMERIZAÇÃO POR GLICERÓLISE DO POLIETILENO TEREFTALATO (PET) E DO POLICARBONATO (PC)</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>R. C. Silva ; Silva, R. L.. <b>Skyrmion-Antiskyrmion coupling in inhomogeneous ferromagnetic racetracks</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>R. C. Silva ; Silva, R. L.. <b>Skyrmion bound state in an antiferromagnetic bilayer racetrack</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Silva, R. L. <b>Biskyrmion fractionalization in a skyrmion in frustrated ferromagnetic nanotracks</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Silva, R. L.; R. C. Silva. <b>Robust dynamics of antiferromagnetic skyrmion driven by spin-polarized current in small thin disks</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Silva, R. L.; R. C. Silva. <b>Skyrmion dynamics and skyrmion-bimeron crossover in antiferromagnetic thin nanodisks with a random distribution of magnetic impurities</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Silva, R. L.; R. C. Silva. <b>Antiferromagnetic skyrmions overcoming obstacles in a racetrack</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Silva, R. L.; R. C. Silva. <b>Antiferromagnetic-Bimeron dynamics driven by a spin-polarized current at an inhomogeneous racetrack</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANDRADE, G. R. S. <b>Do átomo ao quantum dot: como a teoria de bandas ajuda a explicar as propriedades ópticas em nanomateriais semicondutores</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DOS SANTOS RIBEIRO, MARILEA GOMES. <b>Experiência de Mulheres no Stor de Óleo e Gás</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Eduardo Perini MUNIZ; Rafaela Alves Pereira ; Porto, Paulo Sergio da Silva ; José Rafael Cápua Proveti ; Passamani, E.C. ou Passamani, E. ; Thiago Chiquetto Fraga ; VIEIRA, D.. <b>On the Use of Cobalt Ferrite as an Oil Adsorber</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>LOURENÇO, J.A. <b>Structural aspects of the algebro-geometric supermanifolds and superdistributions via categories and sheaves</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>RIBEIRO, M. G. S. <b>Petrofísica de Reservatórios Tipo Pré-sal</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>RIBEIRO, M. G. S. <b>Ceunes/Ufes - ABPIP</b>. 2021. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALENCAR, THONIMAR V. <b>Single-pixel camera: a low-cost imaging system</b>. 2020. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ALVES, A. L. ; PEREIRA, R. D. ; LOYOLA, G. V. ; PANETTO, A. N. ; MOTTA, Y. B. ; BISSOLI, A. ; PESTANA, G.. <b>RELATOS DE EXPERIMENTOS NO ENSINO DE FÍSICA: ONDAS MECÂNICAS, LEI DE FARADAY E GRAVITAÇÃO</b>. 2020. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BAZONI, R. F. <b>Um Fragmento da Física Biológica</b>. 2020. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MULLER, A. H. T. ; Alavarenga, F. G. ; LOYOLA, G. V. ; PEREIRA, R. D. ; ALVES, A. L.. <b>UTILIZAÇÃO DE EXPERIMENTOS E UM MOTOR STIRLING NO ENSINO DA PRIMEIRA E SEGUNDA LEI DA TERMODINÂMICA NO ENSINO MÉDIO</b>. 2020. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2020 até 2024
+<br>Data de processamento: 12/12/2024 17:02:07<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:thonimar.souza@ufes.br">thonimar.souza@ufes.br</a>         </div> </body></html>
+              

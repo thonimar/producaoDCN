@@ -1,0 +1,307 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docentes do DCN</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docentes do DCN</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Orientações de outra natureza'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2020,
+9],
+[2021,
+9],
+[2022,
+22],
+[2023,
+33],
+[2024,
+2]]}]});
+        });
+        </script>
+        
+                <h3>Orientações de outra natureza</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 75<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>João Víctor Oliveira Ribeiro. <b>Estágio Educação Ambiental no Ensino Fundamental</b>. (Agronomia) - Centro Universitário Norte do Espírito Santo, PRÓ-REITORIA DE EXTENSÃO UFES. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Pedro Emanuel Silva Nascimento. <b>Estágio Educação Ambiental no Ensino Fundamental</b>. (Agronomia) - Centro Universitário Norte do Espírito Santo, Prefeitura Municipal de São Mateus-ES. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Amanda Puttin Vidoto. <b>Estágio Obrigatório - Supervisão e orientação de estágio no Laboratório de Preparo de amostras e análise química</b>. (Engenharia Química) - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ANA CLARA ANTUNES SIQUEIRA. <b>Desenvolvimento e aplicação de recursos didáticos visando o ensino de Química Orgânica</b>. (Engenharia Química) - Universidade Federal do Espírito Santo, UFES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Andrea Casagrande de Oliveira. <b>Estágio em Química Analítica e Instrumental</b>. (Agronomia) - Centro Universitário Norte do Espírito Santo, Prefeitura Municipal de São Mateus-ES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>André Pereira Amarante. <b>Desenvolvimento e aplicação de recursos didáticos visando o ensino de Química Orgânica</b>. (Fármacia) - Universidade Federal do Espírito Santo, UFES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Antonyel Oliveira dos Santos. <b>Aproveitamento de resíduos agrícolas para a dessalinização solar</b>. (Ensino Médio) - EEEFM MARITA MOTTA SANTOS, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Atos Santos Amorim. <b>Confecção de kits de experimentos para divulgação da química em escolas e redes sociais</b>. (LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, Fundação de Amparo a Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Caio Andalecio Custodio de Almeida. <b>Monitoria e acompanhamento dos alunos matriculados na disciplina de Química Geral</b>. (Engenharia Química) - Universidade Federal do Espírito Santo, UFES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Caio Nascimento Fontes. <b>Projeto de Ensino - PIAA</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4496654673061366">Andre Gonçalves de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Cesar Walker Mardegan Marroque. <b>Monitoria Virtual de Química Analítica e Instrumental (QA-QI): Ano II</b>. (Agronomia) - Centro Universitário Norte do Espírito Santo, Universidade Federal do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Danielle Vitória de Morais Torres. <b>Monitoria PaEPE I: Monitoria de Química Analítica</b>. (Farmácia) - Centro Universitário Norte do Espírito Santo, Universidade Federal do Espírito Santos. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9434564411683567">Mellina Damasceno Rachid Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Dayana Freitas Santos. <b>Monitoria e acompanhamento dos alunos matriculados na disciplina de Química Geral</b>. (Engenharia Química) - Universidade Federal do Espírito Santo, UFES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Eduardo Andrade Vitorino. <b>Monitoria Química Orgânica</b>. (Farmácia) - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9991164750729669">Marcia Helena Rodrigues Velloso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Fabia Mendonca Souza. <b>Monitoria e acompanhamento dos alunos matriculados na disciplina de Química Geral</b>. (Engenharia Química) - Universidade Federal do Espírito Santo, UFES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Gabriel Rojas Procópio. <b>Elaboração de recursos didáticos para apoio na disciplina de Físico-Química</b>. (Farmácia) - Centro Universitário do Norte do Espírito Santo, Universidade Federal do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Izadora Batista dos Santos Rodrigues. <b>Aproveitamento de resíduos agrícolas para a dessalinização solar</b>. (Ensino Médio) - EEEFM MARITA MOTTA SANTOS, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Jackson Rodrigues Souza. <b>Desenvolvimento e aplicação de recursos didáticos visando o ensino de Química Orgânica</b>. (Fármacia) - Universidade Federal do Espírito Santo, UFES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Jéssica Giacomin Suprani. <b>Elaboração de recursos didáticos para apoio na disciplina de Físico-Química</b>. (Farmácia) - Centro Universitário do Norte do Espírito Santo, Universidade Federal do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Júlia Ronchi dos Santos. <b>Aproveitamento de resíduos agrícolas para a dessalinização solar</b>. (Ensino Médio) - EEEFM MARITA MOTTA SANTOS, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Kysilla Monteiro Silva. <b>Aproveitamento de resíduos agrícolas para a dessalinização solar</b>. (Ensino Médio) - EEEFM MARITA MOTTA SANTOS, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Lara Alves Porto. <b>Confecção de materiais de laboratório alternativos: prática extensionista desenvolvida por licenciandos visando a melhoria do ensino de química</b>. (ENGENHARIA QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Extensão. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>LEO DAVILA BISI GUIMARÂES. <b>Desenvolvimento e aplicação de abordagens diferenciadas visando à aprendizagem dos alunos matriculados na disciplina de Química Geral</b>. (ENGENHARIA QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação/UFES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Luan Souza Coêlho. <b>Projeto de Ensino - PIAA</b>. (Física) - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4496654673061366">Andre Gonçalves de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Maria Eduarda Souza Fernandes. <b>Elaboração de recursos didáticos para apoio na disciplina de Físico-Química</b>. (ENGENHARIA QUÍMICA) - Centro Universitário do Norte do Espírito Santo, Universidade Federal do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>MATHEUS BRITO PASSOS. <b>DESENVOLVIMENTO E APLICAÇÃO DE ABORDAGENS DIFERENCIADAS VISANDO À APRENDIZAGEM DOS ALUNOS MATRICULADOS NA DISCIPLINA DE QUÍMICA GERAL</b>. (ENGENHARIA QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação/UFES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Nathalia Fernandes Goncalves. <b>Monitoria e acompanhamento dos alunos matriculados na disciplina de Química Geral</b>. (Engenharia Química) - Universidade Federal do Espírito Santo, UFES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>NÚBIA ANTUNES DE OLIVEIRA SANTOS. <b>Monitor para aulas práticas e teóricas, visando solucionar problemas de Química Orgânica e Química Biológica</b>. (Engenharia Química) - Universidade Federal do Espírito Santo, Universidade Federal do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9664531819814847">Débora Pereira Araujo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Ricardo Modenese Ramalho. <b>Projeto de Ensino - PIAA</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4496654673061366">Andre Gonçalves de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Ryan Santos Borges. <b>Monitoria PaEPE I: Monitoria de Química Analítica</b>. (Engenharia Química) - Centro Universitário Norte do Espírito Santo, Universidade Federal do Espírito Santos. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9434564411683567">Mellina Damasceno Rachid Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Stefany Caroliny dos Santos. <b>Aproveitamento de resíduos agrícolas para a dessalinização solar</b>. (Ensino Médio) - EEEFM MARITA MOTTA SANTOS, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>THALIA BARBARA GOMES GONÇALVES. <b>DESENVOLVIMENTO E APLICAÇÃO DE ABORDAGENS DIFERENCIADAS VISANDO À APRENDIZAGEM DOS ALUNOS MATRICULADOS NA DISCIPLINA DE QUÍMICA GERAL</b>. (ENGENHARIA QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação/UFES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Vanessa Cristina Barcelos da Cruz. <b>Confecção de materiais de laboratório alternativos: prática extensionista desenvolvida por licenciandos visando a melhoria do ensino de química</b>. (ENGENHARIA QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Extensão. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Vitoria Silva Caetano. <b>Elaboração de recursos didáticos para apoio na disciplina de Físico-Química</b>. (Licenciatura em Química) - Centro Universitário do Norte do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Wendy Mardegan Marroque. <b>Desenvolvimento e aplicação de recursos didáticos visando o ensino de Química Orgânica</b>. (Fármacia) - Universidade Federal do Espírito Santo, UFES. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Amanda Pereira dos Santos. <b>Monitoria PaEPE I: Monitoria de Química Geral Experimental</b>. (Engenharia Química) - Centro Universitário Norte do Espírito Santo, Universidade Federal do Espírito Santos. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9434564411683567">Mellina Damasceno Rachid Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ANA CLARA ANTUNES SIQUEIRA. <b>Monitoria para o Ensino de Química Orgânica</b>. (Engenharia Química) - Universidade Federal do Espírito Santo, UFES. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Luiza Graça Ribeiro. <b>Projeto de Ensino - PIAA</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4496654673061366">Andre Gonçalves de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Anna Júlia Victória Silva. <b>Física com Mathematica</b>. (Física) - Universidade Federal do Espírito Santo, UFES. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6095468454824366">Thonimar Vieira de Alencar Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Atos Santos Amorim. <b>Confecção de materiais de laboratório alternativos: prática extensionista desenvolvida por licenciandos visando a melhoria do ensino de química.</b>. (LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Extensão. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Bruna Moura Martins. <b>Monitoria PaEPE I: Monitoria de Química Geral Experimental</b>. (Engenharia Química) - Centro Universitário Norte do Espírito Santo, Universidade Federal do Espírito Santos. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9434564411683567">Mellina Damasceno Rachid Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Carlos Eduardo Kester dos Santos. <b>Projeto de Ensino - PIAA</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4496654673061366">Andre Gonçalves de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>DAVID MANUEL COSTA PASSINHAS. <b>Desenvolvimento e aplicação de abordagens diferenciadas visando à aprendizagem dos alunos matriculados na disciplina de Química Geral</b>. (ENGENHARIA QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação/UFES. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Denis Apolonio Santana. <b>Projeto de Ensino - PIAA</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4496654673061366">Andre Gonçalves de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Dyovanna da Silva Kloss. <b>Desenvolvimento e aplicação de abordagens diferenciadas visando à aprendizagem dos alunos matriculados na disciplina de Química Geral</b>. (LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação/UFES. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Fábia Mendonça Souza. <b>Monitoria em Química Inorgânica e Geral ? Teoria e Laboratório.</b>. (Engenharia Química) - Universidade Federal do Espírito Santo, UFES. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0811158352700883">Vivian Chagas da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>HELOIZA COLETA MENDES. <b>Monitoria para o Ensino de Química Orgânica</b>. (Fármacia) - Universidade Federal do Espírito Santo, UFES. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Jonathan Pereira Viana. <b>O protagonismo dos licenciandos de Química no desenvolvimento de experimentos para a comunidade escolar: a química do cotidiano.</b>. (Licenciatura em Química) - Centro Universitário do Norte do Espírito Santo, Programa de Bolsas de Extensão. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Lislen Cristina Santos Gouveia. <b>Aproveitamento de resíduos agroindustriais para produção de materiais nanoestruturados</b>. (Ensino Média) - CEEFMTI Marita Motta Santos, Fundação de Amparo à Pesquisa do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Lucas Cezar Figueiredo Farias. <b>Projeto de Ensino - PIAA</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4496654673061366">Andre Gonçalves de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Maiany Severo Leal. <b>Física com Mathematica</b>. (Física) - Universidade Federal do Espírito Santo, UFES. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6095468454824366">Thonimar Vieira de Alencar Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Matheus Silva de Rezende. <b>Aproveitamento de resíduos agroindustriais para produção de materiais nanoestruturados</b>. Orientação de outra natureza - CEEFMTI ?Marita Motta Santos?, Fundação de Amparo à Pesquisa do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Pablo Henrique Hencke Leal. <b>Aproveitamento de resíduos agroindustriais para produção de materiais nanoestruturados</b>. Orientação de outra natureza - CEEFMTI ?Marita Motta Santos?, Fundação de Amparo à Pesquisa do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Pedro Monteiro Barrere. <b>Aproveitamento de resíduos agroindustriais para produção de materiais nanoestruturados</b>. (Ensino Médio) - CEEFMTI ?Marita Motta Santos?, Fundação de Amparo à Pesquisa do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Renan Telles de Araujo. <b>Aproveitamento de resíduos agroindustriais para produção de materiais nanoestruturados</b>. Orientação de outra natureza - CEEFMTI ?Marita Motta Santos?, Fundação de Amparo à Pesquisa do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Renata Costa Schmidt. <b>Desenvolvimento e aplicação de abordagens diferenciadas visando à aprendizagem dos alunos matriculados na disciplina de Química Geral</b>. (LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação/UFES. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Vitória Guedes. <b>Monitoria para aulas práticas e teóricas, solucionando problemas de Química Orgânica</b>. (Engenharia Química) - Universidade Federal do Espírito Santo, Universidade Federal do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9664531819814847">Débora Pereira Araujo</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Beatriz Guisso Gomes. <b>Projeto de Ensino - PIAA</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4496654673061366">Andre Gonçalves de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Carla Vitorina Lira Cruz. <b>Preparação de filtros fotocatalisadores auto-limpantes baseados em biossílica e nanocristais semicondutores</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Carlos Alexandre Gonçalves Pestana. <b>Preparação de filtros fotocatalisadores auto-limpantes baseados em biossílica e nanocristais semicondutores</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Jaiane Katellyn da Silva Barbosa. <b>Preparação de filtros fotocatalisadores auto-limpantes baseados em biossílica e nanocristais semicondutores</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>KARROLLAINE STEFNE SANTOS OLIVEIRA. <b>Monitoria Química Orgânic</b>. (Farmácia) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9991164750729669">Marcia Helena Rodrigues Velloso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Lara Braga Davila. <b>Desenvolvimento e aplicação de abordagens diferenciadas visando à aprendizagem dos alunos matriculados na disciplina de Química Geral</b>. (ENGENHARIA QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação/UFES. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Larita Lara Backer. <b>Desenvolvimento e aplicação de abordagens diferenciadas visando à aprendizagem dos alunos matriculados na disciplina de Química Geral</b>. (LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação/UFES. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Marla Almeida Siqueira. <b>Desenvolvimento e aplicação de abordagens diferenciadas visando à aprendizagem dos alunos matriculados na disciplina de Química Geral</b>. (LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação/UFES. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Patrícia Silvares Olegário. <b>Projeto de Ensino - PIAA</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4496654673061366">Andre Gonçalves de Lima</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Anderson Nunes Panetto. <b>Práticas Experimentais para o Ensino de Física: Construção de um Foguete com Propelente Sólido e Monitorias em Laboratório</b>. (Física) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação UFES. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5320330508972933">Andre Luíz Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Beatriz Guisso Gomes. <b>Projeto de Ensino - PIAA</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4496654673061366">Andre Gonçalves de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Deywindir Michell Santana. <b>Práticas Experimentais para o Ensino de Física: Construção de um Foguete com Propelente Sólido e Monitorias em Laboratório</b>. (Física) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação UFES. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5320330508972933">Andre Luíz Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Fernanda Pasolini. <b>Desenvolvimento e aplicação de abordagens diferenciadas visando à aprendizagem dos alunos matriculados na disciplina de Química Geral</b>. (ENGENHARIA QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Giseli Will. <b>Desenvolvimento e aplicação de abordagens diferenciadas visando à aprendizagem dos alunos matriculados na disciplina de Química Geral</b>. (LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>João Paulo Amorim Nascimento. <b>Projeto de Ensino - PIAA</b>. Orientação de outra natureza - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4496654673061366">Andre Gonçalves de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Kaio Alan Littike. <b>Práticas Experimentais para o Ensino de Física: Construção de um Foguete com Propelente Sólido e Monitorias em Laboratório</b>. (Ciência da Computação) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação UFES. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5320330508972933">Andre Luíz Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Marla Almeida Siqueira. <b>Desenvolvimento e aplicação de abordagens diferenciadas visando à aprendizagem dos alunos matriculados na disciplina de Química Geral</b>. (LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Rhyelly Muner. <b>Desenvolvimento e aplicação de abordagens diferenciadas visando à aprendizagem dos alunos matriculados na disciplina de Química Geral</b>. (LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, Pró-Reitoria de Graduação/UFES. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2020 até 2024
+<br>Data de processamento: 12/12/2024 17:02:07<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:thonimar.souza@ufes.br">thonimar.souza@ufes.br</a>         </div> </body></html>
+              

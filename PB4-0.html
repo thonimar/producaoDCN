@@ -1,0 +1,233 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docentes do DCN</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docentes do DCN</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Trabalhos completos publicados em anais de congressos'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2020,
+3],
+[2021,
+12],
+[2022,
+3],
+[2023,
+3],
+[2024,
+17]]}]});
+        });
+        </script>
+        
+                <h3>Trabalhos completos publicados em anais de congressos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 38<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AMORIM, A. S. ; MEIRELES, C. S. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Possibilidades de experimentações químicas: oficina pedagógica para professores da educação básica</b>. Em: <font color=#330066>II Encontro da Rede Latino-Americana de Pesquisa em Educação Química / II Colóquio Internacional de Didáctica de las Ciencias Humanas y Naturales</font>, v. 1, p. 1-12, 2024.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AMORIM, A. S. ; MENDES, A. N. F. ; MENDES, A. N. F. ; MEIRELES, C. S.. <b>A química no ensino fundamental: o desenvolvimento da experimentação por meio de oficinas pedagógicas</b>. Em: <font color=#330066>XXII ENEQ - Encontro Nacional de Ensino de Química</font>, p. 1-12, 2024.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>AMORIM, A. S. ; MENDES, A. N. F. ; MENDES, A. N. F. ; MEIRELES, C. S. ; NOGUEIRA, C. M.. <b>A Extensão Universitária Como Componente Curricular e suas Contribuições para a Formação Inicial na Perspectiva dos Licenciandos em Química da Ufes/Ceunes</b>. Em: <font color=#330066>XXII ENEQ - Encontro Nacional de Ensino de Química</font>, p. 1-12, 2024.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BENTO, N. A. B. ; COTTA, A. J. B. ; PORTO, P. S. S.. <b>Precipitação da estruvita em um reator air-lift: Um estudo sobre a competição entre potássio e amônio</b>. Em: <font color=#330066>41º Congresso Brasileiro de Sistemas Particulados</font>, v. 1, p. 1-7, 2024. <a href="http://dx.doi.org/10.22533/at.ed.3792113106" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CAVILHA, G. R. ; ALVES, J. O. ; ANCESCHI, M. B. ; COTTA, A. J. B.. <b>Testes de cleanup e recuperação para determinação de carbendazim em mamão por HPLC-QMS</b>. Em: <font color=#330066>Jornada Internacional de Iniciação Científica e Extensão Universitária ? JIICEU 2024</font>, 2024.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>COTTA, A. J. B.; RIBEIRO, J. V. O. ; NASCIMENTO, P. E. S. ; ANDRADE, R. P. ; ANCESCHI, M. B.. <b>Aprendendo sobre a Compostagem em Garrafa PET</b>. Em: <font color=#330066>III Congresso Latino-americano de Desenvolvimento Sustentável</font>, v. 4, p. 23-32, 2024.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>DURAES, F. D. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Produção de materiais informativos para o combate às fake news envolvendo a ciência</b>. Em: <font color=#330066>II Encontro da Rede Latino-Americana de Pesquisa em Educação Química / II Colóquio Internacional de Didáctica de las Ciencias Humanas y Naturales</font>, v. 1, p. 1-9, 2024. <a href="http://dx.doi.org/10.22533/at.ed.7341911115" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LEITE, F. ; Alves, A L. <b>VI Simpósio de Projetos do PPGEEB</b>. Em: <font color=#330066>VI Simpósio de Projetos do PPGEEB</font>, v. 01, p. 01-11, 2024.</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; MEIRELES, C. S.. <b>Pró-Ensino de Química Geral: A visão dos bolsistas sobre a contribuição deste Projeto de Ensino para os Estudantes de Graduação da Ufes/Ceunes</b>. Em: <font color=#330066>XXII ENEQ - Encontro Nacional de Ensino de Química</font>, p. 1-12, 2024.</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Oliveira, A. I ; Alves, A L. <b>Inovação no Ensino de Física: Tecnologias Digitais Aplicadas à Astronomia e Cosmologia no Ensino de Física</b>. Em: <font color=#330066>Semana da Pedagogia</font>, v. 01, p. 1-15, 2024.</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Pereira Dias, P. R. ; Alves, A L. <b>Estudo da Eletricidade: Uma Abordagem Utilizando um Labirinto Elétrico</b>. Em: <font color=#330066>IX Semana de Pedagogia (SEMAP)</font>, v. 01, p. 01-10, 2024. <a href="http://dx.doi.org/10.22533/at.ed.6692014121" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>PEREIRA, L. Q. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Explorando saberes: jogos didáticos e fanzines para o ensino de eletricidade a alunos dos anos iniciais do ensino fundamental</b>. Em: <font color=#330066>II Encontro da Rede Latino-Americana de Pesquisa em Educação Química / II Colóquio Internacional de Didáctica de las Ciencias Humanas y Naturales</font>, v. 1, p. 1-9, 2024.</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>PEREIRA, L. Q. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Explorando a cozinha como espaço não formal de aprendizagem: uma abordagem prática na Educação de Jovens e Adultos</b>. Em: <font color=#330066>XXII ENEQ - Encontro Nacional de Ensino de Química</font>, p. 1-12, 2024.</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Pessoa, M. Solino; PELEGRINI, F. ; BIONDO, A. ; NASCIMENTO, V. P. ; BAGGIO-SAITOVITCH, E.. <b>Surface Spin Wave Resonance in NiFe/Zr Multilayers</b>. Em: <font color=#330066>2024 IEEE International Magnetic Conference Short Papers (INTERMAG Short Papers)</font>, p. 1, 2024. <a href="http://dx.doi.org/10.1109/INTERMAGShortPapers61879.2024.10576962" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>PESSOA, MARCIO S.; SOUSA, M. A. ; MERINO, I. L.C. ; MORAIS, P. C. ; PELEGRINI, FERNANDO ; PARISE, M. ; FIGUEIREDO, LEANDRO C. ; BAGGIO-SAITOVITCH, E.. <b>Unsaturated Modes of Ferromagnetic Resonance in Maghemite Nanoparticles</b>. Em: <font color=#330066>2024 IEEE International Magnetic Conference Short Papers (INTERMAG Short Papers)</font>, p. 1, 2024. <a href="http://dx.doi.org/10.1109/intermagshortpapers61879.2024.10576973" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>RIBEIRO, J. V. O. ; NASCIMENTO, P. E. S. ; ANCESCHI, M. B. ; COTTA, A. J. B. ; FRANCELINO, N. A.. <b>Importância da alimentação saudável: Uma atividade com alunos do ensino fundamental</b>. Em: <font color=#330066>Jornada Internacional de Iniciação Científica e Extensão Universitária ? JIICEU 2024</font>, 2024.</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SANTOS, A. C. C. O. ; MARRE, G. O. ; COTTA, A. J. B. ; SILVA, M. B.. <b>Teste do cleanup para dosagem de antraquinona em pimenta-do-reino por CG-MS</b>. Em: <font color=#330066>Jornada Internacional de Iniciação Científica e Extensão Universitária ? JIICEU 2024</font>, 2024.</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>da Silva Meireles, Carla; LAURES, L. ; CHAGAS, V.. <b>PRODUÇÃO DE FILMES ATIVOS A PARTIR DA CASCA DE CAFÉ E ÓLEO ESSENCIAL DE PIMENTA PRETA</b>. Em: <font color=#330066>Jornada Internacional de Iniciação Científica e Extensão Universitária</font>, p. 852-863, 2023. <a href="http://dx.doi.org/10.22533/at.ed.34719160425" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MARIANO, J. F. ; VELLOSO, M. H. R.. <b>Estudo de docagem molecular de análogos da huperzina A como inibidores da enzima acetilcolinesterase</b>. Em: <font color=#330066>Anais da Jornada de Iniciação Científica da UFES</font>, v. 14, 2023. <a href="http://dx.doi.org/10.22533/at.ed.6692014121" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SIVICO, M. J. ; GOMES, R. V. ; MENDES, A. N. F. ; MENDES, A. N. F. ; KAVALEK, D. S.. <b>A HISTÓRIA DA CIÊNCIA E A INTERDISCIPLINARIDADE NO ENSINO DE CIÊNCIAS: TENDÊNCIAS EMERGENTES PARA UMA ABORDAGEM NA SALA DE AULA</b>. Em: <font color=#330066>XIV ENCONTRO NACIONAL DE PESQUISA EM EDUCAÇÃO EM CIÊNCIAS</font>, v. 1, p. 1-12, 2023.</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bianco, Gilmene; PEREIRA, CARLOS LUIS. <b>EDUCAÇÃO MATEMÁTICA CULTURAL INDÍGENA E EDUCAÇÃO MATEMÁTICA ESCOLAR INDÍGENA PATAXÓ: O USO DA FARINHA DE MANDIOCA NO ENSINO E APRENDIZAGEM DE FRAÇÕES NO ENSINO FUNDAMENTAL II</b>. Em: <font color=#330066>Congresso Nacional de Educação</font>, v. 8, p. 1-12, 2022. <a href="http://dx.doi.org/10.22533/at.ed.7341911115" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cotta, Aloísio J.B.; DE ANDRADE, RENATO P. ; MENEZES, E. S. ; PIROLA, B. S. ; LIVRAMENTO, J. L. ; SOUZA, J. P. B. ; SOUZA, M. D. L. ; BRAVO, I. D. N.. <b>Níveis de cloro ativo liberados por clorador caseiro para caixa d'água</b>. Em: <font color=#330066>35º Congresso Latinoamericano de Química e 61º Congresso Brasileiro de Química</font>, v. 1, p. 1, 2022.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MARIANO, J. F. ; VELLOSO, M. H. R.. <b>Estudo de docking molecular de análogos da galantamina como inibidores da enzima acetilcolinesterase</b>. Em: <font color=#330066>Jornada de Iniciação Científica</font>, v. 13, 2022.</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANDRADE, A. L. G. ; HONORATO, D. S. ; SILVA, F. S. ; ORGINO, I. S. ; ROCHA, J. M. M. ; MASCARENHAS, J. A. ; MUNER, R. G. ; FREITAS, N. F. ; SCHMIDT, R. C. ; SIQUEIRA, K. G. R. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Possibilitando a aprendizagem de Química através de vídeos no ensino remoto</b>. Em: <font color=#330066>7º Congresso Paranaense de Educação em Química (CPEQUI)</font>, p. 1, 2021.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Caio C. R. de Freitas ; BIANCO, G.. <b>O USO DE ROLE PLAYING-GAME PARA AO ENSINO DE QUÍMICA: RADIOATIVIDADE</b>. Em: <font color=#330066>20º Encontro Nacional de Ensino de Química</font>, v. 1, p. 1-11, 2021.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARLETTO, B. M. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Autorama Químico: O Lúdico como metodologia no Ensino de Termoquímica</b>. Em: <font color=#330066>20º Encontro Nacional de Ensino de Química</font>, v. 1, p. 1-12, 2021.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CARLETTO, B. M. ; MENDES, A. N. F. ; MENDES, A. N. F. ; BIANCO, G.. <b>Construindo e Avaliando Possibilidades de Implantação da Aprendizagem Baseada em Problemas para o Ensino de Estequiometria na Educação Básica</b>. Em: <font color=#330066>20º Encontro Nacional de Ensino de Química</font>, v. 1, p. 1-12, 2021.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>COTTA, A. J. B.; ANDRADE, R. P.. <b>Avaliação de construção de barragem para o abastecimento público de São Mateus-ES</b>. Em: <font color=#330066>CONGRESSO TECNOLÓGICO BRASILEIRO ÁGUA E ENERGIA ONL</font>, 2021.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GOMES, R. V. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Ensino de História da Química: Uma Proposta Didática para abordagem da Construção Histórica da Tabela Periódica na nova modalidade da EJA</b>. Em: <font color=#330066>20º Encontro Nacional de Ensino de Química</font>, v. 1, p. 1-11, 2021.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GOMES, R. V. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>A História da Ciência no Ensino Superior: Concepções de Licenciandos em Química da Universidade Federal do Espírito Santo, Campus São Mateus</b>. Em: <font color=#330066>20º Encontro Nacional de Ensino de Química</font>, v. 1, p. 1-11, 2021.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GOULART, D. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Contribuições do Projeto de Iniciação Científica júnior (Pic-jr) para o ensino aprendizagem de química e formação dos alunos bolsistas da educação básica</b>. Em: <font color=#330066>20º Encontro Nacional de Ensino de Química</font>, v. 1, p. 1-12, 2021.</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>PEREIRA, L. Q. ; BORLOT, M. B. P. ; SANTOS, R. V. ; CAETANO, V. S. ; MENDES, A. N. F. ; MENDES, A. N. F. ; ALVES, T. C.. <b>O uso do Instagram como estratégia educacional para o ensino de química no contexto da pandemia</b>. Em: <font color=#330066>7º Congresso Paranaense de Educação em Química (CPEQUI)</font>, p. 1, 2021.</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SANTOS, N. A. O. ; SANTOS, MARIA F. P.. <b>Avaliar a influência dos sais NaCl, MgCl2, CaCl2 e SrCl2 em amostras de petróleos na titulação termométrica</b>. Em: <font color=#330066>Anais da Jornada de Iniciação Científica</font>, v. 12, p. xx-xx, 2021.</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SIVICO, M. J. ; GOMES, R. V. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>A construção dialética do conhecimento científico interdisciplinar da temática 'solos' no Ensino de Química e Geografia</b>. Em: <font color=#330066>XI Encontro Paulista de Pesquisa em Ensino de Química</font>, v. 1, p. 1-17, 2021.</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SIVICO, M. J. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>A interdisciplinaridade no Ensino de Química: Uma discussão para além da sala de aula</b>. Em: <font color=#330066>Anais do 20º Encontro Nacional de Ensino de Química (ENEQ Pernambuco)</font>, v. 1, p. 1-12, 2021.</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVES, A. L.; PEREIRA, R. D. ; Loyola, G. V. ; PANETO, A. N. ; MOTTA, Y. B. ; BISSOLI, A. S. ; PESTANA, G.. <b>'RELATOS DE EXPERIMENTOS NO ENSINO DE FÍSICA: ONDAS MECÂNICAS, LEI DE FARADAY E GRAVITAÇÃO</b>. Em: <font color=#330066>XVIII Encontro de Pesquisa em Ensino de Física</font>, v. 1, 2020. <a href="http://dx.doi.org/10.35587/brj.ed.0001390" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>HELL, I. B. ; MENDES, A. N. F. ; MENDES, A. N. F. ; MANCINI, K. C.. <b>PRÁTICAS QUE INCLUEM: ESTRATÉGIAS E RECURSOS DIDÁTICOS NO ENSINO DE CIÊNCIAS</b>. Em: <font color=#330066>II Congresso Nacional de Práticas Inclusivas</font>, p. 1-9, 2020.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MULLER, A. H. T. ; ALVARENGA, F. G. ; Loyola, G. V. ; PEREIRA, R. D. ; ALVES, A. L.. <b>'UTILIZAÇÃO DE EXPERIMENTOS E UM MOTOR STIRLING NO ENSINO DA PRIMEIRA E SEGUNDA LEI DA TERMODINÂMICA NO ENSINO MÉDIO</b>. Em: <font color=#330066>XVIII Encontro de Pesquisa em Ensino de Física</font>, v. 1, 2020.</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2020 até 2024
+<br>Data de processamento: 12/12/2024 17:02:07<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:thonimar.souza@ufes.br">thonimar.souza@ufes.br</a>         </div> </body></html>
+              

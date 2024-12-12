@@ -1,0 +1,235 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docentes do DCN</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docentes do DCN</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Dissertação de mestrado'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2020,
+11],
+[2021,
+8],
+[2022,
+6],
+[2023,
+7],
+[2024,
+7]]}]});
+        });
+        </script>
+        
+                <h3>Dissertação de mestrado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 39<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9261090702034498">Angelica Vermelho Comper</a>. <b>A UTILIZAÇÃO DE JOGOS DIGITAIS COMO INSTRUMENTO DIDÁTICO PARA APRENDIZAGEM SIGNIFICATIVA DE CÁLCULOS ESTEQUIOMÉTRICOS</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DANIELA LUZ LEITE. <b>AVALIAÇÃO DA EFICÁCIA DE UM REATOR RETANGULAR, CONTÍNUO, COM ELETRODOS EM FORMATO DE CHICANAS NO TRATAMENTO DE EFLUENTES OLEOSOS POR ELETROCOAGULAÇÃO</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, . 2024.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8713161231510324">Katherine Jisselle Flores Vasquez</a>. <b>COMPÓSITO DE LUFFA CYLINDRICA E ÓXIDO DE COBRE PARA A DESSALINIZAÇÃO DA ÁGUA DO MAR</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4152436689470078">Larissa de Castro Leal de Araújo</a>. <b>APRENDIZAGEM LÚDICA EM GEOMETRIA MOLECULAR: UMA ABORDAGEM COM SIMULADORES DIGITAIS E JOGOS</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5968808949492685">LUCIENE GALVÃO SCABELO</a>. <b>DESENVOLVIMENTO DE UMA SEQUÊNCIA DIDÁTICA PARA ABORDAR O USO DA ENERGIA SOLAR EM AULAS DE QUÍMICA COM ALUNOS DO ENSINO FUNDAMENTAL II</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Marla Almeida Siqueira. <b>Preparação de membranas de nanocompósito de poliuretano e óxidos metálicos ocos</b>. Dissertação (Mestrado em Química) - Universidade Federal do Espírito Santo, . 2024.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Vinícius Alvarenga Liprande. <b>Adequação de águas ferruginosas para uso em sistema de irrigação por gotejamento</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Agricultura Tropical) - Centro Universitário Norte do Espírito Santo, . 2024.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Arina Timbohiba Barcelos. <b>Ensino de Química nos anos iniciais: uma proposta de ensino investigativa em aulas de Ciências com alunos do 5º ano de uma escola pública.</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4850020927707399">Fernando Dalbó Duraes</a>. <b>É fato ou fake? A química e as fake news no contexto da COVID-19</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9536967280813504">Lorena Alves Ventura</a>. <b>A Aprendizagem Baseada em Projetos no Ensino Médio Técnico: Uma Experiência Interdisciplinar no Ensino de Química</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4181786027831750">Lívia Toscano Barbosa</a>. <b>Proposta Pedagógica baseada no Princípio de Polya no Ensino de Química: Aplicação no Estudo de Sistemas Químicos</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Nícholas Alexandre Berger Bento. <b>Influência do Potencial da Estruvita (MgNH4PO4.6H2O) em Reator Air-Lift no Cultivo De Microalga Nannochloropsis Oculata</b>. Dissertação (Mestrado em Programa de Pós-Graduação em Energia (PPGEN)) - Centro Universitário Norte do Espírito Santo, . 2023.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Willington Sobral da Silva. <b>Caracterização e diferenciação química de óleos lubrificantes marítimos novos e usados para investigação de desempenho</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8215383747253332">Éllen Reis Silva</a>. <b>Uso de filmes como ferramentas de contextualização dos conteúdos de Química na 1ª série do Ensino Médio para uma aprendizagem significativa</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2298431143085857">Caio Cesar Rodrigues de Freitas</a>. <b>A PRODUÇÃO E APROPRIAÇÃO DE SINAIS EM LIBRAS SOBRE OS CONCEITOS CIENTÍFICOS DE ELETROQUÍMICA A PARTIR DA PERSPECTIVA HISTORICO-CULTURAL</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cristina de Ramos Fischer. <b>O ENSINO DE QUÍMICA NOS ANOS INICIAIS DO ENSINO FUNDAMENTAL A PARTIR DE UMA PRÁTICA METODOLÓGICA COM O TEMA TRANSFORMAÇÕES QUÍMICAS</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Jayra Maria Silva Lima. <b>Investigação de desemulsificantes e seus efeitos em petróleos onshore do Norte do Espírito Santo</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Karoline Gonzaga Oliveira. <b>Ensino de Termodinâmica com utilização do arduino</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ensino de Física) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6464661567161861">Gustavo Viali Loyola</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Paulo André Prata Decoté. <b>DESENVOLVIMENTO DE METODOLOGIA PARA DETERMINAÇÃO DE CÁTIONS E ÁCIDOS ORGÂNICOS EM EXTRATO AQUOSO OBTIDO A PARTIR DE AMOSTRAS DE PETRÓLEO USANDO CROMATOGRAFIA DE ÍONS</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>, <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Tiago Guerçon da Silva. <b>ENSINO SOBRE PROPAGAÇÃO DE CALOR POR MEIO DA APRENDIZAGEM BASEADA EM EQUIPES (TBL) E O USO DE ARDUÍNO</b>. Dissertação (Mestrado em Programa de Pós Graduação em Ensino de Física) - Universidade Federal do Espírito Santo, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6464661567161861">Gustavo Viali Loyola</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4651474615109155">BRUNA OLIVEIRA BONOMO</a>. <b>AS PRÁTICAS PEDAGÓGICAS E A DEFICIÊNCIA INTELECTUAL NO ENSINO DE QUÍMICA: DESAFIOS E POSSIBILIDADES NO CONTEXTO ESCOLAR</b>. Dissertação (Mestrado em Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8542469004096476">JANYNE SOARES BRAGA PIRES</a>. <b>As práticas de ensino como agente facilitador no ensino de ciências no 9º ano do Ensino Fundamental</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Jean Carlos Fiorotti. <b>INVESTIGAÇÃO DOS PARÂMETROS DE EFICIÊNCIA PARA DESSALINIZAÇÃO DE ÁGUA DE POÇO UTILIZANDO UNIDADE COMPACTA E PORTÁTIL DE TRATAMENTO</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9856234842646957">Lucas Prandi Coutinho</a>. <b>REMOÇÃO DE ÓLEO DE EMULSÃO SINTÉTICA OLEOSA POR FIBRAS DE CALOTROPIS PROCERA</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8285018770645807">Eduardo Perini Muniz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5644682848666704">MAYKI JARDIM SIVICO</a>. <b>USO DO TEMA GERADOR "SOLOS" PARA UMA PRÁTICA METODOLÓGICA INTERDISCIPLINAR NO ENSINO DE QUÍMICA</b>. Dissertação (Mestrado em Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Paulo Roberto Ferreira da Silva. <b>UMA PROPOSTA DE SEQUÊNCIA DIDÁTICA PARA EXPLICAR COMO OCORRE O FLUXO DE ELÉTRONS NO INTERIOR DE UM FIO CONDUTOR</b>. Dissertação (Mestrado em Ensino de Física) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3414799692619699">Rodrigo Dias Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7336694361785334">Sheila Borges Gonçalves</a>. <b>O Ensino de hidrostática através de uma UEPS</b>. Dissertação (Mestrado em Ensino de Física) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3414799692619699">Rodrigo Dias Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6891302147764347">Willington Sobral da Silva</a>. <b>Desenvolver metodologia para investigar o desempenho de óleo lubrificante marítimo usados em rebocadores para análise de decisão de manutenção.</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9990837261708560">Bianca Carletto Mendes</a>. <b>Uso da Aprendizagem Baseada em Problemas aplicada ao ensino de Química no nível médio</b>. Dissertação (Mestrado em Pós-Graduação em Ensino na Educação Básica) - Centro Universitário Norte do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Damaris Vieira. <b>Aplicação do processo de eletrocoagulação em batelada e separação magnética para tratar emulsões oleosas residuais</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8285018770645807">Eduardo Perini Muniz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2780873719307660">Emerson Canzian Cararo</a>. <b>Remoção de Fe em água empregando fluxo contínuo e adsorção em cerâmica porosa assistida por aplicação indireta de ultrassom</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2020.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>, <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Emerson Cazian Cararo. <b>Remoção de Fe em água empregando fluxo contínuo e adsorção em cerâmica porosa assistida por aplicação indireta de ultrassom</b>. Dissertação (Mestrado em Engenharia Química) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Hayane Amorim Fernandes. <b>Estudo dos interferentes na determnação do número de acideztotal (NAT) em petróleo</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2020.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>, <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IARA BELINK HELL. <b>O ENSINAR E O APRENDER VISTO POR OUTROS OLHOS: CAMINHOS INDIRETOS DE APRENDIZAGEM NO ENSINO DE BIOLOGIA CELULAR PARA ALUNOS COM DEFICIÊNCIA VISUAL E MÚLTIPLA</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, Fundação de Amparo a Pesquisa do Espírito Santo. 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Jean Carlos Fiorotti. <b>Investigação de eficiência de dessanilização de água de poço utilizando Unidade Compacta e Portátil de Tratamento.</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>JÉSSICA BREDA DE PAULA. <b>O ENSINO DA EDUCAÇÃO AMBIENTAL SOB A ÉGIDE DA APRENDIZAGEM BASEADA EM PROBLEMAS</b>. Dissertação (Mestrado em Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Odilon Junior Gonsalves de Oliveira. <b>Análise do uso integrado de eletrofloculador contínuo e coluna filtrante quanto à eficiência de remoção de óleo emulsionado em água</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8285018770645807">Eduardo Perini Muniz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2941127305487359">Rodrigo da Vitória Gomes</a>. <b>A História da Química como elemento motivador para o ensino</b>. Dissertação (Mestrado em Pós-Graduação em Ensino na Educação Básica) - Centro Universitário Norte do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6161565022640259">Rodrigo Tardin Francischeto</a>. <b>Sequência de Ensino Investigativo Sobre o Tema "Radioatividade" por Meio de Histórias em Quadrinhos</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2020 até 2024
+<br>Data de processamento: 12/12/2024 17:02:07<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:thonimar.souza@ufes.br">thonimar.souza@ufes.br</a>         </div> </body></html>
+              

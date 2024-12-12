@@ -1,0 +1,213 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docentes do DCN</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docentes do DCN</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Total de organização de eventos'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2021,
+3],
+[2023,
+5],
+[2024,
+2]]}]});
+        });
+        </script>
+        
+                <h3>Total de organização de eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 30<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FURTADO, R. G.; BAZONI, R. F. ; LOURENCO, J. A. ; SILVA, R. C. ; BARBOZA, H. S. ; DUARTE, F. S.. <b>Olimpíada Universitária de Física do Norte do Espírito Santo. 2024</b>. 2024. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ricaldi, W. S. H. ; BAZONI, RANIELLA F. ; Silva, R. C. ; Solino, M.. <b>III Encontro Capixaba de Física</b>. 2024. Congresso</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANDRADE, G. R. S.; PARTELLI, F. L. ; CORNELIO, V. E.. <b>Jornada de Iniciação Científica - UFES Campus São Mateus</b>. 2023. Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CRUZ, A. C. J. ; PEDREIRA, A. J. L. A. ; MENDES, A. N. F. ; MENDES, A. N. F. ; LOCATELLI, A. B. ; CANETE, C. L. ; DELIZOICOV, D. ; SANTOS, F. N. ; MOL, G. S. ; BIANCO, G. ; PRADO, G. M. ; MANCINI, K. C. ; HOFFMANN, M. B. ; FABRICIO, T. M.. <b>I Congresso Capixaba de Ensino de Ciências</b>. 2023. Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MELO, B. N. ; MEIRELES, C. S. ; NOGUEIRA, C. M. ; MENDES, A. N. F. ; ANDRADE, G. R. S. ; VICENTE, M. A. ; SANTOS, M. D. R. ; POLIZEL, A. L. ; BRASIL, E. D. F. ; CALEFI, R. M. ; HONORATO, D. S. ; SCHMIDT, R. C.. <b>V Semana de Química do Norte do Espírito Santo</b>. 2023. Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ricaldi, W. S. H. ; BAZONI, R. F. ; Silva, R. C. ; Pereira, R. D. ; Loyola, G. V. ; ALVES, A. L. ; MOSCON, P. S. ; Oliveira, Ian de ; Barboza, H. S.. <b>IV Escola de Física do Norte do Espírito Santo</b>. 2023. Outro</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MENDES, A. N. F. ; MELO, B. N. ; NOGUEIRA, C. M. ; VICENTE, MARISTELA A. ; ANDRADE, G. R. ; RACHIDSANTOS, M. ; CALEFI, R. M. ; BRASIL, E. D.. <b>V Semana de Química do Norte do Espírito Santo - A contribuição da ciência para a mitigação e adaptação às mudanças climáticas</b>. 2023. Congresso</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANDRADE, G. R. S. ; COTTA, A. J. B. ; MEIRELES, C. S. ; MENDES, A. N. F. ; MELO, B. N. ; NOGUEIRA, C. M. ; ARAUJO, D. P. ; BRASIL, E. D. F. ; BIANCO, G. ; REZENDE, L. C. D. ; VICENTE, M. A. ; SANTOS, M. D. R.. <b>IV Semana de Química do Norte do Espírito Santo (IV SEQUINES)</b>. 2021. Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ANDRADE, G. R. S. ; NOGUEIRA, C. M. ; MEIRELES, C. S. ; COTTA, A. J. B. ; MENDES, A. N. F. ; MELO, B. N. ; ARAUJO, D. P. ; BIANCO, G. ; VICENTE, M. A. ; BRASIL, E. D. F. ; SANTOS, M. D. R.. <b>IV Semana de Química do Norte do Espírito Santo</b>. 2021. Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SANTANA, G. R. A. ; BATISTA, C. A. T. ; SANTOS, M. D. R.. <b>IV Semana de Química do Norte do Espírito Santo - ?Ciência para inovar e empreender com sustentabilidade?</b>. 2021. Outro</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANDRADE, G. R. S.. Jornada de Iniciação Científica da UFES/Campus São Mateus. 2022. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ARAUJO, D. P.. III SEQUINES - Semana de Química do Norte do Espírito Santo. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ARAUJO, D. P.. III SEQUINES - Semana de Química do Norte do Espírito Santo. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ARAUJO, D. P.. IV Semana de Química do Norte do Espírito Santo. 2021. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Araujo, Débora P.. I Simpósio de Engenharia Urbana. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>COSTA, A. P. O.. I SEQUINES. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>COSTA, A. P. O.. II SEQUINES. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Costa, O. A. P.. III SEQUINES. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>FURTADO, R. G. ; BAZONI, RANIELLA F. ; LOURENCO, J. A. ; Barboza, H. S. ; DUARTE, F. S.. <b>I Olimpíada Universitária do Norte do Espírito Santo</b>. 0. OLUFiNES</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MENDES, A. N. F.. XI salão de iniciação científica. 1999. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MENDES, A. N. F.. XII Salão de iniciação científica. 2000. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>MENDES, A. N. F.. XLI Congresso brasileiro de química. 2001. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>PEREIRA, R. D.. Concurso Anual de Foguetes à Água - 5ª Edição. 2008. (Concurso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>PEREIRA, R. D.. Concurso de Foguetes à água da Engenharia Ambiental - 3ª Edição. 2006. (Concurso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>PEREIRA, R. D.. VI Jornada Científica Faesa. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>PEREIRA, R. D.. VII Jornada Científica - Faesa. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Pereira, R.D.. Feira de Cursos - CEUNES/UFES 2012. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>QUINTILIANO, K. R. ; CONRADO, V. A. ; RIBEIRO, MARILÉA. <b>Petroshow - Vitória</b>. 0. ES</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>RIBEIRO, M. G. S.. Primeiro Workshop de Petrofísica de Reservatório. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>RIBEIRO, M. G. S.. Semana de Petrofísica de Reservatório. 2017. (Outro).. <b></b>. 0. </td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2020 até 2024
+<br>Data de processamento: 12/12/2024 17:02:07<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:thonimar.souza@ufes.br">thonimar.souza@ufes.br</a>         </div> </body></html>
+              
