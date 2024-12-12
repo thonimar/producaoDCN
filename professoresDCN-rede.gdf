@@ -1,0 +1,77 @@
+nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
+0,3298545143757892,Aloísio José Bueno Cotta,[Sem rotulo],,,1.0628372,24,8,0,3,7,0,6,0,0,2,11,'10,110,164'
+1,8266113579775016,Ana Nery Furlan Mendes,[Sem rotulo],,,1.8013333,114,34,0,17,18,18,27,0,0,11,5,'10,110,164'
+2,0380297522790929,Ana Paula Oliveira Costa,[Sem rotulo],,,0.4941891,5,4,0,1,0,0,0,0,0,0,1,'10,110,164'
+3,4496654673061366,Andre Gonçalves de Lima,[Sem rotulo],,,0.15,1,1,0,0,0,0,0,0,0,0,0,'10,110,164'
+4,5320330508972933,Andre Luíz Alves,[Sem rotulo],,,1.3285189,23,17,0,1,5,0,0,0,0,0,5,'10,110,164'
+5,3410912882231783,Breno Nonato de Melo,[Sem rotulo],,,0.31837472,5,2,0,0,0,1,2,0,0,0,6,'10,110,164'
+6,9685470701740945,Carla da Silva Meireles,[Sem rotulo],,,1.7827913,17,7,0,0,1,4,5,0,0,1,7,'10,110,164'
+7,6667248292479031,Carlos André Maximiano da Silva,[Sem rotulo],,,0.15,4,4,0,0,0,0,0,0,0,0,0,'10,110,164'
+8,2522406207908377,Christiane Mapheu Nogueira,[Sem rotulo],,,1.180182,7,3,0,1,0,0,3,0,0,0,7,'10,110,164'
+9,9664531819814847,Débora Pereira Araujo,[Sem rotulo],,,0.76520455,6,3,0,1,0,0,2,0,0,0,3,'10,110,164'
+10,8285018770645807,Eduardo Perini Muniz,[Sem rotulo],,,0.60359085,10,8,0,0,0,0,2,0,0,3,1,'10,110,164'
+11,1419428893704446,George Ricardo Santana Andrade,[Sem rotulo],,,1.1646264,20,9,0,0,0,2,9,0,2,2,9,'10,110,164'
+12,0111900440522917,Gilmene Bianco,[Sem rotulo],,,0.32012594,28,14,2,5,3,0,4,1,0,7,4,'10,110,164'
+13,6464661567161861,Gustavo Viali Loyola,[Sem rotulo],,,0.7504248,7,4,0,1,2,0,0,0,0,2,1,'10,110,164'
+14,6632598745671715,Jefferson Lima Fernandes André,[Sem rotulo],,,0.15,5,1,0,1,0,1,2,0,0,0,3,'10,110,164'
+15,2699117520955351,José André Lourenço,[Sem rotulo],,,0.15,3,3,0,0,0,0,0,0,0,0,4,'10,110,164'
+16,5722300748929381,Luiz Gabriel Souza de Oliveira,[Sem rotulo],,,1.0,5,4,0,1,0,0,0,0,0,0,2,'10,110,164'
+17,4517059757920195,Luiz Gustavo Ferreira Soares,[Sem rotulo],,,0.15,4,4,0,0,0,0,0,0,0,0,0,'10,110,164'
+18,9991164750729669,Marcia Helena Rodrigues Velloso,[Sem rotulo],,,1.250843,11,3,0,2,2,0,4,0,0,0,4,'10,110,164'
+19,2752782453011955,Marcio Solino Pessoa,[Sem rotulo],,,1.068554,13,10,0,1,2,0,0,0,0,0,0,'10,110,164'
+20,0376041929696875,Maria de Fatima Pereira dos Santos,[Sem rotulo],,,1.5106758,28,16,0,0,1,2,9,0,1,7,10,'10,110,164'
+21,6838038881434963,Mariléa Gomes dos Santos Ribeiro,[Sem rotulo],,,0.15,3,2,1,0,0,0,0,0,1,0,4,'10,110,164'
+22,1832685910267156,Maristela de Araujo Vicente,[Sem rotulo],,,1.4172379,21,15,0,0,0,1,5,0,0,5,6,'10,110,164'
+23,9434564411683567,Mellina Damasceno Rachid Santos,[Sem rotulo],,,0.8727295,5,2,0,0,0,0,3,0,0,0,4,'10,110,164'
+24,3689867487273875,Natália Valadares,[Sem rotulo],,,1.0,5,3,0,2,0,0,0,0,0,0,0,'10,110,164'
+25,0422485640031962,Paulo Sérgio Moscon,[Sem rotulo],,,0.945125,8,7,0,1,0,0,0,0,0,0,3,'10,110,164'
+26,3349837205962461,Raniella Falchetto Bazoni,[Sem rotulo],,,0.15,2,2,0,0,0,0,0,0,0,0,0,'10,110,164'
+27,7034365539639197,Raphael Góes Furtado,[Sem rotulo],,,0.15,2,2,0,0,0,0,0,0,0,0,1,'10,110,164'
+28,2598314759854581,Ricardo Lopes da Silva,[Sem rotulo],,,1.0,29,16,0,0,0,0,13,0,0,0,0,'10,110,164'
+29,7120418895468591,Rodrigo da Costa Silva,[Sem rotulo],,,1.0,22,15,0,0,0,0,7,0,0,0,2,'10,110,164'
+30,3414799692619699,Rodrigo Dias Pereira,[Sem rotulo],,,0.6946192,7,4,0,1,2,0,0,0,0,2,3,'10,110,164'
+31,6095468454824366,Thonimar Vieira de Alencar Souza,[Sem rotulo],,,0.15,6,3,0,0,0,0,3,0,0,0,1,'10,110,164'
+32,0811158352700883,Vivian Chagas da Silveira,[Sem rotulo],,,0.66801673,8,4,0,1,0,1,2,0,0,0,6,'10,110,164'
+edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
+0,10,1.0
+0,23,4.0
+1,2,2.0
+1,6,5.0
+1,8,2.0
+1,11,4.0
+1,12,1.0
+1,32,1.0
+2,8,2.0
+2,32,1.0
+4,13,5.0
+4,18,1.0
+4,19,7.0
+4,20,2.0
+4,22,1.0
+4,25,6.0
+4,30,2.0
+5,6,1.0
+6,11,5.0
+6,32,1.0
+8,9,1.0
+8,18,3.0
+8,32,2.0
+9,18,4.0
+10,19,1.0
+10,25,1.0
+10,30,2.0
+13,19,2.0
+13,25,1.0
+13,30,2.0
+16,24,2.0
+18,19,1.0
+18,25,1.0
+19,20,2.0
+19,22,1.0
+19,25,7.0
+19,30,1.0
+20,22,21.0
+20,25,2.0
+22,25,1.0
+25,30,1.0
+28,29,21.0
