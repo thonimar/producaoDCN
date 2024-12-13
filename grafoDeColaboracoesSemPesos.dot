@@ -1,5 +1,5 @@
 strict graph grafo1 {
-	graph [bb="0,0,2501.5,534",
+	graph [bb="0,0,2678,534",
 		id=grafo1,
 		overlap=False
 	];
@@ -282,4 +282,11 @@ strict graph grafo1 {
 		label="Thonimar V. de Alencar Souza [0]",
 		pos="2412,523.5",
 		width=2.4861];
+	33	[URL="membro-0293080746483402.html",
+		color="#0A6EA4",
+		fontcolor="#FFFFFF",
+		height=0.29167,
+		label="Wiliam S. Hipólito Ricaldi [0]",
+		pos="2599,523.5",
+		width=2.1944];
 }
