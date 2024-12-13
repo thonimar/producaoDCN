@@ -10,7 +10,7 @@ nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUB
 8,2522406207908377,Christiane Mapheu Nogueira,[Sem rotulo],,,1.180182,7,3,0,1,0,0,3,0,0,0,7,'10,110,164'
 9,9664531819814847,Débora Pereira Araujo,[Sem rotulo],,,0.76520455,6,3,0,1,0,0,2,0,0,0,3,'10,110,164'
 10,8285018770645807,Eduardo Perini Muniz,[Sem rotulo],,,0.60359085,10,8,0,0,0,0,2,0,0,3,1,'10,110,164'
-11,1419428893704446,George Ricardo Santana Andrade,[Sem rotulo],,,1.1646264,20,9,0,0,0,2,9,0,2,2,9,'10,110,164'
+11,1419428893704446,George Ricardo Santana Andrade,[Sem rotulo],,,1.1646264,21,10,0,0,0,2,9,0,2,2,9,'10,110,164'
 12,0111900440522917,Gilmene Bianco,[Sem rotulo],,,0.32012594,28,14,2,5,3,0,4,1,0,7,4,'10,110,164'
 13,6464661567161861,Gustavo Viali Loyola,[Sem rotulo],,,0.7504248,7,4,0,1,2,0,0,0,0,2,1,'10,110,164'
 14,6632598745671715,Jefferson Lima Fernandes André,[Sem rotulo],,,0.15,5,1,0,1,0,1,2,0,0,0,3,'10,110,164'
@@ -32,6 +32,7 @@ nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUB
 30,3414799692619699,Rodrigo Dias Pereira,[Sem rotulo],,,0.6946192,7,4,0,1,2,0,0,0,0,2,3,'10,110,164'
 31,6095468454824366,Thonimar Vieira de Alencar Souza,[Sem rotulo],,,0.15,6,3,0,0,0,0,3,0,0,0,1,'10,110,164'
 32,0811158352700883,Vivian Chagas da Silveira,[Sem rotulo],,,0.66801673,8,4,0,1,0,1,2,0,0,0,6,'10,110,164'
+33,0293080746483402,Wiliam Santiago Hipólito Ricaldi,[Sem rotulo],,,0.15,6,6,0,0,0,0,0,1,2,1,2,'10,110,164'
 edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
 0,10,1.0
 0,23,4.0

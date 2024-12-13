@@ -32,7 +32,8 @@
 { "name":"Rodrigo da Costa Silva", "idlattes":"7120418895468591", "rotulo":"[Sem rotulo]", "collaborationrank":1.0 },
 { "name":"Rodrigo Dias Pereira", "idlattes":"3414799692619699", "rotulo":"[Sem rotulo]", "collaborationrank":0.6946191787719727 },
 { "name":"Thonimar Vieira de Alencar Souza", "idlattes":"6095468454824366", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 },
-{ "name":"Vivian Chagas da Silveira", "idlattes":"0811158352700883", "rotulo":"[Sem rotulo]", "collaborationrank":0.6680167317390442 }
+{ "name":"Vivian Chagas da Silveira", "idlattes":"0811158352700883", "rotulo":"[Sem rotulo]", "collaborationrank":0.6680167317390442 },
+{ "name":"Wiliam Santiago Hipólito Ricaldi", "idlattes":"0293080746483402", "rotulo":"[Sem rotulo]", "collaborationrank":0.15000000596046448 }
 ],
 "links":[
 { "source":0, "target":10, "value":1.0 },
