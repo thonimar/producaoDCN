@@ -1,0 +1,873 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docente do DCN</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docente do DCN</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Total de participação em eventos'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2007,
+2],
+[2008,
+1],
+[2009,
+6],
+[2010,
+14],
+[2011,
+21],
+[2012,
+22],
+[2013,
+38],
+[2014,
+17],
+[2015,
+23],
+[2016,
+8],
+[2017,
+19],
+[2018,
+14],
+[2019,
+16],
+[2020,
+38],
+[2021,
+29],
+[2022,
+25],
+[2023,
+32],
+[2024,
+20]]}]});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 345<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>21º Encontro Nacional de Química Analítica (ENQA) e o 9º Congresso Ibero Americano de Química Analítica (CIAQA). ?Challenges and Analytical Advances in the Determination of Total Acid Number in Brazilian Crude Oils?. 2024. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>21º Encontro Nacional de Química Analítica (ENQA) e o 9º Congresso Ibero Americano de Química Analítica (CIAQA). ?Challenges and Analytical Advances in the Determination of Total Acid Number in Brazilian Crude Oils?. 2024. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>21º Encontro Nacional de Química Analítica (ENQA) e o 9º Congresso Ibero Americano de Química Analítica (CIAQA). EVALUATION OF DECOMPOSITION METHOD USING MICROWAVES TO DETERMINE MERCURY IN SEDIMENTS. 2024. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>21º Encontro Nacional de Química Analítica (ENQA) e o 9º Congresso Ibero Americano de Química Analítica (CIAQA). MICELLAR SOLUBILIZATION AS A STRATEGY TO MEASURE THE CRUDE OIL ACIDITY BY POTENTIOMETRIC TITRATION. 2024. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>21º Encontro Nacional de Química Analítica (ENQA) e o 9º Congresso Ibero Americano de Química Analítica (CIAQA). VALIDATION OF ANALYTICAL METHOD FOR DETERMINING MERCURY IN A SALINE MATRIX BY COLD VAPOR ATOMIC SPECTROMETRY. 2024. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Feira de Ciências, Tecnologias e Humanidades do Vale do Cricaré (FECRI). Utilização da casca de café como adsorvente de ibuprofeno em meio aquoso.. 2024. (Feira).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>II Encontro Latino-Americano de Pesquisa em Educação em Química. 2024. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>III Congresso Latino-americano de Desenvolvimento Sustentável. Aprendendo sobre a Compostagem em Garrafa PET. 2024. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>III Encontro Capixaba de Física.Modelo Hidrodinâmico para MOTs com Desalinhamento no Plano-xy. 2024. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>III Encontro Capixaba de Física.Protótipo de um Gerador Elétrico para o Ensino de Física. 2024. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>III Encontro Capixapa de Física.Análise de agrupamento em medidas de rajadas de rádio rápidas do projeto CHIME: uma abordagem por aprendizado de máquina. 2024. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Marilea Gomes dos Santos Ribeiro. 2024. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Petroshow. AAPG-UFES. 2024. (Feira).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VII CosmoSul 2024. Estimating the Hubble Constant with Fast Radio Bursts. 2024. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>VII Escola José Plínio Baptista de Cosmologia. 2024. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XI Encontro de Pesquisa de Ensino de Física do Espírito Santo. 2024. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XII Jornada Integrada de Extensão e Cultura da UFES. 2024. (Exposição).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XV Latin American Symposium on Environmental AnalyChemistry (LASEAC) e X Encontro Nacional de Química Ambiental (ENQAmb). Determinação de anti-inflamatórios não-esteroidais em água subterrânea de comunidades Ribeirinhas: estudo de caso. 2024. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XXII Encontro Nacional de Ensino de Química.Pró-Ensino de Química Geral: A visão dos bolsistas sobre a contribuição deste Projeto de Ensino para os Estudantes de Graduação da Ufes/Ceunes. 2024. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XXII ENEQ - Encontro Nacional de Ensino de Química. Oficina temática ?Bioplásticos?para alunos do ensino fundamental: uma ferramenta para o desenvolvimento da cidadania e do pensamento científico.. 2024. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>11° Workshop de Engenharia Química.Avaliar o efeito de extração do hormônio 17 A-Etinilestradiosl por solventes orgânicos e assistido por aplicação indireta de ultrassom.. 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>11° Workshop de Engenharia Química.Investigação da efetividade de remoção 17 A- Etinilestradiol em água por aplicação indireta de ultrassom.. 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>11° Workshop de Engenharia Química.Otimização de metodologia para análise de distribuição de diâmetro de sedimentos por difração à laser. 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>7th Advanced School: Multi-messenger astrophysics: gravitational waves, photons and astroparticles. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Autumn Meeting 2023. Affecting the structure of skyrmions using ferromagnetic nanodisks with inhomogeneous properties: switching skyrmion helicity and polarity. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Autumn Meeting 2023. Antiferromagnetic Bimeron surpassing Magnetic obstacles. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Autumn Meeting 2023. Fractionalizing biskyrmions with magnons. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Autumn Meeting 2023. Proliferation of skyrmions induced by biquadratic exchange interaction. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Autumn Meeting 2023. Skyrmion and bimeron hurdle race in antiferromagnetic racetracks. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Autumn Meeting 2023. Skyrmions and skyrmion Hall Effect in ferrimagnetic nanostripes with impurities. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>BINGO Collaboration Meeting. 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Café Geológico - Serviço Geológico do Brasil. 2023. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Encontro Capixaba deQuímica - IX ENCAQUI."Avaliação de resíduos de hormônios em poços no município de Conceiçãoda Barra, ES". 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Encontro Capixaba deQuímica - IX ENCAQUI."Efeito das propriedades físico-químicas do petróleo no comportamentointerfacial com surfactante não-iônico". 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Encontro Capixaba deQuímica - IX ENCAQUI."Estudos preliminares do processo de remoção de hormônio em água poraplicação simultânea indireta de ultrassom com material metálico.". 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Encontro Capixaba deQuímica - IX ENCAQUI."Investigação do processo de remoção de hormônio em água com aplicaçãoindireta de ultrassom associado a cerâmica porosa". 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Encontro Capixaba deQuímica - IX ENCAQUI.Avaliação granulométrica sedimentar de ambientes costeiros por análise de distribuição de diâmetros de partículas por difração a laser. 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Encontro Capixaba deQuímica - IX ENCAQUI.Avaliação granulométrica sedimentar de ambientes costeiros por análise de distribuição de diâmetros de partículas por difração a laser. 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>I Conferência Nacional Desafios da BNCC e do Novo Ensino Médio. 2023. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>I Congresso Capixaba de Ensino de Ciências. Feira de Ciências: Uma Estratégia Didática para Inserir Experimentação no Ensino de Química. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>II Encontro Capixaba de Física/SBF​. 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>III WENDEQ Web Encontro Nacional de Engenharia Química.ESTUDO DA TENSÃO INTERFACIAL ECONCENTRAÇÃO MICELAR CRÍTICA (CMC) ENTRE AMOSTRAS DE PETRÓLEO ESURFACTANTE NÃO-IÔNICO. 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>III Workshop do Programa de Formação de Recursos Humanos em Processamento de Petróleo e Biocombustíveis - PRH 52.1.Desafios Analíticos da Análise do Número de Acidez Total em Petróleos. 2023. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>IV Escola de Física do Norte do Espírito Santo.O laboratório de Mecânica do Centro Universitário Norte do Espírito Santo. 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>V Semana de Química do Norte do Espírito Santo. 2 OU 3D ? VOCÊ EM AÇÃO: A VISÃO DE PROFESSORES SOBRE A IMPLEMENTAÇÃO DE UM JOGO DIDÁTICO PARA O ENSINO DE GEOMETRIA MOLECULAR. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>V Semana de Química do Norte do Espírito Santo. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>V SEMANA DE QUÍMICA DO NORTE DO ESPÍRITO SANTO. Avaliador de trabalhos modalidade pôster. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>V SEMANA DE QUÍMICA DO NORTE DO ESPÍRITO SANTO. Café com Química: Ensino e meio ambiente. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>V SEMANA DE QUÍMICA DO NORTE DO ESPÍRITO SANTO. Síntese de diésteres análogos da rivastigmina e avaliação da inibição enzimática da acetilcolinesterase visando o tratamento da Doença de Alzheimer. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>V SEMANA DE QUÍMICA DO NORTE DO ESPÍRITO SANTO. Síntese de diésteres análogos da rivastigmina e avaliação da inibição enzimática da acetilcolinesterase visando o tratamento da Doença de Alzheimer. 2023. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>V SEQUINES."Proposta de produção de material complementar como abordagemextensionista no ensino de Química Analítica Qualitativa". 2023. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>VIII Semap - Semana da Pedagogia e V Simpósio de Projetos PPGEEB.Avaliador no(a) VII Semap ? Semana da Pedagogia e IV Simpósio de projetos PPGEEB: Arte, Educação e Cultura no Norte Capixaba, 2022. (Simpósio) Instruções para pesquisa em futuros trabalhos de mestrado... 2023. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>10° Workshop de Engenharia Química.Caracterização Térmica e Morfolágica da Fibra, do Caroço e do Óleo de Açaí. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>10° Workshop de Engenharia Química.Estudo da Caracterização Química da Biomassa de Açaí. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>35º Congresso Latinoamericano de Química e 61º Congresso Brasileiro de Química. Níveis de cloro ativo liberados por clorador caseiro para caixa d'água. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>5° Congresso Brasileiro de Geotecnologias para o Meio Ambiente (CBGEO). 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ABMGeo Núcleo Rio.Petrofísica de Reservatórios Tipo Pré-Sal. 2022. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Autumn Meeting of the Brazilian Physical Society.Antiferromagnetic skyrmions overcoming obstacles in a racetrack. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Autumn Meeting of the Brazilian Physical Society.Antiferromagnetic-Bimeron dynamics driven by a spin-polarized current at an inhomogeneous racetrack. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Autumn Meeting of the Brazilian Physical Society.Biskyrmion fractionalization in a skyrmion in frustrated ferromagnetic nanotracks. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Autumn Meeting of the Brazilian Physical Society.Robust dynamics of antiferromagnetic skyrmion driven by spin-polarized current in small thin disks. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Autumn Meeting of the Brazilian Physical Society.Skyrmion bound state in an antiferromagnetic bilayer racetrack. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Autumn Meeting of the Brazilian Physical Society.Skyrmion dynamics and skyrmion-bimeron crossover in antiferromagnetic thin nanodisks with a random distribution of magnetic impurities. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Autumn Meeting of the Brazilian Physical Society.Skyrmion-Antiskyrmion coupling in inhomogeneous ferromagnetic racetracks. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Encontro Brasileiro de Petrofísica de Campos Maduros. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Encontro Brasileiro de Petrofísica de Campos Maduros. 2022. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Encontro de Outono 2022 da Sociedade Brasileira de Física. Antiferromagnetic skyrmions overcoming obstacles in a racetrack. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Encontro de Outono 2022 da Sociedade Brasileira de Física. Antiferromagnetic-Bimeron dynamics driven by a spin-polarized current at an inhomogeneous racetrack.. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Encontro de Outono 2022 da Sociedade Brasileira de Física. Biskyrmion fractionalization in a skyrmion in frustrated ferromagnetic nanotracks. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Encontro de Outono 2022 da Sociedade Brasileira de Física. Robust dynamics of antiferromagnetic skyrmion driven by spin-polarized current in small thin disks.. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Encontro de Outono 2022 da Sociedade Brasileira de Física. Skyrmion bound state in an antiferromagnetic bilayer racetrack. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Encontro de Outono 2022 da Sociedade Brasileira de Física. Skyrmion dynamics and skyrmion-bimeron crossover in antiferromagnetic thin nanodisks with a random distribution of magnetic impurities.. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Encontro de Outono 2022 da Sociedade Brasileira de Física. Skyrmion-Antiskyrmion coupling in inhomogeneous ferromagnetic racetracks. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>LACAME 22. Optimizing Mg/Fe Based Composite Synthesis Via Sol-Gel Method For Phosphorus Removal. 2022. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Seminário de Apresentação dos Resultados Finais de Pesquisas dos projetos submetidos no Edital CNPq/Fapes Nº 10/2021 - PICJr - Programa de Iniciação Científica Junior..Aplicação de conceitos e técnicas da química como ferramenta para a quantificação do teor de álcool em bebidas.. 2022. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>VII Semap ? Semana da Pedagogia e IV Simpósio de projetos PPGEEB: Arte, Educação e Cultura no Norte Capixaba.Instruções para pesquisa em futuros trabalhos de mestrado.. 2022. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Webinar - AAPG Internacional.Geothermal Energy Now: Opportunities in grid power, direct heat, and energy storage. 2022. (Outra).</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>20 Encontro Nacional de Ensino de Química. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>20º Encontro Nacional de Ensino de Química. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>4º Congresso Brasileiro de Governança, Fiscalização, Competitividade e Sustentabilidade. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>AAPG - Internacional. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Anais da Jornada de Iniciação Científica da UFES de 2021.Avaliar a influência dos sais NaCl, MgCl2, CaCl2 e SrCl2 em amostras de petróleos na titulação termométrica.. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>ANALYSIS OF VACA MUERTA OIL WELLS 2014 2020. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Congresso Online de Ensino de Química. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Congresso Tecnológico Brasileiro de Água e Energia ON LINE. Avaliação de construção de barragem para o abastecimento público de São Mateus-ES. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ENCONTRO FORMATIVO DE PROFESSORES - CEUNES -. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Encontro Formativo de Professores da UFES.Encontro Formativo de Professores da UFES. 2021. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Espírito Santo Innovation Experience (ESX2021). 2021. (Feira).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Extensão na UFES: Conceitos, Projetos e Creditação. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>FÓRUM DE INOVAÇÃO E NEGÓCIOS EM ÓLEO & GÁS. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>I Encontro Brasileiro em Teoria das Categorias.Structural aspects of the algebro-geometric supermanifolds and superdistributions via categories and sheaves. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>I Semana de Estudo Geológicos - AAPG UNIPAMPA STUDENT CHAPTER& CENTRO ACADÊMICO DE GEOLOGIA. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>II MOSTRA DE EXTENSÃO DO CURSO DE LICENCIATURA EM QUÍMICA',. 2021. (Exposição).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>II MOSTRA DE EXTENSÃO DO CURSO DE LICENCIATURA EM QUÍMICA. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>IV Semana de Química do Norte do Espírito Santo. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>IV Semana de Química do Norte do Espírito Santo. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Otimização da Produção O&G através da Transformação Digital. 2021. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>PATRIMÔNIO GEOLÓGICO CÁRSTICO E ESPELIOLÓGICO. 2021. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>VII Oficina Nacional de Teoria Quântica de Campos. 2021. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>VIII Encontro Capixaba de Química SBQ/ES.Investigação da extração de sais para determinação do número de acidez total em petróleos brasileiros pelos métodos potenciométricos ABNT NBR 14448 e ASTM D664. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>VIII Encontro Capixaba de Química SBQ/ES.Investigação da interferência de cloretos de cálcio e magnésio na determinação potenciométrica do número de acidez total em petróleos.. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>VIII Encontro Capixaba de Química SBQ/ES.Investigação dos parâmetros de desempenho analítico da titulação termométrica para determinação do NAT em petróleos. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>VIII Encontro Capixaba de Química SBQ/ES.Parâmetro de solubilidade como estratégia de planejamento de experimentos para recuperação de óleo lubrificante ferroviário usado. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>VIII Encontro Capixaba de Química. Tratamento residencial da água, via cloração, em Guriri, São Mateus-ES. 2021. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>VIII Encontro Capixaba de Química.Nanocompósitos baseados em CeO2/Ag e celulose com potencial aplicação em biocurativos de pele.. 2021. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>WEBINAR. 2021. (Exposição).</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>14º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>15º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>16º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>17º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>20º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>25º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>26º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>31º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>40º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>51º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>52º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>7º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>8º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>9º#junt@sadistancia. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>?I Fórum Virtual Sul-brasileiro dos Capítulos Estudantis da AAPG?. 2020. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>AAPG UERJ Student Chapter: Reservatórios do Pré-sal da Bacia de Santos. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Anais da Jornada de Iniciação Científica da UFES.Avaliação da influência dos sais NaCl, MgCl2, CaCl2 e SrCl2 na titulação termométrica usando a norma ASTM D 8045. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>CaracterizAR 2020 - 1er Encuentro Virtual destinado a la Caracterización de Materiales. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Congresso de Educação ? De repente, professor online. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Encontro Formativo de Professores. 2020. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Física On-line.Um Fragmento da Física Biológica. 2020. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>I Congresso Online Nacional de Química Analítica e Ambiental. AVALIAÇÃO DA APLICABILIDADE DA SÍLICA E FLORISIL COMO ADSORVENTES EM MÉTODO QUECHERS PARA A DETERMINAÇÃO DE ANTRAQUINONA EM AMOSTRAS DE PIMENTO DO REINO. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>II Congresso Online Nacional de Química. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>n°1 #GEOtogetherUFPR. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>n°10 #GEOtogetherUFPR. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>n°19 #GEOtogetherUFPR. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>n°2 #GEOtogetherUFPR. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>n°5 #GEOtogetherUFPR. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>n°6 #GEOtogetherUFPR. 2020. (Outra).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Petroweek. 2020. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Rio Oil & Gas Expo and Conference. 2020. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Workshop do PGGM - Edição Amazônia. 2020. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>XVIII Encontro de Pesquisa em Ensino de Física.II Encontro de Pesquisa em Ensino de Física ? 2020 1 RELATOS DE EXPERIMENTOS NO ENSINO DE FÍSICA: ONDAS MECÂNICAS, LEI DE FARADAY E GRAVITAÇÃO. 2020. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>12th Mini Workshop on Singularities, Geometry and Differential Equations and 1st Meeting on Foliations and Singularities.Resurgence Analysis in Quantum Field Theory: Prolegomena. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>15° Congresso Brasileiro de Polímeros. PET-ol uma nova classe de polióis na síntese de poliuretanos. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>16th International Congress of the Brazilian Geophysical Society & Expogef. CARACTERIZAÇÃO DO SISTEMA POROSO POR PETROFÍSICA AVANÇAS DAS COQUINAS DA FORMAÇÃO MORRO DO CHAVES, BACIA SERGIPE - ALAGOAS. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>16th International Congress of the Brazilian Geophysical Society & Expogef. Significance of clay minerals in petrophysical properties from carbonates of the cotinguiba formation. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>6th International Congress of the Brazilian Geophysical Society & Expogef. Análise petrofísica dos reservatórios carbonáticos microbiais da Formação Barra Velha, Pré-sal da Bacia de Santos, Brasil. 2019. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Anais da Jornada de Iniciação Científica da UFES.Determinação de Hidrocarbonetos Aromáticos Policíclicos aplicados ao processo de recuperação de óleo lubrificante.. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Fórum Nacional de Práticas Inclusivas.QUÍMICA E INCLUSÃO: UMA PROPOSTA DE EXPERIMENTAÇÃO PARA ALUNOS CEGOS. 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Workshop de Polímeros no Espírito Santo: Polímeros na Indústria do Petróleo.Polímeros na Tratabilidade do Petróleo. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Inverno Astrofísico 2019.Introdução a Cosmologia (IA2019). 2019. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>VII Encontro Capixaba de Química SBQ/ES.Avaliação da eficiência de um protótipo com aquecimento termo-cerâmico para extração de cloretos em petróleo. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VII Encontro Capixaba de Química SBQ/ES.Avaliação da interferência de água e sais na determinação do numero de acidez total (NAT). 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VII Encontro Capixaba de Química SBQ/ES.Determinação da solubilidade de sais em solventes aquosos e não aquosos. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VII Encontro Capixaba de Química SBQ/ES.Influência de ácidos orgânicos no numero de acidez total (NAT) em petróleo.. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VII Encontro Capixaba de Química.Elaboração de jogos didáticos sobre modelos atômicos: Uma Ferramenta Eficaz para o Ensino na Educação Básica. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>X Encontro Científico de Física Aplicada.Resurgence Analysis in Quantum Field Theory: The Next Revolution in Physics. 2019. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXXIV Encontro de Físicos do Norte e Nordeste.Construção e uso de experimentos como suporte didático no ensino de mecânica/astronomia, ondas mecânicas e eletromagnetismo: uma maneira didática de abordar a física básica em nível graduação. 2019. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>49 Congresso Brasileiro de Geologia. DETERMINAÇÃO DAS PROPRIEDADES PETROFÍSICAS DE ARENITOS DO GRUPO ITARARÉ ? BACIA DO PARANÁ. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>58º CONGRESSO BRASILEIRO DE QUÍMICA. Aplicação de eletrodo seletivo na determinação de amônia em amostras do rio São Mateus, de água subterrânea e efluente laboratorial. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Encuentro Científico Internacional ECI-2018.Implicaciones en la Cosmologia del descubrimiento de las Ondas Gravitacionales. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>III Semana de Química do Norte do Espírito Santo.Estudo das Propriedades Fungicidas dos Complexos de Cobre com Ligantes Organossulfurados. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>III Sequines - Semana de Química do Norte do Espírito Santo.?Determinação de Hidrocarbonetos Aromáticos Policíclicos aplicados ao processo de recuperação de óleo lubrificante?. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>III Sequines - Semana de Química do Norte do Espírito Santos.?Aplicação de Gráficos de Controle para o monitoramento da qualidade de dados analíticos laboratoriais?. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>III Sequines - Semana de Química do Norte do Espírito Santos.?Investigação de remoção de ferro em águas de poços artesianos por aplicação indireta de ondas ultrassônicas ?. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>III SEQUINES Semana de Química do Norte do Espírito Santo: Ensino, Pesquisa e Inovação para o desenvolvimento social.Construção de um destilador alternativo para a quantificação do teor de álcool em bebidas. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>III SEQUINES Semana de Química do Norte do Espírito Santo: Ensino, Pesquisa e Inovação para o desenvolvimento social.Obtenção de álcool a partir da fermentação biológica: Uma experiência com grupos de alunos do Ensino Médio. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MEETING ON NANOMAGNETISM AND SPINTRONICS.TWO-DIMENSIONAL SKYRMION LATTICE: STUDY OF THE INFLUENCES OF THE SECOND NEIGHBOR INTERACTIONS. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Rio Oil & Gas Expo and Conference. CARACTERIZAÇÃO PETROFÍSICA E MINERALOGICA DOS CARBONATOS DA FORMAÇÃO COTINGUIBA DA BACIA DE SERGIPE-ALAGOAS. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Seminário de Acompanhamento dos Projetos Edital CNPq / FAPES.Estudo da Quantificação do Teor de Álcool em bebidas Pelos Alunos do Ensino Médio do Minicípio de São Mateus/ ES. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VIII Simpósio Brasileiro de Geofísica.Integração entre os Parâmetros Petrofísicos e Petrográficos em Arenitos do Grupo Itararé da Bacia do Paraná. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VIII Simpósio Brasileiro de Geofísica.The Marimbá Field in Well a Turbidite Reservoir Petrophysical. 2018. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>15 th International Congress Brazilian Geophysical Society & Expogef. Caracterização Petrofísica de coquinas da formação Morro do Chaves (Bacia Sergipe-Alagoas) através da técnica de microtomografia computadorizada. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>15th International Congress of the Brazilian Geophysical Society. Análise Petrográfica e Petrofísica de Cálcários Análogos ao reservatórios "microbiais" do pré-sal. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>15th International Congress of the Brazilian Geophysical Society. Classificação do Espaço Poroso de Coquinas (Fm. Morro do Chaves ? Bacia de Sergipe-Alagoas) por meio da análise de dados de Ressonância Magnética Nuclear. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>57º Congresso Brasileiro de Química. Estudo da extração assistida por ultrassom de constituintes inorgânicos do petróleo. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>57º CONGRESSO BRASILEIRO DE QUÍMICA. Estudo da extração assistida por ultrassom de constituintes inorgânicos do petróleo. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>?III Semana Acadêmica das Engenharias?.PESQUISA E ENGENHARIA: UM MUNDO EM TRANSFORMAÇÃO. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Simpósio de Pesquisa em Educação em Ciências do Espírito Santo.A UTILIZAÇÃO DO SOFTWARE TRACKER NO ENSINO DE CINEMÁTICA PARA O ENSINO MÉDIO: UM BREVE RELATO. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Simpósio de Pesquisa em Educação em Ciências do Espírito Santo.Feira de jogos químicos: brincando também se aprende. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Verão Quântico 17. Perturbations and Reheating in the Anamorphic Universe. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>VI ENCAQUI ENCONTRO CAPIXABA DE QUÍMICA - SBQ/ES.Aplicação de ondas ultrassônicas na recuperação de óleo básico a partir de óleo lubrificante usado em motores diesel. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VI ENCAQUI ENCONTRO CAPIXABA DE QUÍMICA - SBQ/ES.APLICAÇÃO DE ONDAS ULTRASSÔNICAS NA REMOÇÃO DE FERRO EM ÁGUA POR ADSORÇÃO. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>VI ENCAQUI ENCONTRO CAPIXABA DE QUÍMICA - SBQ/ES.Desenvolvimento de metodologia para obtenção de fração de saturados em amostras de petróleo. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VI ENCAQUI ENCONTRO CAPIXABA DE QUÍMICA - SBQ/ES.Estudo de recuperação de óleo básico a partir do óleo lubrificante usado utilizando ondas ultrassônicas por irradiação direta e indireta. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VIII Encontro Científico de Física Aplicada.Quantization of the Jackiw-Teitelboim model in the Temporal Gauge: Quantum dynamics. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Workshop "Researcher Connect".An affordable parkisonian medicine. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XL Encontro Nacional de Física da Matéria Condensada. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XL Encontro Nacional de Física da Matéria Condensada. Relationship between quality and formation of free radicals in Coffee Genotypes (Coffea Canephora) by Electronic Paramagnetic Resonance and Chemical Analysis. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XX Encontro Jacques Danon de Espectroscopia Mössbauer.Effect of Milling and Thermal Annealing in the Ni50Mn36Sn14 Heusler type alloy: an Mössbauer and EXAFS Studies. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XX Encontro Jacques Danon de Espectroscopia Mössbauer.Effect of milling and thermal annealing in the Ni50Mn36Sn14 Heusler type alloy: an Mössbauer and EXAFS studies.. 2017. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>III José Plinio Baptista School of Cosmology (The dark Sector of the Universrse). Interacting Holographic Ricci Dark Energy without Instabilities. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>V Simpósio do Produtor de Conilon. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>VII Encontro Científico de Física Aplicada.The Cluster Expansion in Statistical Mechanics: Holder Inequality. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>XVIII Encontro Nacional de Ensino de Química.A motivação e as expectativas dos alunos de Licenciatura em Química do CEUNES/UFES pela carreira docente.. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>XVIII Encontro Nacional de Ensino de Química.Percepções dos professores de Química sobre Educação Ambiental e a investigação do tema ?agrotóxico? no livro didático.. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XVIII Encontro Nacional de Ensino de Química.Produção textual em aulas de Química como momento avaliativo após aplicação de oficinas temáticas. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>XXI Congresso Brasileiro de Engenharia Química. Estudo da Aplicação de Ondas Ultrassônicas e dos Efeitos dos Parâmetros de Processo na Síntese de Emulsões do Tipo Água em Óleo. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>XXIII SBQ Sul Encontro de Química da Região Sul.Recuperação de Óleo Lubrificante Usado ou Contaminado através do Emprego de Ondas Ultrassônicas. 2016. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>13° Congresso Brasileiro de Polímeros. Estudo da despolimerização do polietileno tereftalato(PET)induzida por ultrassom em meio aquoso.. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>13º Congresso Brasileiro de Polímeros. Estudo da Despolimerização do Polietileno Tereftalato - (PET) e do Poliestireno - (PS) Induzida por Ultrassom em Meio Aquoso. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>55º Congresso Brasileiro de Química: Goiânia GO. Integração do teste modificado de Sturm evolução de CO2 e respirometria de consumo do O2 para caracterização dos efluentes municipais. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>8º Encontro Nacional de Tecnologia Química.Estudo da extração e análise físico-química do óleo da macadâmia proveniente da região norte do estado do Espírito Santo. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ENCAQUI | Encontro Capixaba de Química ? SBQ ES.Avaliação espacial e temporal dos valores de DBO no rio São Mateus. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Encontro Nacional de Física Estatística.The Cluster Expansion in Statistical Mechanics: Holder inequality. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>II Semana de Química do Norte do Espírito Santo.Modificação Química do Óleo de Crambe para a Produção de Polióis. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>II Semana de Química do Norte do Espírito Santo.Síntese de Antioxidantes para Biocombustíveis Capazes de Sequestrar Íons Níquel. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>III Fórum Mundial de Educação Profissional e Tecnológica. PROJETO MOTIVA MAIS: Incentivo e informação como meio de combate a evasão escolar. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>IX International Symposium on Tectonics.Comparação entre o Complexo Juiz de Fora e a Unidade Granulitica Ponte de Zinco. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>V ENCAQUI - Encontro Capixaba de Química ? SBQ ES.Determinação de metais de desgaste como método de diagnóstico na qualidade do óleo lubrificante usado (OLUC). 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>V ENCAQUI - Encontro Capixaba de Química ? SBQ ES.Estudo do efeito da viscosidade dinâmica no preparo de emulsões sintéticas do tipo A/O por ultrassom. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>V ENCAQUI Encontro Capixaba de Química - SBQ/ES.Desenvolvimento de metodologia para a síntese de emulsões do tipo A/O aplicando ondas ultrassônicas. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>V Encontro Capixaba de Química.Noz macadâmia: utilização de um produto regional na contextualização do ensino de química no município de São Mateus-ES. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Verão Quântico 2015. Modelos holográficos tipo Ricci sem presença de instabilidade. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VI Encontro Científico de Física Aplicada.Structural Aspects of the Algebro-geometricSupermanifolds and Superdistributions. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Workshop: AdS/CFT, self-adjoint extension and the resolution of cosmological singularities. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XIV Brazil MRS Meeting. Magnetic anisotropy in metallic glasses ribbons. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XIV Brazil MRS Meeting. Petroleum Characterization by Electron Paramagnetic Resonance. 2015. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XIX Encontro Jacques Danon de Espectroscopia Mössbaeur.ESTUDO E CARACTERIZAÇÃO DE FERRITAS DE NÍQUEL PRODUZIDAS PELA TÉCNICA DE SOL-GEL PROTEICO. 2015. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XV Simpósio Nacional de Estudos Tectônico.COMPARAÇÃO ENTRE O COMPLEXO JUIZ DE FORA E A UNIDADE GRANULÍTICA PONTE DE ZINCO. 2015. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XVIII Escola de Verão Jorge André Swieca de Partículas e Campos.Microlocal Analysis and Interacting Thermal Quantum Fields: Renormalization. 2015. (Outra).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>XXXVIII Encontro Nacional de Física da Matéria Condensada. Thermodynamics properties of artificial spin ice on a square lattice. 2015. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>14th Meeting of European Society of Sonochemistry Université dÁvignon. Computacional Model for Estanding Ultrasonic Waves in Circular Membrane Based on Bessel Equations Solution. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>14th Meeting of European Society of Sonochemistry Université dÁvignon. Evaluation of the efficiency of ultrasound in the process of phase separation in produced water and in emulsion O/A. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>1º Seminário de Mineração do IFES.Pesquisa Mineral: Minério de Ferro na Região Amazônica. 2014. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>54° Congresso Brasileiro de Química. Otimização de extração de aditivos de óleo lubrificante a partir de solventes polares. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>54º CONGRESSO BRASILEIRO DE QUÍMICA. DESENVOLVIMENTO EXPERIMENTAL E CARACTERIZAÇÃO RESPIROMÉTRICA DOS EFLUENTES DA CIDADE DE SÃO MATEUS-ES. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>7º Encontro Nacional de Tecnologia Química.Avaliação do potencial de utilização de álcool isopropílico na extração de aditivos de óleos lubrificantes. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Challenges in Modern Cosmology: Dark Matter and Dark Energy. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Congresso Brasileiro de Extensão Universitária. PROJETO UFES ESCOLAS: INCENTIVAR E LEVAR CONHECIMENTOS PARA OS JOVENS E ADULTOS NAS ESCOLAS DE SÃO MATEUS - ES. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Congresso Internacional de Interdisciplinaridade em Educação. A Informação e o Estímulo Como Meio de Combate a Evasão Escolar. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II José Plínio Baptista School of Cosmology: The Cosmic Microwave Background Radiation. 2014. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>II Seminário Internacional de Educação do Campo.II Seminário Internacional de Educação do Campo. 2014. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>PetroPhase XV. Assessment of the Rheological Behavior of Heavy Oils whenSubmitted to a Temperature Gradient. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>V Encontro de Científico de Física Aplicada.Análise Microlocal na TQC à Temperatura Finita. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>X Workshop na Reunião Anual da Sociedade Brasileira de Química. Perspectivas e Desafios na Caracterização Físico-Química de Petróleos Pesados.. 2014. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>XXXII Encontro de Física do Norte e Nordeste.Cinética de formação de ferritas produzidas através do método sol-gel proteico. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXXII Encontro de Físicos do Norte e Nordeste.Formação de Skyrmions e Bimerons em Redes Quirais com Impurezas Não Magnéticas. 2014. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XXXV Encontro Nacional de Física de Partículas e Campos.Structural Aspects of the Algebro-geometric Supermanifolds and Superdistributions. 2014. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>12 Congresso Brasileiro de Polímeros. Sínstese e Caracterização de Compósitos a partir de Poliuretanos Rígidos e Fibra de Coco Modificada Com 4,4'-Difenilmetano diisocianato (MDI). 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>13th International Congress of the Brazilian Geophysical Society & EXPOGEF. Caracterização das Propriedades do reservatório Utilizando Curvas de Perfilagem Geofísica de Poços no Campo de Namorado na Bacia de Campos - RJ. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>17° Encontro Nacional de Química Analític.Avaliação da propriedades elétricas de petróleo, suas frações e misturas através da espectroscopia de impedância eletroquímica. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>17° Encontro Nacional de Química Analític.Propriedades Elétricas de Emulsões de Petróleo através da Espectroscopia de Impedância Eletroquímica. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>17º Encontro Nacional de Química Analítica.Avaliação das propriedades elétricas de petróleo suas frações e misturas através da espectroscopia de impedância eletroquímica. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>17º Encontro Nacional de Química Analítica.Propriedades elétricas de emulsões de petróleo através da espectroscopia de impedância eletroquímica. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>17º Encontro Nacional de Química Analítica.Tratamento da água oleosa empregando ondas ultrassônicas. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>53º Congresso Brasileiro de Química. Influência de fatores pré-colheita na qualidade do café conilon cultivado no o Espírito Santo. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>53º Congresso Brasileiro de Química. Síntese e caracterização de novos complexos de cobre (II) derivados da cisteína com potencial atividade antioxidante. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>5th International Conference on Fundamental Interactions. Structural Aspects of the Algebro-geometric Supermanifolds and Superdistributions. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>I Semana de Ciência e Tecnologia e Inovação de São Mateus.O uso da espectroscopia de infravermelho na determinação do teor de lipídeos em salsichas. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>I Semana de Química do Norte do Espírito Santo.A contribuição do Químico na Indústria : Uma Visão aplicada. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>I Semana de Química do Norte do Espírito Santo.Aspectos Teóricos e Experimentais da Nanotecnologia. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>I Semana de Química do Norte do Espírito Santo.Petróleo e Energia. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>I Semana de Química do Norte do Espírito Santo.Petróleo e Energia. 2013. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>II SEMANA ESTADUAL DE QUÍMICA/CRQ XXI.A Importância dos Cursos de Licenciatura em Química para o desenvolvimento técnico-científico do ES.. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>II SEMANA ESTADUAL DE QUÍMICA/CRQ XXI.A Importância dos Cursos de Licenciatura em Química para o desenvolvimento técnico-científico do ES.. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>II Simpósio de Processos de Separação com membranas.Characterization of Cellulose Acetate Membranes produced from mango seed. 2013. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos.Composição e análise morfológica de sedimentos presentes em petróleo. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos.Desenvolvimento de metodologia de extração de sais em petróleos assistida por ondas ultrassônicas.. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos.Desidratação de petróleos utilizando centrifugação e desemulsificantes comerciais. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos.Determinação da densidade API, viscosidade cinemética e teor de água em petróleo por espectroscopia ATR-FTIR e calibração multivariada. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos.Determinação de nitrogênio básico em resíduos de destilação de petróleo utilizando infravermelho médio e calibração multivariada. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos.Modelagem da síntese de emulsões do tipo óleo em água (O/A) para avaliar a eficiência do ultrassom no processo de separação. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos.Simulação da unidade de destilação a vácuo na produção de gasóleo para lubrificantes. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos.Tratamento de amostras de petróleo por micro-ondas e ultrassom. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>IV Encontro Capixaba de Química - SBQ/ES.Proposta de Aproveitamento de Metais a partir de Resíduos Gerados em Laboratórios de Ensino.. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>IV Encontro Capixaba de Química.O Uso da Espectroscopia na Região do Infravermelho no Estudo do Teor de Lipídeos em Alimentos Processados. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>IX Escola Brasileira de Magnetismo. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>IX Escola Brasileira de Magnetismo.On the use of coconut water and pectin as precursors in the proteic sol-gel method to produce nickel ferrite. 2013. (Outra).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>IX Escola Brasileria de magnetismo. Anisotropia Magnética e Acoplamento Não Colinear em Tricamadas Epitaxiais Fe/Mn/Co. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Latin American Workshop On Magnetism, Magnetic Material and Their Application. Magnetic Anisotropy of Epitaxially Grown Fe/Mn/Co Trilayers. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Petrophase - 14th International Conference on Petroleum Phase Behavior and Fouling. APPLYING PRINCIPAL COMPONENT ANALYSIS TO SEPARATE OILS FROM DIFFERENT FIELDS AND RESERVOIRS: A CASE STUDY. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Reunião Anual Sociedade Brasileira de Química.Extração assistida por radiação micro-ondas para a remoção de água, sal e sedimentos de petróleo e posterior caracterização. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>XIV Congresso Brasileiro de Geoquímica. Veracidade e precisão da determinação de elementos-traço em materiais de referência litogeoquímicos por ICP-MS. 2013. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>XXXVI Encontro Nacional De Física Da Matéria Condensada.Nanoring bilayer. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>XXXVI Encontro Nacional de Física da Matéria Condensada.The Chemical and Structural Disorder in Ni2(Mn0,99Fe0,01)1,44Sn0,56. 2013. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>XXXVI Encontro Nacional De Física Da Matéria Condensada.The influence of the vacancies in the formation of the magnetic Skyrmion lattice.. 2013. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1 Encontro Nordeste de Ciência e Tecnologia de Polímeros: Quem Somos?.Síntese e Caracterização de Compósitos a partir de Poliurtantos Fléxiveis e Fibra de Coco Modificada Com Silanos. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1º Escola de Eletroquímica do Espírito Santo. 2012. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>46º Congresso Brasileiro de Geologia e 1º Congresso de Geologia dos Países de Lingua Portuguesa. Evolução da Perfilagem por Ressonância Mgnética Nuclear. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>52° Congresso Brasileiro de Química. Síntese e Caracterização de Compósitos de Poliuretanas Obtidas com Poliol-soja, TDI e argilas naturais. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>5º CIAQA Congresso Iberoamericano de Química Analítica. Desidratação de petróleos utilizando desemulsificantes comerciais e centrifugação. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>5º CIAQA Congresso Iberoamericano de Química Analítica. Determinação da gravidade API, viscosidade cinemática e teor de água em petróleos por espectroscopia ATR-FTIR e regressão por vetores de suporte.. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>5º CIAQA Congresso Iberoamericano de Química Analítica. Proposta de metodologia de correlação para determinação de cloreto em águas de produção de petróleos. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>8th International Conference on the Analysis of Geological and Environmental Materials - Geoanalysis 2012. High temperature acid dissolution of silicate rock samples. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>I Escola de Eletroquímica do Espírito Santo. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I Simpósio Capixaba de Química de Produtos Naturais. 2012. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>III Encontros de Física Aplicada.Evolução da Cosmologia: da antiguidade até os tempos modernos. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Inauguração do Centro de Estudos em Petróleo da Universidade Federal de Santa Maria.Parceria entre a Petrobras, UFSM e ANP. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Petrophase - 13th International Conference on Petroleum Phase Behavior and Fouling. Chemometric Tools Application for Monitoring of Blends of Offshore Petroleum. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Seminário de Ultrassom e Micro-ondas para Intensificação de Processos.Otimização da metodologia de extração de sais em petróleos utilizando ultrassom. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Seminário de Ultrassom e Micro-ondas para Intensificação de Processos.Procedimento de separação de emulsões com o uso de radiação micro-ondas para caracterização de petróleo extrapesado. 2012. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XII Jornada Brasileira de Ressonância Magnética. 2012. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XIII. Chemometrics in Analytical Chemistry Conference CAC-2012. EXPERIMENTAL DESIGN AND SURFACE RESPONSE METHODOLOGY FOR OPTIMIZATION OF ULTRASOUND ASSISTED SALT EXTRACTION FROM PETROLEUM. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>XVI ENCONTRO NACIONAL DE ENSINO DE QUÍMICA / X ENCONTRO DE EDUCAÇÃO QUÍMICA DA BAHIA.Ensino de Conceitos de Química através de oficinas de sabão: Uma proposta metodológica e ambiental. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>XVI Encontro Nacional de Ensino de Química. Currículo Básico no Espírito Santo, uma análise acerca de sua aplicação.. 2012. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>XXX Encontro de Físicos do Norte e Nordeste.Nanoanel bicamada. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XXX Encontro de Físicos do Norte e Nordeste.Utilização do modelo cinético de Avrami para determinação dos parâmetros cinéticos de nucleação e crescimento do processo de crisltalização de ferritas produzidas pelo método Sol-gel. 2012. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>XXX Encontro de Físicos do Norte e Nordeste.Vórtices Antiferromagnéticos. 2012. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>12th International Congress of the Brazilian Geophysical Society and the EXPOGEf 2011. Perfilagem Geofísica de Poços. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1ª Escola de Física Teórica de São Mateus - Aspectos Claśsicos e Quânticos da Física de Buracos Negros. LHC: Avanços e Desafios. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>1º Encontro capixaba de Física - Desafios da Ciência e da Profissãoaão... 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>2° Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos.Avaliação das propriedades elétricas do petróleo e suas frações por espectroscopia de impedância eletroquímica.. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>34ª. Reunião Anual da Sociedade Brasileira de Química. Espectroscopia de infravermelho e calibração multivariada na determinação do teor de lipídeos em salsichas / Avaliação do potencial antioxidativo de diferentes extratos de alho / Novos Derivados 1,2,3-triazolil-4-oxoquinolínicos: síntese e avaliação bioló. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>34º Reunião Anual da Sociedade Brasileira de Química. Avaliação do potencial antioxidativo de diferentes extratos de alho (Allium sativum). 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>5º Congresso Brasileiro de Extensão Universitária. OFICINA DE SABÃO ECOLÓGICO: MÉTODO ALTERNATIVO PARA AUMENTAR A RENDA DE COMUNIDADES CARENTES DO MUNÍCIPIO DE SÃO MATEUS/ES. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>9 Simpósio Brasileiro de Educação Química.A Percepção do Aluno acerca do Ensino de Química aos Olhos do Bolsistas do PIBID. 2011. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Congresso Brasileiro de Química. ?Desidratação de Petróleos Utilizando Centrifugação e Desemulsificantes Comerciais?. 2011. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>ENQA- Encontro Nacional de Química Analítica.?Aplicação de espectroscopia de impedância eletroquímica (EIE) em determinação de propriedades elétricas de petróleo e suas frações?.. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>II Encontro Capixaba de Química.Investigação da atividade antioxidante de extratos de alho (Allium sativum) no óleo de soja. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>II Encontro Estadual do PIBID.A Importância da Interdisciplinariedade no Ensino da Química. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>II Encontro Estadual do PIBID.O PIBID como um dos Facilitadores/Mediadores da Aprendizagem sob a ótica Discente. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>III ENCAQUI - Encontro Capixaba de Química.Condutividade Elétrica em Emulsões de Petróleos. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>III ENCAQUI - Encontro Capixaba de Química.Estudo do efeito da composição do petróleo na determinação de condutividade elétrica.. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>III Encontro Capixaba de Química.A importância da Interdiciplinaridade no Ensino de Química.. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>III Encontro capixaba de Química.Aplicação da determinação direta de lantanídeos em águas por ICP-MS. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>III Encontro Capixaba de Química.Aplicação do ligante PEGPHOT na hidroformilação bifásica de olefinas.. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>III Encontro Capixaba de Química.Determinação do teor de gordura em diversos cortes de carne bovina por MID-IR / Determinação do teor de lipídeos em salsichas através da espectroscopia na região do infravermelho / Investigação da atividade antioxidante de extratos de alho (Allium sativum. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Workshop em Exploração e Produção de Petróleo e Gás.Petróleos Pesados. 2011. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>XVI Escola de Verão Jorge André Swieca de Partículas e Campos.Loop Quantization of the Jackiew-Teitelboim model in the Temporal Gauge: Quantum dynamics. 2011. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1º Workshop em Exploração e Produção de Petróleo e Gás Natural-.Desenvolvimento de Separação de Emulsão com o uso de radiação micro-ondas para a caracterização de petróleo extrapesado. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>3º Seminário de Laboratório.Investigação da interferência de Ca e Mg na determinação do número de acidez total (NAT) em resíduos da destilação do petróleo a partir de dados obtidos por FTIR e ICP OES. 2010. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Encontro Afro-Franco-Brasileiro de Física e Matemática. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Encontro Afro-Franco-Brasileiro de Física e Matemática.ON A CHARACTERIZATION OF SINGULARITIES OF TEMPERED ULTRAHYPERFUNCTIONS. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Encuentro Peruano de Astronomia y Astrofísica 2010.Generalidades sobre Cosmologia. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Fourth International Conference on Fundamental Interactions. Loop quantization of the Jackiw-Teitelboim model in the Temporal Gauge. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>I Encontro Estadual do PIBID.A Motivação e o Interesse pela Química no Ensino Médio. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>I Jayme Tiomno School of Cosmoloy.Viscous dark fluid universe. 2010. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Rio Oil & Gas. Associação das Tecnologias de Micro-ondas e Separação Gravitacional em Sistema Contínuo para o Processamento Primário de Emulsões de Petróleos Pesados do tipo Água-em-Óleo.. 2010. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>XXVIII Encontro de Físicos do Norte e Nordeste.Aplicação do modelo de Johnson-Mehl-Avrami no estudo da cinética de cristalização de Ligas tipo Nanoperm produzidas por Mecanossíntese. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>XXVIII Encontro de Físicos do Norte e Nordeste.Excitações Topológicas no Modelo "Spin Ice" 2D. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>XXVIII Encontro de Físicos do Norte e Nordeste.Termodinâmica do Modelo XY-Planar Sobre as redes Honeycomb e Kagomé. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>XXVIII Encontro de Físicos do Norte e Nordeste.Um Modelo para Nanodisco Magnético com Configuração Antiferromagnética. 2010. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>XXXIII Encontro Nacional de Física da Matéria Condensada.Study of the Crystalization of Ferrite Nanoparticles produced by Proteic Sol-Gel Method. 2010. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>15 ° Encontro de Química Analítica - ENQA. Caracterização análitica de petróleos extrapesados após preparo de amostra por radiação micro-ondas.. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>237th ACS National Meeting. Demulsification of Heavy Crude Oils for Salt Extraction Using Closed Vessels Microwave Heating and Further Chlorine determinations by ion selective electrode or titration. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>32a Reunião Anual da Sociedade Brasileira de Química. Degradação de Compostos Orgânicos Presente no Óleo Pesado através de Reações Fotoquímicas. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Petrophase. Demulsification of heavy crude oil for water and salt removal using microwave radiation. 2009. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Semana de Ciência e Tecnologia.Química do Petróleo. 2009. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>XVI Encontro Jaques Danon de Espectroscopia Mössbaeur.Produção e cinética de formação de nanoestruturas de α-Fe em ligas tipo Nanoperm. 2009. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>9th International Conference on Nanostructured Materials. Influence of W content and substrate bias in the microstructure and tribological properties of W doped carbon films. 2008. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>X Congresso Internacional da Sociedade Brasileira de Geofísica. Experimentos numéricos em halocinese.. 2007. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>XIV Simpósio de Geologia de Minas Gerais e X Simpósio de Geologia do Sudeste.Levantamento Magnetométrico Terrestre na região do Quadrilátero Ferrífero, Cráton São Francisco Meridional.. 2007. (Simpósio).</td></tr>
+            </table></div>
+                    </table>
+                <br><p>
+<br>Data de processamento: 05/06/2025 19:21:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:thonimar.souza@ufes.br">thonimar.souza@ufes.br</a>         </div> </body></html>
+              

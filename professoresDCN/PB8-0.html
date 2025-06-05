@@ -1,0 +1,515 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docente do DCN</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docente do DCN</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Apresentações de trabalho'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2007,
+2],
+[2009,
+7],
+[2010,
+4],
+[2011,
+22],
+[2012,
+14],
+[2013,
+13],
+[2014,
+11],
+[2015,
+15],
+[2016,
+6],
+[2017,
+10],
+[2018,
+10],
+[2019,
+6],
+[2020,
+4],
+[2021,
+6],
+[2022,
+12],
+[2023,
+13],
+[2024,
+10],
+[2025,
+1]]}]});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 166<br>
+                    
+                    
+                    <div id="dv-year-2025"><h3 class="year">2025</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SOARES, L.G.F. <b>Dinâmica Não Linear em Armadilhas Magneto-Ópticas em Plasmas de um Componente</b>. 2025. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div><div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BRANDAO JUNIOR, A. J. ; SILVESTRE, L. J. ; ALENCAR, THONIMAR V.. <b>Análise de agrupamento em medidas de rajadas de rádio rápidas do projeto CHIME: uma abordagem por aprendizado de máquina</b>. 2024. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Hipólito-Ricaldi, W. S. <b>Estimating the Hubble Constant with Fast Radio Bursts</b>. 2024. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Hipólito-Ricaldi, W. S. <b>Hints for Violation of the Cosmological Principle?</b>. 2024. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Hipólito-Ricaldi, W. S. <b>Tensões no Principio Cosmológico</b>. 2024. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MEIRELES, CARLA S.; ROCHA, J. M. M. ; RIZZI, K. G. ; MENDES, A. N. F.. <b>OFICINA TEMÁTICA ?BIOPLÁSTICOS?PARA ALUNOS DO ENSINO FUNDAMENTAL: UMA FERRAMENTA PARA O DESENVOLVIMENTO DA CIDADANIA E DO PENSAMENTO CIENTÍFICO</b>. 2024. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MOSCON, P.S.; PESSOA, M. S. ; SOUZA, M. A. ; PROVETI, J.R.C. ; MERINO, L. C. ; MORAES, P. C. ; PELEGRINI, F. ; PARISE, M. ; FIGUEIREDO, L. ; BAGGIO-SAITOVITCH, E.. <b>Unveiling Unsaturated Modes from Multi-frequency Ferromagnetic Resonance Using Maghemite Nanoparticles</b>. 2024. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Muniz, E.P.; PROVETI, J. R. C. ; CAETANO, E. P. ; DALMASCHIO, CLEOCIR JOSÉ ; Kaio Reis Costa. <b>Fotodegradação de Detergentes por Ferritas</b>. 2024. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>RIBEIRO, MARILÉA; CONRADO, V. A.. <b>Petroshow - Vitória (ES)</b>. 2024. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>RIBEIRO, MARILÉA; QUINTILIANO, K. R. ; CONRADO, V. A.. <b>Geologist and Geophysicist Day</b>. 2024. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SOARES, L.G.F. <b>Modelo Hidrodinâmico para MOTs com Desalinhamento no Plano-xy</b>. 2024. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVARENGA, NATÁLIA M. ; CAVALCANTI, E. ; LINHARES, C. A. ; LOURENÇO, J. A. ; MAHON, JOSÉ ROBERTO P. ; REIS, F. P. P.. <b>PT-symmetry breaking for the deformed Mathieu Potential</b>. 2023. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Hipólito-Ricaldi, W S. <b>Astronomia dos Povos Originarios</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MEIRELES, CARLA; ALMEIDA, G. F. ; MACIEL, L. N. ; SANTOS, L. S. ; BERNINI, I. R. ; RODRIGUES, H. Z. ; WANDERMUREM, D. V. ; SILVA, A. C.. <b>Produção de membranas filtrantes para purificação de água a partir de resíduos agroindustriais e urbanos</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MEIRELES, CARLA; MENDES, A. N. F. ; VIANA, J. P.. <b>O protagonismo dos licenciandos de Química no desenvolvimento de experimentos para a comunidade escolar: a química do cotidiano</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MOREIRA, J. C. ; MOURA-MELO, WINDER A. ; PEREIRA, AFRANIO ; SILVA, R. C. ; Silva, R. L.. <b>Skyrmions and skyrmion Hall Effect in ferrimagnetic nanostripes with impurities</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>ORGINO, I. S. ; Andrade, George R.S.. <b>Aproveitamento de folhas de café (Coffea canephora) para produção de materiais adsorventes</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SANTOS, M. F. P. <b>Desafios Analíticos da Análise do Número de Acidez Total em Petróleos</b>. 2023. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SILVA, R. L.; SILVA, R C ; Pereira, A R. <b>Skyrmion and bimeron hurdle race in antiferromagnetic racetracks</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SILVA, R. L.; SILVA, R C ; Pereira, A R ; MASAKI, Y.. <b>Proliferation of skyrmions induced by biquadratic exchange interaction</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SILVA, R. L.; Silva, R. C. ; Pereira, A R. <b>Affecting the structure of skyrmions using ferromagnetic nanodisks with inhomogeneous properties: switching skyrmion helicity and polarity</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SILVA, R. L.; Silva, R. C. ; Pereira, A R. <b>Fractionalizing biskyrmions with magnons</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SILVA, R. L.; Silva, R. C. ; Pereira, A R ; MASAKI, Y.. <b>Antiferromagnetic Bimeron surpassing Magnetic obstacles</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SOUZA, J. R. ; ARAUJO, D. P. ; VELLOSO, M. H. R. ; Nogueira, C. M.. <b>Síntese de diésteres análogos da rivastigmina e avaliação da inibição enzimática da acetilcolinesterase visando o tratamento da Doença de Alzheimer</b>. 2023. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARAUJO, D. P.; Neto, P. A.. <b>Molecular docking evaluation of piperine and analogues for the treatment of Alzheimer's disease</b>. 2022. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cotta, Aloísio J.B.; DE ANDRADE, RENATO P. ; MENEZES, E. S. ; PIROLA, B. S. ; LIVRAMENTO, J. L. ; SOUZA, J. P. B. ; SOUZA, M. D. L. ; BRAVO, I. D. N.. <b>Níveis de cloro ativo liberados por clorador caseiro para caixa d'água</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MAGESTE, L. C. ; LAURES, L. ; MIRANDA, K. V. ; MEIRELES, C. S. ; Silveira, Vivian Chagas da. <b>Remoção dos Metais Pesados utilizando Resíduos Agroindustriais como biossorventes,</b>. 2022. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MARQUES, WILLBRYNNER P. ; de Souza, Janiomar B. ; Muniz, Eduardo P. ; PROVETI, J. R. C. ; da Silva, Adriano ; Passamani, E.C. ou Passamani, E. ; DA SILVA PORTO, PAULO SÉRGIO ; SANTORIO, Ricardo. <b>OPTIMIZING Mg/Fe BASED COMPOSITE SYNTHESIS VIA SOL-GEL METHOD FOR PHOSPHORUS REMOVAL</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MELO, B. N.; WILL, G. ; MOSE, A. S. ; GOMES, C. A. C. ; GOMES, D. D. S. ; PEREIRA, L. S. ; CORREA, W. B.. <b>ESTUDO DA DESPOLIMERIZAÇÃO POR GLICERÓLISE DO POLIETILENO TEREFTALATO (PET) E DO POLICARBONATO (PC)</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>R. C. Silva ; Silva, R. L.. <b>Skyrmion-Antiskyrmion coupling in inhomogeneous ferromagnetic racetracks</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>R. C. Silva ; Silva, R. L.. <b>Skyrmion bound state in an antiferromagnetic bilayer racetrack</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Silva, R. L. <b>Biskyrmion fractionalization in a skyrmion in frustrated ferromagnetic nanotracks</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Silva, R. L.; R. C. Silva. <b>Robust dynamics of antiferromagnetic skyrmion driven by spin-polarized current in small thin disks</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Silva, R. L.; R. C. Silva. <b>Skyrmion dynamics and skyrmion-bimeron crossover in antiferromagnetic thin nanodisks with a random distribution of magnetic impurities</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Silva, R. L.; R. C. Silva. <b>Antiferromagnetic skyrmions overcoming obstacles in a racetrack</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Silva, R. L.; R. C. Silva. <b>Antiferromagnetic-Bimeron dynamics driven by a spin-polarized current at an inhomogeneous racetrack</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANDRADE, G. R. S. <b>Do átomo ao quantum dot: como a teoria de bandas ajuda a explicar as propriedades ópticas em nanomateriais semicondutores</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DOS SANTOS RIBEIRO, MARILEA GOMES. <b>Experiência de Mulheres no Stor de Óleo e Gás</b>. 2021. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Eduardo Perini MUNIZ; Rafaela Alves Pereira ; Porto, Paulo Sergio da Silva ; José Rafael Cápua Proveti ; Passamani, E.C. ou Passamani, E. ; Thiago Chiquetto Fraga ; VIEIRA, D.. <b>On the Use of Cobalt Ferrite as an Oil Adsorber</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>LOURENÇO, J.A. <b>Structural aspects of the algebro-geometric supermanifolds and superdistributions via categories and sheaves</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>RIBEIRO, M. G. S. <b>Petrofísica de Reservatórios Tipo Pré-sal</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>RIBEIRO, M. G. S. <b>Ceunes/Ufes - ABPIP</b>. 2021. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVES, A. L. ; PEREIRA, R. D. ; LOYOLA, G. V. ; PANETTO, A. N. ; MOTTA, Y. B. ; BISSOLI, A. ; PESTANA, G.. <b>RELATOS DE EXPERIMENTOS NO ENSINO DE FÍSICA: ONDAS MECÂNICAS, LEI DE FARADAY E GRAVITAÇÃO</b>. 2020. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BAZONI, R. F. <b>Um Fragmento da Física Biológica</b>. 2020. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Hipólito-Ricaldi, W. S. <b>La luz mas antigua del universo: Radiacion Cósmica de Fondo</b>. 2020. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MULLER, A. H. T. ; Alavarenga, F. G. ; LOYOLA, G. V. ; PEREIRA, R. D. ; ALVES, A. L.. <b>UTILIZAÇÃO DE EXPERIMENTOS E UM MOTOR STIRLING NO ENSINO DA PRIMEIRA E SEGUNDA LEI DA TERMODINÂMICA NO ENSINO MÉDIO</b>. 2020. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Fagner Mulinari Lacerda ; ARAUJO, D. P. ; VELLOSO, M. H. R. ; Emanuel Henrique da Silva. <b>Docking molecular de potenciais inibidores de urease análogos da curcumina</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ARAUJO, D. P. R. ; ARAUJO, L. V. ; GOMES, R. V. ; ARAUJO, R. C. S. ; MELO, B. N.. <b>AVALIAÇÃO DA DESPOLIMERIZAÇÃO DO POLITEREFTALATO DE ETILENO (PET) E A PREPARAÇÃO DE NOVOS POLIOIS</b>. 2019. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Emanuel Henrique da Silva ; Fagner Mulinari Lacerda ; ARAUJO, D. P. ; Caroline Mantovani dos Santos ; Luiz Cezar Simonetti. <b>Síntese de análogos da curcumina como potenciais inibidores da enzima urease</b>. 2019. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Hipólito-Ricaldi, W. S. <b>Cosmological framework for renormalization group extended gravity at the action level</b>. 2019. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MENDES, A. <b>N. F.; MENDES, A. N. F. ; Aprendizagem Baseada em Problemas no ensino de ciências: uma breve introdução sobre as possibilidades de aplicação no nível médio</b>. 2019. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MENDES, A. <b>N. F.; MENDES, A. N. F. ; Produção de material didático e paradidático na Química</b>. 2019. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Cotta, Aloísio J.B.; DE ANDRADE, RENATO P. ; PORTO, P. S. S.. <b>Aplicação de eletrodo seletivo na determinação de amônia em amostras do rio São Mateus, de água subterrânea e efluente laboratorial</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>LOURENÇO, J. A. <b>Somabilidade de Borel e Séries Perturbativas</b>. 2018. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MENDES, A. <b>N. F.; MENDES, A. N. F. ; Metodologias e materiais didáticos potencialmente significativos para o Ensino de Química</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>OLIVEIRA, E. A. S. ; PEREIRA, A. R. ; Silva, R. L. ; R. C. Silva ; SILVA, S. L.. <b>The dynamic of skyrmion lattices considering second neighbourhood interactions</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>R. C. Silva ; OLIVEIRA, E. A. S. ; SILVA, R. L. ; PEREIRA, A. R.. <b>Two-Dimensional Skyrmion Lattice: Study of the Influences of the Second Neighbor Interactions</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>RESSE, L. ; OLIVEIRA, L. G. S. ; ARAUJO, C. I. L. ; PEREIRA, A. R. ; SILVA, R. L.. <b>Periodic Néel Skyrmion Transport</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SILVA, C. A. M. <b>UTILIZAÇÃO DA PERFILAGEM GEOFÍSICA DE POÇOS NO POSICIONAMENTO DO CANHONEIO</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SILVA, C. A. M.; STAEL, G. C.. <b>Integração entre os Parâmetros Petrofísicos e Petrográficos em Arenitos do Grupo Itararé da Bacia do Paraná</b>. 2018. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SILVA, C. A. M.; STAEL, G. C. ; SILVA, J. C. X.. <b>DETERMINAÇÃO DAS PROPRIEDADES PETROFÍSICAS DE ARENITOS DO GRUPO ITARARÉ - BACIA DO PARANÁ</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SIVICO, M. J. ; VELLOSO, M. H. R. ; SANTOS, A. P. ; BASILIO, C. R. S. ; SANTOS, D. I. ; HENKER, D. P. ; BARBOSA, D. X. ; MAIA, K. K. ; CARDOSO, L. R. ; BUZETTI, P. H. ; CAZITA, P. H. ; BERNARDO, Y. P. ; WOLFFGRAM, M. V. ; ANSELMO, A. G.. <b>Análise da estabilidade oxidativa de biodiesel produzido a partir de blendas de óleo de fritura com sebo bovino</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alves, A L ; BRAVIN, J. ; Moscon, P. S. ; PESSOA, M. S. ; SEGATTO, B. R.. <b>Relationship between quality and formation of free radicals in Coffee Genotypes (Coffea Canephora) by Electronic Paramagnetic Resonance and Chemical Analysis</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>COTTA, ALOÍSIO J. B.; ARAUJO, D. A. ; DE ANDRADE, RENATO P. ; DE JESUS, HONERIO C.. <b>Estudo da extração assistida por ultrassom de constituintes inorgânicos do petróleo</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DE MELO, BRENO NONATO; MOURA, P. H. ; SANTOS JUNIOR, R. P.. <b>Síntese de Poliuretanos Hiper-ramificados a Base de Fontes Renováveis</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Hipólito-Ricaldi, W S. <b>A detecção das Ondas Gravitacionais</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Hipólito-Ricaldi, W. S. <b>Perturbations and Reheating in the Anamorphic Universe</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>LOURENÇO, J. A. <b>O Modelo Padrão e a Física de Partículas Elementares</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LOYOLA, G. V. <b>Propriedades Magnéticas de nanopartículas do tipo core-shell (α- Fe/Fe2B) preparadas por Redução Química</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MELO, B. N.; MEIRELES, C. S. ; GOMES, R. V. ; CIPRIANO, D. F.. <b>Poliésteres Melamínicos e seus Compósitos de Cargas Inorgânicas</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Moscon, P. S.; PESSOA, M. S. ; SANTOS, M. F. ; ROSA, M. C. R. ; ALVES, A. L. ; SEGATTO, B. R.. <b>MAGNETIC CHARACTERIZATION OF PETROLEUM SAMPLES FROM BASIN OF CAMPOS</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SILVA, R. L. <b>Atomistic Spin Model Simulations of Magnetic Materials Applied to Skyrmions Lattices</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>da Silveira, Vivian C. <b>Aplicação da química de coordenação para obtenção de potenciais agentes farmacológicos e antioxidantes de biodiesel</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Hipólito-Ricaldi, W S. <b>Cosmological Signatures of Cosmic Strings</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MENDES, A. <b>N. F.; MENDES, A. N. F. ; A motivação como elemento indutor na formação do licenciado em química</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SANTOS, M. F. P. <b>Desafios e perspectivas na caracterização química do petróleo</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SANTOS, MARIA F. P. <b>Curso de Pós-Graduação em Produção de Energia da UFES</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>VIDELA, NELSON ; HIPÓLITO-RICALDI, WILIAM S. ; HERRERA, RAMÓN. <b>Interacting Holographic Ricci Dark Energy without Instabilities</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALMEIDA, C. M. ; VELLOSO, M. H. R. ; Tavares, L. A.. <b>Otimizção do processo de produção de biodiesel de gordura suína</b>. 2015. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ANDRÉ, J. L. F.; VALLADARES. C. S. ; DUARTE B. P. <b>Comparação entre o Complexo Juiz de Fora e a Unidade Granulitica Ponte de Zinco</b>. 2015. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>COSTA, A. P. O.; SILVEIRA, V. C. ; NOGUEIRA, C. M. ; NASCIMENTO, B. Z.. <b>Modificação Química do Óleo de Crambe para a Produção de Polióis</b>. 2015. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERNANDES, F. P. ; ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Conceitos de Química do primeiro ano abordados através do jogo concentrAÇÃO</b>. 2015. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FERREIRA, C. P. C. ; JUSTIANIANO, M. R. ; Silva, A. A. B. da ; SILVA, J. A. ; COSTA, A. P. O. ; NOGUEIRA, C. M. ; SILVEIRA, V. C. ; PORTO, P. S. S.. <b>Estudo da Extração da Noz de Macadâmia Proveniente da Região Norte do Estado do Espírito Santo</b>. 2015. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GOMES, H. A. R. ; GUASTI, L. ; SANTOS, C. C. O. ; VELLOSO, M. H. R. ; Tavares, L. A.. <b>Avaliação da atividade alelopática da ftalimida potássica sobre alface (Lactuca sativa L)</b>. 2015. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LIMA, K. F. F. ; NASCIMENTO, B. Z. ; COSTA, A. P. O.. <b>Estudo Preliminar da Transesterificação do Óleo de Crambe Abyssinca Hochs Utilizando o Catalisador Heterogêneo de Nb2O5 impregnado dom KOH</b>. 2015. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LOURENÇO, J. A. <b>Modelo Padrão e Partícula de Higgs</b>. 2015. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MARTINS, L. F. ; RAMOS, K. C. C. S. ; SILVEIRA, V. C. ; COSTA, A. P. O. ; NOGUEIRA, C. M.. <b>Síntese, Caracterização e Análise de Novos Compostos Imínicos Derivados de Ácidos Graxos</b>. 2015. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Moscon, P S; Passamani, E C ; PESSOA, M. S. ; PELEGRINI, F.. <b>Magnetic anisotropy in metallic glasses ribbons</b>. 2015. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>NASCIMENTO, B. Z. ; LIMA, K. F. F. ; COSTA, A. P. O. ; SILVEIRA, V. C.. <b>Estudo do Síntese de Poliol-Crambe Usando Sistemas Oxidantes com HCOOH/ H2O2 e H3COOH/ H2o@ em Diferentes Condições Reacionais</b>. 2015. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Pereira, R.D.; Proveti, J.R.C. ; Muniz, E.P. ; Passamani, E.C. ou Passamani, E.. <b>ESTUDO E CARACTERIZAÇÃO DE FERRITAS DE NÍQUEL PRODUZIDAS PELA TÉCNICA DE SOL-GEL PROTEICO</b>. 2015. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>RAMOS, K. C. C. S. ; COSTA, A. P. O. ; NOGUEIRA, C. M. ; SILVEIRA, V. C.. <b>Síntese, Caracterização e Análise de Novos Compostos Imínicos com Ação Antioxidante</b>. 2015. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>ROSA, D. L. ; GOMES, W. G. B. ; MENDES, A. N. F. ; MENDES, A. N. F. ; ROCHA, S. M. S.. <b>A produção de Kit molecular para o ensino de Química: integrando alunos e professores da educação básica</b>. 2015. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>WESTPHAL, S. ; POTASIO, M. ; VELLOSO, M. H. R. ; Tavares, L. A.. <b>Análise fitoquímica do extrato hidroalcóolico das sementes de Garcinia Gardneriana</b>. 2015. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERNANDES ANDRÉ, J. L. <b>Pesquisa Mineral: Minério de Ferro na Região Amazônica</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>LEAO, R. X. A. ; OLIVEIRA, L. G. S. ; MELO, B. N. ; RONCHI, R. P. ; SOUZA, F. O. ; SANTOS, M. F. P. ; FLORES, E. M. M.. <b>Computacional Model for Estanding Ultrasonic Waves in Circular Membrane Based on Bessel Equations Solution</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>LOURENÇO, J. A. <b>Análise Microlocal na TQC à Temperatura Finita</b>. 2014. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>LOURENÇO, J. A. <b>Formulação Hamiltoniana da Relatividade Geral</b>. 2014. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MARTINS, L. F. ; da Silveira, Vivian C.. <b>Investigação da capacidade antioxidante de complexos de cobre com ligantes organossulfurados</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; dos Santos, F. B.. <b>Uso de oficinas temáticas para alunos do ensino médio como ferramenta de aprendizagem de conceitos químicos</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>PEREIRA, A. R. ; SILVA, R. L. ; SILVA, R. C. ; Moura-Melo W. A.. <b>Deformed Skyrmion Lattices and Compact Merons in Chiral Magnets Containing Nonmagnetic Impurities</b>. 2014. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Pereira, R.D.; Proveti, J.R.C. ; Muniz, E.P. ; Porto, P. S. S. ; Menezes, F. F. ; Souza, R. S.. <b>Cinética de formação de ferritas produzidas através do método sol-gel proteico</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>RONCHI, R. P. ; MELO, B. N. ; FLORES, E. M. M. ; LEAO, R. X. A. ; SANTOS, M. F. P.. <b>Evaluation of the efficiency of ultrasound in the process of phase separation in produced water and in emulsion O/A</b>. 2014. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SILVA, C. A. M. <b>APLICAÇÃO DA PERFILAGEM GEOFÍSICA DE POÇOS NA INDÚSTRIA DO PETRÓLEO</b>. 2014. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>VARGAS, T. V. ; COSTA, A. P. O. ; MENDES, A. N. F.. <b>Tratamento do Óleo de Fritura Utilizando Fibra de Coco para Posterior Aplicação na Produção de Biocombustíveis</b>. 2014. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>COTTA, A. J. B.; Enzweiler, Jacinta. <b>Veracidade e precisão da determinação de elementos-traço em materiais de referência litogeoquímicos por ICP-MS</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>de Jesus Júnior, M. M. ; MENDES, A. N. F. ; MENDES, A. N. F. ; Silveira, V. C.. <b>Reciclagem do óleo de fritura para produção de biodiesel, sabão e sabonetes</b>. 2013. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>de Jesus Júnior, M. M. ; MENDES, A. N. F. ; MENDES, A. N. F. ; Silveira, V. C.. <b>Oficina de reciclagem do óleo de fritura: uma proposta divertida de abordar os conteúdos de Química</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>de Jesus Júnior, M. M. ; SILVA, T. D. ; OLIVEIRA, L. M. ; MENDES, A. N. F. ; MENDES, A. N. F. ; Baliza, P. X. ; FERREIRA, C. P. C. ; SANTOS, M. F. P.. <b>Tratamento e reutilização dos resíduos gerados nas aulas experimentais de Química</b>. 2013. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MELO, B. N.; BIANCO, G. ; MEIRELES, C. S. ; ALVES, T. C. ; LAMONATO, A.. <b>Síntese e caracterização de compositos a Partir de Poliuretanos Rígidos e Fibras de Coco Modificadas com 4,4' - difenilmetano diisocianato (MDI)</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MELO, B. N.; SAD, C. M. S. ; FLORES, E. M. M. ; SCHIMIDT, L. ; SANTOS, M. F. P. ; RONCHI, R. P.. <b>Tratamento da Água Oleosa Empregando Ondas Ultrassônicas</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>POTASIO, M. ; KNOP, M. C. ; Tavares, L. A. ; VELLOSO, M. H. R.. <b>Uma proposta para aulas práticas de Química Orgânica na graduação: Síntese da p-toluilmaleimida</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Proveti, J. R. C. ; Muniz, E.P. ; PEREIRA, R. D. ; Porto, Paulo S.S. ; PASSAMANI, E. ; YAACOUB, N. ; GRENECHE, J. M.. <b>On the use of coconut water and pectin as precursors in the proteic sol-gel method to produce nickel ferrite</b>. 2013. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ROCHA, J. W. S. ; MELO, B. N. ; CARVALHO, B. A. ; SANTOS, M. F. P. ; FREITAS, M. B. J. G. ; FREITAS, S. ; CELANTE, V. G. ; SA, M. C. S.. <b>Propriedades Elétricas de Emulsões de Petróleo Através da Espectroscopia de Impedância Eleroquímica</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>ROCHA, J. W. S. ; MELO, B. N. ; CARVALHO, B. A. ; SANTOS, M. F. P. ; FREITAS, M. B. J. G. ; FREITAS, S. ; CELANTE, V. G. ; SAD, C. M. S.. <b>Avaliação das Propriedades elétricas de Petróleo, Suas Frações e Misturas Através da Espectroscopia de Impedância Eletroquímica</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Tavares, L. A. ; POTASIO, M. P. ; VELLOSO, M. H. R.. <b>Estudo da relação estrutura-atividade de maleimidas análogas via cálculos teóricos e análise quimiométrica</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Tavares, L. A. ; VELLOSO, M. H. R.. <b>Avaliação da atividade antioxidante do café conilon produzido no norte do estado do Espírito Santo</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VELLOSO, M. H. R.; MARTINS, J. P. ; Tavares, L. A. ; Baliza, P. X. ; NOGUEIRA, C. M.. <b>Influência de fatores pré-colheita na qualidade do café conilon cultivado no o Espírito Santo</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Baliza, P. X. ; MENDES, A. N. F. ; MENDES, A. N. F. ; SILVA, T. D. ; OLIVEIRA, L. M.. <b>A percepção dos alunos de uma escola pública de São Mateus/ES a respeito dos resíduos gerados nas aulas experimentais de Química</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Barcellos, C. P. ; Ambrozim, F. M. ; de Jesus Júnior, M. M. ; Silveira, V. C. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Ensino de Conceitos de Química através de oficinas de sabão: Uma proposta metodológica e ambiental</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>COTTA, A. J. B.; ENZWEILER, J.. <b>High temperature acid dissolution of silicate rock samples</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Hipólito-Ricaldi, W S. <b>A Topologia do Universo e suas Assinaturas</b>. 2012. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Hipólito-Ricaldi, W S. <b>Evolução da Cosmologia: da antiguidade até os tempos modernos</b>. 2012. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Loyola G. V. ; Moscon, P. S. ; Passamani, E C ; Takeuchi, A Y ; Larica, C. <b>Magnetic reorientation effectin bi and trlayer-like magnetic sensors</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; GREGÓRIO, J. R. ; Rosa,R.G.. <b>Hidroformilação/acetalização do oleato de metila catalisada por complexos de ródio</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; ROSA, D. L.. <b>A percepção dos professores de Química do município de São Mateus/ES sobre a importância da experimentação no aprendizado de alunos do ensino médio</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>A Música no ensino de Química: Uma forma divertida e dinâmica de abordar os conteúdos do ensino médio</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Dominó Químico Táctil: Deficientes visuais sem limitações para uma aprendizagem significativa em Química</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SAD, C. M. S. ; CASTRO, E. V. R. ; MEDEIROS, E. F. ; R.FILGUEIRA, P. ; Dias, JCM ; SANTOS, M. F. P.. <b>Chemometric Tools Application for Monitoring of Blends of Offshore Petroleum</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Silva, R. <b>L.; Rodrigo D. Pereira . Nanoanel bicamada</b>. 2012. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Silva, R. L.; Rodrigo D. Pereira. <b>Vórtices Antiferromagnéticos</b>. 2012. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Zanetti, M.G. ; Baliza, P. X. ; MENDES, A. N. F. ; MENDES, A. N. F. ; LEMOS, V. A. ; SANTOS, M. J. S.. <b>Determinação do teor de minerais em amostras de pimenta-rosa cultivadas no norte do Espírito Santo utilizando ICP-OES</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ambrozim, F. M. ; de Jesus Júnior, M. M. ; Barcellos, C. P. ; Silveira, V. C. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Produção de sabão a partir do óleo de fritura: uma proposta ecológica para o ensino de química</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BIANCO, G.; SIQUEIRA, K. G. R. ; Carvalho, S. J.J. C. de. <b>A importância da interdisciplinaridade no ensino de química</b>. 2011. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARVALHO, B. A. ; FREITAS, S. ; CASTRO, E. V. R. ; Melo, Breno Nonato ; Freitas, M.B.J.G. ; SANTOS, M. F. P.. <b>?Aplicação de espectroscopia de impedância eletroquímica (EIE) em determinação de propriedades elétricas de petróleo e suas frações?</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CARVALHO, B. A. ; ROCHA, J. W. S. ; FREITAS, S. ; Freitas, M.B.J.G. ; CASTRO, E. V. R. ; Melo, Breno Nonato ; SANTOS, M. F. P.. <b>Estudo do efeito da composição do petróleo na determinação de condutividade elétrica</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CASTRO, E. V. R. ; MEDEIROS, E. F. ; MORIGAKI, M. K. ; SAD, C. M. S. ; SANTOS, M. F. P.. <b>?Desidratação de Petróleos Utilizando Centrifugação e Desemulsificantes Comerciais?</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>de Jesus Júnior, M. M. ; Ambrozim, F. M. ; Krueger, A. R. ; Barcellos, C. P. ; Silveira, V. C. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Oficina de sabão: proposta de conscientização ambiental e de geração de renda para alunos de comunidades carentes de São Mateus/ES</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; GREGÓRIO, J. R. ; Rosa,R.G.. <b>Hidroformilação do oleato de metila catalisada por complexos de ródio</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; GREGÓRIO, J. R. ; Rosa,R.G. ; BAYON, J. C.. <b>Aplicação do ligante PEGPHOT na hidroformilação bifásica de olefinas</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; Silveira, V. C. ; Fassarella, S.S. ; Cavalcante, M.S.D. ; Krueger, A. R. ; Barcellos, C. P. ; Ambrozim, F. M. ; de Jesus Júnior, M. M.. <b>Ofician de sabão ecológico: método alternativo para aumentar a renda de comunidades carentes do município de São Mateus/ES</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MUNIZ, E. P.; José Rafael Cápua Proveti ; PEREIRA, R. D. ; PORTO, P. S. S.. <b>Estudo do Deslocamento da Banda de Absorção Devido a Estiramento Fe-O em Sitios Tetraédricos em Ferrita de Níquel com o Aumento no Tamanho das Partículas</b>. 2011. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MUNIZ, E. P.; Romulo Augusto Mantovani Margotto ; José Rafael Cápua Proveti ; PEREIRA, R. D. ; PORTO, P. S. S.. <b>Structural Dependence on Packing Factor in Nickel Ferrite Films Deposited by Dip Coating</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Muniz, Eduardo P.; PEREIRA, R. D. ; Lorena Cristina Abrahão Gobbi ; PORTO, P. S. S. ; PROVETI, J. R. C.. <b>A Fourrier Transform Infrared Spectroscopy Study of the Process of Formation of Nickel Ferrite Nanoparticles from Coconut Water Precursor</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>ROCHA, J. W. S. ; CARVALHO, B. A. ; FREITAS, S. ; Freitas, M.B.J.G. ; Melo, Breno Nonato ; SANTOS, M. F. P.. <b>Condutividade Elétrica em Emulsões de Petróleos</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Teatro científico: um método alternativo para abordar a radioatividade</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Ensino de química e atividades experimentais: práticas elaboradas por alunos do ensino médio</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Jogo do ?Quimilhão?: Atividade lúdica envolvendo conteúdos de química orgânica do ensino médio</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Rosa,R.G. ; GREGÓRIO, J. R. ; MENDES, A. N. F. ; MENDES, A. N. F. ; BAYON, J. C.. <b>Síntese do ligante PEGPHOT e sua aplicação na hidroformilação bifásica de olefinas</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SAD, C. M. S. ; MEDEIROS, E. F. ; MORIGAKI, M. K. ; SANTOS, M. F. P. ; Freitas, M.B.J.G.. <b>?Estudo da classificação reológica de alguns óleos pesados?</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>SAD, C. M. S. ; PINTO, A. C. G. ; MORIGAKI, M. K. ; Freitas, M.B.J.G. ; CASTRO, E. V. R. ; MEDEIROS, E. F. ; SANTOS, M. F. P.. <b>Estudo da estabilidade de Blend de petróleo sob armazenamento em escala laboratorial</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>SAD, C. M. S. ; R.FILGUEIRA, P. ; MEDEIROS, E. F. ; MORIGAKI, M. K. ; SANTOS, M. F. P. ; Freitas, M.B.J.G. ; CASTRO, E. V. R.. <b>Classificação Reológica de Alguns Petróleos Leves e Médios</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>ZANETTI, M. G. ; CARVALHO, B. A. ; MELLO, E. B. ; CHAGAS, C. P. ; SANTOS, M. F. P.. <b>Aspectos técnicos de tratamento e descarte final de resíduos químicos e inorgânicos em laboratório de ensino</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Zanetti, M.G. ; Baliza, P. X. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Determinação do teor de minerais presentes na aroeira cultivada no norte do espírito santo utilizando ICP-OES</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FERREIRA, A. M. D. ; SILVEIRA, V. C. ; Cavicchioli, M ; GONCALVES, M. B. ; PETRILLI, H. M. ; CARAMORI, G. F.. <b>A di-imine copper(II) complex exhibiting a peculiar reactivity regarding its binding to albumin protein</b>. 2010. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Flores, Érico Marlon de Moraes ; Antes, F.G. ; Pereira, J.S.F ; Diehl, Liange O. ; Medeiros, M.C. ; GUARNIERI, R. A. ; FERREIRA, B. M. S. ; Guimarães, RCL ; SANTOS, M. F. P.. <b>Uso da radiação micro-ondas em sistema fechado para remoção e quantificação de sedimentos em emulsões de petróleo pesado</b>. 2010. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>H.E.S. Velten ; W. Zimdahl ; Hipólito-Ricaldi, W. S.. <b>Viscous dark fluid universe</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MULLER, E. I. ; Flores, Érico Marlon de Moraes ; Picoloto, R. S. ; Muller, A.L.H. ; Diehl, Liange O. ; SANTOS, M. F. P. ; GUARNIERI, R. A. ; Guimarães, RCL. <b>Investigação da interferência de Ca e Mg na determinação do número de acidez total (NAT) em resíduos da destilação do petróleo a partir de dados por FTIR e ICP OES</b>. 2010. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Flores, Érico Marlon de Moraes ; Pereira, J.S.F ; Antes, F.G. ; MORAES, D. P. ; Diehl, Liange O. ; Paniz,J.N.G. ; DRESSLER, V. L. ; SANTOS, M. F. P. ; Guimarães, RCL. <b>Demulsification of heavy crude oils for salt extraction using closed vessels microwave heating and further chlorine determination by ion selective electrode or titration</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Igor Alessandro Silva Carvalho ; Ricardo Luis Ribeiro ; MUNIZ, E. P. ; BRANCO, J. R. T.. <b>Semi Quantitative Analysis of Oxygen to Silicon Ratio and Oxygen Content Determination in Thermally Sprayed pc-Si Sheet for Solar Cells Substrate</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MOURA, L. G. M. ; SANTOS, M. F. P. ; ZILIO, E. L. ; Rolemberg, Marlus Pinheiro ; Ramos, Antonio Carlos da Silva. <b>Estimativa das incertezas associadas à determinação experimental dos parâmetros de solubilidade de petróleos brasileiros</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MULLER, E. I. ; PARIZOTTO, G. ; Muller, A.L.H. ; SANTOS, M. F. P. ; Guimarães, RCL ; FERRAO, M. F. ; Flores, Érico Marlon de Moraes. <b>Total acid number determination in vacuum and atmospheric residue of petroleum using Attenuated Total Reflectance Fourier transform Infrared Spectroscopy and Different partial least quares algorithms</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Pereira, J.S.F ; Antes, F.G. ; Flores, Érico Marlon de Moraes ; SANTOS, M. F. P. ; Gottfried Paniz, José Neri ; Medeiros, M.C. ; Guimarães, RCL ; MORAES, D. P. ; Diehl, Liange O.. <b>Determinação de metais por ICP OES em emulsões de petróleos extrapesados após decomposição por MIC</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>PEREIRA, R. D.; PASSAMANI, E. C.. <b>Produção e cinética de formação de naoestruturas α-Fe em ligas tipo Nanoperm</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SANTOS, M. F. P.; TAMANQUEIRA, J. B. ; Dias, JCM ; Pereira, J.S.F ; Flores, Érico Marlon de Moraes. <b>Caracterização analítica de petróleos extrapesados após preparo de amostra por radiação micro-ondas</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Igor Alessandro Silva Carvalho ; Gislene Custódio ; MUNIZ, E. P. ; BRANCO, José Roberto Tavares. <b>Preparação e Estudo da Fotodegradação de Compostos de Matriz Polimérica para Encapsulamento de Células Fotovoltaícas</b>. 2007. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Igor Alessandro Silva Carvalho ; Gislene Custódio ; MUNIZ, E. P. ; BRANCO, José Roberto Tavares. <b>UV-VIS-NIR spectroscopy analysis of gamma rays radiated and non radiated quartz particles for use as additive in solar cells encapsulants composites</b>. 2007. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div>
+                    </table>
+                <br><p>
+<br>Data de processamento: 05/06/2025 19:21:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:thonimar.souza@ufes.br">thonimar.souza@ufes.br</a>         </div> </body></html>
+              

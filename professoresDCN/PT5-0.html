@@ -1,0 +1,247 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docente do DCN</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docente do DCN</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Demais tipos de produção técnica'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2011,
+2],
+[2013,
+2],
+[2015,
+1],
+[2016,
+1],
+[2017,
+3],
+[2018,
+4],
+[2019,
+8],
+[2020,
+3],
+[2022,
+3],
+[2023,
+7],
+[2024,
+4]]}]});
+        });
+        </script>
+        
+                <h3>Demais tipos de produção técnica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 39<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BAZONI, RANIELLA F.; Moscon, P.S. ; ALVES, A. L. ; OLIVEIRA, W. S. ; RODRIGUES, C. S. ; SOUZA, J. L. A. ; I. Oliveira. <b>Desenvolvimento do Laboratório Virtual de Física do CEUNES</b>. 2024. Desenvolvimento de material didático ou instrucional - Material digital para apoio em aulas experimetais</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cotta, Aloísio J.B. <b>Análise de água</b>. 2024. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>COTTA, ALOÍSIO JOSÉ BUENO; DUARTE, W. O. ; AMBROZIM, F. M.. <b>Análise química da água</b>. 2024. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; MEIRELES, C. S. ; ANDRADE, G. R. S.. <b>dossiê temático ?Práticas e reflexões sobre pesquisa e extensão no Ensino de Química?</b>. 2024. Editoração/Periódico</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AMORIM, A. S. ; MENDES, A. N. F. ; MENDES, A. N. F. ; MEIRELES, C. S. ; ANDRADE, G. R. S.. <b>Confecção de kits de experimentos para divulgação da química em escolas e redes sociais</b>. 2023. Desenvolvimento de material didático ou instrucional - vídeo educacional</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; AMORIM, A. S. ; MEIRELES, C. S.. <b>EXPERIMENTAÇÕES QUÍMICAS: POSSIBILIDADES DE APLICAÇÃO NA REDE BÁSICA DE ENSINO</b>. 2023. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; MEIRELES, C. S. ; ANDRADE, G. R. S. ; VICENTE, M. A. ; FREITAS, R. R.. <b>Edição Especial 'Semana de Química do Norte do Espírito Santo (SEQUINES)</b>. 2023. Editoração/Periódico</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>VALLE, L. P. ; SANTOS, M. F. P.. <b>RELÁTORIO TÉCNICO 02 - ANÁLISE DE DISTRIBUIÇÃO DE TAMANHO DE PARTÍCULAS DE SEDIMENTOS POR DIFRAÇÃO A LASER COM DISPERSÃO POR ULTRASSOM</b>. 2023. Relatório de pesquisa</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>VALLE, L. P. ; SANTOS, M. F. P.. <b>RELÁTORIO TÉCNICO 03 - ANÁLISE DE DISTRIBUIÇÃO DE TAMANHO DE PARTÍCULAS DE SEDIMENTOS POR DIFRAÇÃO A LASER COM DISPERSÃO POR ULTRASSOM</b>. 2023. Relatório de pesquisa</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>VALLE, L. P. ; SANTOS, M. F. P.. <b>RELÁTORIO TÉCNICO 04 - ANÁLISE DE DISTRIBUIÇÃO DE TAMANHO DE PARTÍCULAS DE SEDIMENTOS POR DIFRAÇÃO A LASER COM DISPERSÃO POR ULTRASSOM</b>. 2023. Relatório de pesquisa</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>VALLE, L. P. ; SANTOS, M. F. P.. <b>RELÁTORIO TÉCNICO 01 - ANÁLISE DE DISTRIBUIÇÃO DE TAMANHO DE PARTÍCULAS DE SEDIMENTOS POR DIFRAÇÃO A LASER COM DISPERSÃO POR ULTRASSOM</b>. 2023. Relatório de pesquisa</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Guerçon, T, ; LOYOLA, G. V.. <b>Propagação de calor: Uma proposta didática utilizando o arduino</b>. 2022. Material Instrucional</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Hipólito-Ricaldi, W. S. <b>O Universo Primordial: Introdução. 2022</b>. 2022. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Oliveira, K. G. ; LOYOLA, G. V.. <b>Radiação Infravermelha e suas aplicações: Uma Proposta didática</b>. 2022. Material Instrucional</td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; CRISTOFOLETI, R. C.. <b>Dossiê Temático: Formação inicial de professores em foco: Os programas Pibid e Residência Pedagógica V1</b>. 2020. Editoração/Periódico</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; CRISTOFOLETI, R. C.. <b>Dossiê Temático: Formação inicial de professores em foco: Os programas Pibid e Residência Pedagógica V2</b>. 2020. Editoração/Periódico</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>RIBEIRO, M. G. S.; MOURA, T. ; CARRASCO, A. M. V.. <b>Interpretação Automática de Perfil de Imagem</b>. 2020. Machine Learning aplicado a dados de perfis petrofísicos de poços</td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alves, A L; Muniz, E. P. ; Moscon, P S. <b>Apostilas de Laboratório de Física/ Física Experimental. Construção de Experimentos didáticos com Roteiros e Folhas de Dados</b>. 2019. Desenvolvimento de material didático ou instrucional - Montagem de experimentos didáticos e apostilas para o laboratório de física da UFES - São Mateus/ ES</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>JESUS, K. F. S. ; LOYOLA, G. V.. <b>A História da Invenção do Laser</b>. 2019. Desenvolvimento de material didático ou instrucional - Material Instrucional</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MENDES, A. <b>N. F.; MENDES, A. N. F. ; Produção de material didático e paradidático na Química</b>. 2019. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MENDES, A. <b>N. F.; MENDES, A. N. F. ; Aprendizagem Baseada em Problemas no ensino de ciências: uma breve introdução sobre as possibilidades de aplicação no nível médio. 2019</b>. 2019. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; GOMES, R. V.. <b>História da Química: Uma proposta de abordagem no ensino da Tabela Periódica</b>. 2019. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; PAULA, J. B. ; ROCHA, S. M. S.. <b>Formação de professores para o ensino em educação ambiental através da Aprendizagem Baseada em Problemas (ABP)</b>. 2019. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; SIQUEIRA, M. A. ; RESENDE, I. C. M. ; JULIO, M. C. Z. ; LOUVEM, R. F.. <b>Pró-Ensino de Química Geral</b>. 2019. Desenvolvimento de material didático ou instrucional - Página de projeto de ensino</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SANTOS, M. F. P.; VICENTE, M. A. ; NEGRIS, L. ; Decoté, P.A.P ; CAMARA, F. F. ; Araujo, T.O. <b>Projeto de Pesquisa Fase II: Estudo do efeito da presença dos sais NaCl, MgCl2, CaCl2 e SrCl2 em amostra de petróleo</b>. 2019. Relatório de pesquisa</td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BIANCO, G. <b>Polímeros</b>. 2018. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; ROSA, D. L. ; PEROVANO, L. P. ; CRISTOFOLETI, R. C.. <b>Formação de professores para o ensino-aprendizagem em ciências de pessoas com deficiência visual através do desenvolvimento de recursos didáticos</b>. 2018. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>RIBEIRO, M. G. S. <b>Preparação artesanal de lâminas de rochas</b>. 2018. Preparar de lâminas de rocha</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SANTOS, M. F. P.; VICENTE, M. A. ; NEGRIS, L. ; Decoté, P.A.P ; CAMARA, F. F. ; Araujo, T.O. <b>Relatório de Pesquisa Fase I : Titulometria de neutralização em solventes não aquosos</b>. 2018. Relatório de pesquisa</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Hipólito-Ricaldi, W S. <b>Physics of the cosmic microwave background radiation</b>. 2017. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Hipólito-Ricaldi, W. S. <b>Cosmic Background Microwave. 2017</b>. 2017. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Hipólito-Ricaldi, W. S. <b>Cosmologia</b>. 2017. Curso de curta duração ministrado/Outra</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MENDES, A. <b>N. F.; MENDES, A. N. F. ; Metodologias alternativas e aprendizagem significativa: contribuições para a formação inicial do licenciando em química</b>. 2016. Curso de curta duração ministrado/Outra</td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>OLIVEIRA, Natália Valadares de. <b>Revisão Técnica do Livro Geofísica para Engenheiros de Petróleo</b>. 2015. Revisão Técnica de Livro</td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>H.E.S. Velten ; BORIERO, D. ; Hipólito-Ricaldi, W. S.. <b>A Física da Radiação Cósmica de Fundo</b>. 2013. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SANTOS, M. F. P. <b>Caracterização e previsão de propriedades de petróleos pesados</b>. 2013. Curso de curta duração ministrado/Especialização</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MENDES, A. N. F.; Mendes, Ana Néry Furlan ; Silveira, V.C.. <b>Oficina de Sabão Ecológico</b>. 2011. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SILVEIRA, V. C. <b>Bioinorgânica</b>. 2011. Curso de curta duração ministrado/Extensão</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Hipólito-Ricaldi, W S. <b>Introdução a Cosmologia</b>. 0. IA2019</td></tr>
+            </table></div>
+                    </table>
+                <br><p>
+<br>Data de processamento: 05/06/2025 19:21:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:thonimar.souza@ufes.br">thonimar.souza@ufes.br</a>         </div> </body></html>
+              

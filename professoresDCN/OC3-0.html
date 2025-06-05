@@ -1,0 +1,189 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docente do DCN</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docente do DCN</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Monografia de conclusão de curso de aperfeiçoamento/especialização'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2012,
+1],
+[2017,
+2],
+[2019,
+2],
+[2021,
+6],
+[2023,
+2],
+[2024,
+2]]}]});
+        });
+        </script>
+        
+                <h3>Monografia de conclusão de curso de aperfeiçoamento/especialização</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 15<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Karolayne dos Reis Quintiliano. <b>INTERPRETAÇÃO AUTOMÁTICA EM TEMPO REAL DAS INFORMAÇÕES PETROFÍSICAS DE LWD COM FOCO NA RESISTIVIDADE AZIMUTAL</b>. (Aperfeiçoamento/Especialização em Engenharia do Petróleo) - Universidade Federal do Espírito Santo, . 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Victoria Almeida Conrado. <b>IDENTIFICAÇÃO E INTERPRETAÇÃO AUTOMÁTICA DAS FRATURAS NOS PERFIS DE IMAGEM UTILIZANDO INTELIGÊNCIA ARTIFICIAL</b>. (Aperfeiçoamento/Especialização em Engenharia do Petróleo) - Universidade Federal do Espírito Santo, . 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>João Pedro Bis Rossim. <b>Análise das opções de tratamento farmacológico para o jogo patológico: Uma revisão narrativa</b>. (Aperfeiçoamento/Especialização em Farmácia) - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9664531819814847">Débora Pereira Araujo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>REBEKA PESSANHA RITTER AZEVEDO. <b>O PAPEL DO MERCADO DE CARBONO NA TRANSIÇÃO PARA UM SETOR DE TRANSPORTE MAIS SUSTENTÁVEL: UM ESTUDO DE CASO</b>. (Aperfeiçoamento/Especialização em Engenharia Química) - Universidade Federal do Espírito Santo, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9664531819814847">Débora Pereira Araujo</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALEXANDRE MARCELINO DE MELLO. <b>PROJETO FENÔMENOS ASTRONÔMICOS UTILIZANDO EXPERIMENTOS SIMPLES</b>. (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências ? Ciência é 10!) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6464661567161861">Gustavo Viali Loyola</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ANA PAULA VAZ CAETANO. <b>PRÁTICA INVESTIGATIVA: O CONHECIMENTO SOBRE BACTÉRIAS POR ALUNOS DA 3a SÉRIE DO ENSINO MÉDIO DE UMA ESCOLA DE TEMPO INTEGRAL</b>. (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências ? Ciência é 10!) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6464661567161861">Gustavo Viali Loyola</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FELIPE VIEIRA LOYOLA. <b>A CULTURA MAKER NA SALA DE AULA: APRENDER FAZENDO</b>. (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências ? Ciência é 10!) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6464661567161861">Gustavo Viali Loyola</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>JULIA BRAVIM. <b>VALIDAÇÃO DE UMA SEQUÊNCIA DIDÁTICA SOBRE CIRCUITOS ELÉTRICOS UTILIZANDO A ROBÓTICA EDUCACIONAL</b>. (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências ? Ciência é 10!) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6464661567161861">Gustavo Viali Loyola</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MARCOS PAULO DE SOUZA MACHADO. <b>ROBÓTICA COMO INSTRUMENTO DE MOTIVAÇÃO: REPENSANDO NOSSAS AULAS TRADICIONAIS</b>. (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências ? Ciência é 10!) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6464661567161861">Gustavo Viali Loyola</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>RAFAELA BARROS RODRIGUES CANAL. <b>INTRODUÇÃO A ROBÓTICA UTILIZANDO A PROGRAMAÇÃO COM SCRATCH</b>. (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências ? Ciência é 10!) - Universidade Federal do Espírito Santo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6464661567161861">Gustavo Viali Loyola</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Julia Bravim. <b>Comparação entre as propriedades de nanopartículas de ferrita de cobalto sintetizadas por meio dos processos de coprecipitação e método sol-gel protéico.</b>. (Aperfeiçoamento/Especialização em Licenciatura em Física) - Universidade Federal do Espírito Santo, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3349837205962461">Raniella Falchetto Bazoni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Roberta Ferreira Fanticelli. <b>Análise da cristalização com o ph de nanopartículas de ferrita de cobalto por meio do método de coprecipitação</b>. (Aperfeiçoamento/Especialização em Licenciatura em Física) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3349837205962461">Raniella Falchetto Bazoni</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Laura Lima Angelo dos Santos. <b>CARACTERIZAÇÃO PETROFÍSICA DE COQUINAS DA FORMAÇÃO MORRO DO CHAVES (BACIA SERGIPE-ALAGOAS) UTILIZANDO A TÉCNICA DE MICROTOMOGRAFIA COMPUTADORIZADA</b>. (Aperfeiçoamento/Especialização em Geologia) - Universidade Federal do Rio de Janeiro, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Rodrigo da Vitória Gomes. <b>Avaliação da Despolimerização do Politereftalato de Etila (PET) por Glicerólise</b>. (Aperfeiçoamento/Especialização em Química Licenciatura) - Universidade Federal do Espírito Santo, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3410912882231783">Breno Nonato de Melo</a>.</font></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Débora Lázara Rosa. <b>Aplicação de metodologias alternativas para uma aprendizagem significativa no ensino de química</b>. (Aperfeiçoamento/Especialização em Especialização em Ensino da Educação Básica) - Centro Universitário Norte do Espírito Santo, . 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p>
+<br>Data de processamento: 05/06/2025 19:21:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:thonimar.souza@ufes.br">thonimar.souza@ufes.br</a>         </div> </body></html>
+              

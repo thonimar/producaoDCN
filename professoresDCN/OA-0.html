@@ -1,0 +1,383 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docente do DCN</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docente do DCN</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Total de orientações em andamento'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2011,
+2],
+[2012,
+2],
+[2013,
+4],
+[2014,
+4],
+[2015,
+7],
+[2016,
+3],
+[2017,
+3],
+[2019,
+6],
+[2020,
+1],
+[2021,
+7],
+[2022,
+2],
+[2023,
+6],
+[2024,
+44],
+[2025,
+13]]}]});
+        });
+        </script>
+        
+                <h3>Total de orientações em andamento</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 104<br>
+                    
+                    
+                    <div id="dv-year-2025"><h3 class="year">2025</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Brenda Assunção Mattedi. <b>Zenão de Eléia: sobre Aquiles, tartarugas, flechas e uma polêmica nos fundamentos da Física há 2500 anos</b>. Trabalho de Conclusão de Curso (Graduação em Física) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2025.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7034365539639197">Raphael Góes Furtado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Brenda Assunção Mattedi. <b>Eletrodinâmica Quântica</b>. Iniciação científica (Graduando em Física) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2025.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7034365539639197">Raphael Góes Furtado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bruno Paim Targa. <b>Mecânica dos Fluidos Relativística e Formalismo de Schutz</b>. Iniciação científica (Graduando em Física) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2025.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7034365539639197">Raphael Góes Furtado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Camily Andrade de Souza. <b>Avaliação do potencial fitorremediador de plantas de interesse comercial para a remoção de cobre</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. In&iacute;cio: 2025.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0811158352700883">Vivian Chagas da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Edson Francisco da Silva Neto. <b>Geometria Diferencial e Relatividade Geral</b>. Iniciação científica (Graduando em Física) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2025.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7034365539639197">Raphael Góes Furtado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Eliel Silva Tintiliano Santos. <b>Estudos de fotodegradação de antibióticos ou hormônios utilizando híbridos ZnO/CuO</b>. Trabalho de Conclusão de Curso (Graduação em Farmácia) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2025.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Felipe Santos Duarte. <b>Paradoxos em Relatividade Restrita</b>. Iniciação científica (Graduando em Física) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2025.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7034365539639197">Raphael Góes Furtado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Flaviane Mendonça Ambrozim. <b>Previsibilidade de Espécies Ácidas em Água Produzida a Partir da Composição do Petróleo</b>. Tese (Doutorado em PGEN Pós Gdraduação em Energia) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2025.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Jean Carlos Fiorotti. <b>Desenvolvimento de Unidade de Tratamento Piloto para Água de Poço Artesiano</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2025.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4946215532340505">Josiane Araújo Martins Brilhante</a>. <b>Caracterização e Classificação dos Resíduos de Industria Siderúrgica Aplicando Ferramentas Quimiométricas</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2025.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Kaio Reis Costa. <b>Análise da Evolução de Emulsões Oleosas com Aplicação de Campo Magnético</b>. Tese (Doutorado em Doutorado em Energia) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2025.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8285018770645807">Eduardo Perini Muniz</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Lorrayne Martins Felipe. <b>ANALISE DE DISCREPÂNCIA DOS DADOS DE RMN NO CAMPO DE RIO IPIRANGA BACIA DO ESPIRITO SANTO</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo. (Coorientador)., . In&iacute;cio: 2025.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6632598745671715">Jefferson Lima Fernandes André</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0258586063955891">Rosiene Rodrigues Pires Meneghetti</a>. <b>Desenvolvimento de Método de decomposição por Micro-ondas para Determinação de Mercúrio em Sedimentos</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2025.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alexandrina Maria Santos da Silva. <b>Estudo do Processo de Colapso Esférico</b>. Iniciação científica (Graduando em Física) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0293080746483402">Wiliam Santiago Hipólito Ricaldi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Amanda Pereira dos Santos. <b>Extração de compostos inorgânicos de petróleos em sistemas nanoemulsionados por ultrassom.</b>. Iniciação científica (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, UFES. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Andressa Alves da Silva. <b>Suporte às Atividades de Ensino nos Laboratórios de Física do DCN</b>. Orientação de outra natureza. Universidade Federal do Espírito Santo. UFES, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6095468454824366">Thonimar Vieira de Alencar Souza</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Andressa do Santos Oliveira. <b>Análise dos reservatórios da bacia sedimentar do Espírito Santo interpretação de dados de poços na região onshore</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6632598745671715">Jefferson Lima Fernandes André</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1563431589491674">Aparecida de Santana Gomes</a>. <b>O uso da metodologia ativa rotação por estações no ensino de química para o nível fundamental</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Atos Santos Amorim. <b>As dificuldades dos alunos em matemática: as implicações para o ensino de química</b>. Trabalho de Conclusão de Curso (Graduação em LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Atos Santos Amorim. <b>Obtenção de açúcares redutores a partir do bagaço de cana-de-açúcar visando a produção de etanol celulósico</b>. Iniciação científica (Graduando em Licenciatura em Química) - Centro Universitário do Norte do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Atos Santos Amorim. <b>Produção de kits experimentais: divulgando a química nas escolas públicas e nas redes sociais</b>. Orientação de outra natureza. Universidade Federal do Espírito Santo. Pró-Reitoria de Extensão, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Beatriz Girardi Gomes. <b>Montagem da linha de tempo das pesquisas sobre o processo de produção de areia ao longo do intervalo de tempo de 1900 à 2023: construção de tabela de pesquisadores, suas pesquisas e técnicas que contribuíram e contribuem para o controle desta ocorrência nos poços/reservatórios de oil & gas.</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>DAMARIS CLAUDIANO SANTANA. <b>Potencializando o ensino de química na educação básica com a construção e aplicação de Materiais Didáticos Digitais</b>. Iniciação científica (Graduando em LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Drielly Goulart. <b>Método Jigsaw e Radioatividade: utilizando a cooperação para ensinar questões sociocientificas</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Edemar Freire de Souza Netto. <b>PRODUÇÃO DE TUBETES BIODEGRADÁVEIS A PARTIR DE FIBRA DE CELULOSE E AMIDO</b>. Trabalho de Conclusão de Curso (Graduação em ENGENHARIA QUÍMICA) - Centro Universitário do Norte do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Eduardo Andrade Vitorino. <b>IDENTIFICAÇÃO DE POTENCIAIS INIBIDORES DA α-SINUCLEINA PARA O TRATAMENTO DA DOENÇA DE PARKINSON: UMA ABORDAGEM IN SILICO BASEADA NO PERFIL FARMACOFÓRICO DO SYNUCLEAN-D (SC-D</b>. Trabalho de Conclusão de Curso (Graduação em Farmácia) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9991164750729669">Marcia Helena Rodrigues Velloso</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Eliel Silva Tintiliano Santos. <b>Síntese de diestéres análogos da rivastigmina e avaliação da inibição enzimática da acetilcolinesterase visando o tratamento da Doença de Alzheimer</b>. Iniciação científica (Graduando em Fármacia) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>ELLEM ALMEIDA ALVES. <b>Desenvolvimento e aplicação de recursos didáticos visando o ensino de Química Orgânica</b>. Orientação de outra natureza. Universidade Federal do Espírito Santo. UFES, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Emilio Araujo de Lima. <b>Investigação de Skyrmions isolados em sistemas magnéticos confinados</b>. Iniciação científica (Graduando em Engenharia da Computação) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7120418895468591">Rodrigo da Costa Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Eugênio Vinícius Oliveira Mattedi. <b>DESENVOLVIMENTO DE UM ECO-COMPÓSITO À BASE DE ESPUMA DE POLIURETANO DE ÓLEO DE RÍCINO E FIBRA VEGETAL PARA REMOÇÃO DE ÓLEO EM EMULSÃO SINTÉTICA ÓLEO EM ÁGUA</b>. Dissertação (Mestrado em Energia) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Coorientador).. In&iacute;cio: 2024.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3410912882231783">Breno Nonato de Melo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Felipe dos Santos Silva. <b>Stop Motion para o ensino de química: validação de vídeos por professores da educação básica sobre os conteúdos de efeito estufa e Transformações Químicas</b>. Trabalho de Conclusão de Curso (Graduação em LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Felipe dos Santos Silva. <b>Confecções de maquetes e materiais em 3D: uma abordagem para o ensino de química utilizando recursos alternativos</b>. Iniciação científica (Graduando em LICENCIATURA EM QUÍMICA) - Universidade Federal do Espírito Santo, Fundação de Amparo a Pesquisa do Espírito Santo. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Fernanda de Jesus Scardini. <b>Preparação de nanocompósitos baseados em bagaço de cana-de-açúcar e MnO2 para dessalinização solar.</b>. Iniciação científica (Graduando em Química Licenciatura) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1419428893704446">George Ricardo Santana Andrade</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Gabriel da Cruz Simões. <b>Monitoria de Química Analítica</b>. Orientação de outra natureza. Centro Universitário Norte do Espírito Santo. Universidade Federal do Espírito Santos, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9434564411683567">Mellina Damasceno Rachid Santos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Geovana Ribeiro Cavilha. <b>Determinação de ácido clorogênico em café torrado</b>. Iniciação científica (Graduando em Agronomia) - Centro Universitário Norte do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Germano Oliozi Marré. <b>Estudo da extração e determinação da cafeína em café torrado</b>. Iniciação científica (Graduando em Engenharia Química) - Centro Universitário Norte do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3298545143757892">Aloísio José Bueno Cotta</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Giovanna Pinto Galvani. <b>Identificação de Adulteração em Azeites Aplicando Análise Digital de Imagens</b>. Iniciação científica (Graduando em Engenharia Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>HELOÍZA COLETA MENDES. <b>Desenvolvimento e aplicação de recursos didáticos visando o ensino de Química Orgânica</b>. Orientação de outra natureza. Universidade Federal do Espírito Santo. UFES, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Henrique Medeiros Rafahky. <b>Potencializando o Ensino Fundamental através da Astronomia</b>. Iniciação científica (Graduando em Física) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0293080746483402">Wiliam Santiago Hipólito Ricaldi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>José Luiz de Barros Lourenço. <b>Detalhamento e caracterização mineralógica dos depósitos sedimentares emersos ao norte da bacia do Espírito Santo</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6632598745671715">Jefferson Lima Fernandes André</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Karolayne dos Reis Quintiliano. <b>Interpretação automática em tempo real das informações petrofísicas de LWD com foco na resistividade azimutal.</b>. Orientação de outra natureza. Universidade Federal do Espírito Santos. Agencia Nacional do Petróleo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9160332815844475">Kelle Barros Cunha</a>. <b>ANÁLISE DE PROJETOS E EXPERIÊNCIAS DE ALUNOS DO IFES (CAMPUS SÃO MATEUS) NA FECINC (FEIRA DE CIÊNCIAS NORTE CAPIXABA) </b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Keyla Bendia Pires. <b>Desenvolvimento de metodologias eletroanalíticas para determinação de cádmio e níquel em diesel usando sistemas emulsionados e eletrodos 3D</b>. Tese (Doutorado em Química) - Universidade Federal do Espírito Santo. (Coorientador)., . In&iacute;cio: 2024.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>LAILA DOS SANTOS RAMOS. <b>Desenvolvimento e aplicação de recursos didáticos visando o ensino de Química Orgânica</b>. Orientação de outra natureza. Universidade Federal do Espírito Santo. UFES, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>LARAH BATISTA SILVA. <b>DESENVOLVIMENTO E APLICAÇÃO DE ABORDAGENS DIFERENCIADAS VISANDO À APRENDIZAGEM DOS ALUNOS MATRICULADOS NA DISCIPLINA DE QUÍMICA GERAL</b>. Orientação de outra natureza. Universidade Federal do Espírito Santo. Pró-Reitoria de Graduação/UFES, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Laura Loures Cupertino Peixinho. <b>Identificação de Potenciais Inibidores do TNF-α para Tratamento de Doenças Neurodegenerativas: Uma Abordagem In Silico Baseada na Curcumina</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9991164750729669">Marcia Helena Rodrigues Velloso</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Lucas Oliveira Araujo. <b>Astronomia na Educação do Campo</b>. Iniciação científica (Graduando em Física) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0293080746483402">Wiliam Santiago Hipólito Ricaldi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>LUISA COSME CARPANEDO. <b>Monitoria para o Ensino de Química Orgânica</b>. Orientação de outra natureza. Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9991164750729669">Marcia Helena Rodrigues Velloso</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Marla Almeida Siqueira. <b>Desenvolvimento de membranas de compósitas de poliuretano aditivadas com materiais avançados para separação de emulsões oleosas</b>. Tese (Doutorado em Doutorado em Química) - Universidade Federal do Espírito Santo. (Coorientador)., . In&iacute;cio: 2024.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>NATALIA MORO. <b>Estudo dos parâmetros de obtenção de membranas de acetato de celulose a partir da celulose da casca de coco para utilização em processos de separação.</b>. Iniciação científica (Graduando em ENGENHARIA QUÍMICA) - Centro Universitário do Norte do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Raquel Vieira. <b>Estudo do comportamento ácido e básico de cátions e ânions em emulsões de petróleo.</b>. Dissertação (Mestrado em PGEN Pós Gdraduação em Energia) - Universidade Federal do Espírito Santo, Fundação de Amparo à Pesquisa do Espírito Santo. (Coorientador).. In&iacute;cio: 2024.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>, <a href="http://lattes.cnpq.br/1832685910267156">Maristela de Araujo Vicente</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>THALIA BARBARA GOMES GONÇALVES. <b>DESENVOLVIMENTO E APLICAÇÃO DE ABORDAGENS DIFERENCIADAS VISANDO À APRENDIZAGEM DOS ALUNOS MATRICULADOS NA DISCIPLINA DE QUÍMICA GERAL</b>. Orientação de outra natureza. Universidade Federal do Espírito Santo. Pró-Reitoria de Graduação/UFES, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>THALITA SILVA GALVÃO. <b>DESENVOLVIMENTO E APLICAÇÃO DE ABORDAGENS DIFERENCIADAS VISANDO À APRENDIZAGEM DOS ALUNOS MATRICULADOS NA DISCIPLINA DE QUÍMICA GERAL</b>. Orientação de outra natureza. Universidade Federal do Espírito Santo. Pró-Reitoria de Graduação/UFES, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Vanessa Cristina Barcelos da Cruz. <b>Produção e caracterização de membranas de acetato de celulose, a partir da casca de café, para purificação de água</b>. Iniciação científica (Graduando em ENGENHARIA QUÍMICA) - Centro Universitário do Norte do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9685470701740945">Carla da Silva Meireles</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Victoria Almeida Conrado. <b>Identificação e interpretação automática das fraturas nos perfis de imagem utilizando Inteligência Artificial</b>. Orientação de outra natureza. Universidade Federal do Espírito Santo. Agencia Nacional do Petróleo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Wagner Soares de Oliveira. <b>Desenvolvimento de Laboratório Virtual de Física</b>. Trabalho de Conclusão de Curso (Graduação em Física) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3349837205962461">Raniella Falchetto Bazoni</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Welber de Oliveira Duarte. <b>PROPOSTA DE UMA SEQUÊNCIA DIDÁTICA PARA O ENSINO DE ELETROQUÍMICA DIRECIONADA À ALUNOS DO CURSO DE LICENCIATURA EM QUÍMICA NO CENTRO UNIVERSITÁRIO NORTE DO ESPÍRITO SANTO</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0111900440522917">Gilmene Bianco</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HELOÍZA COLETA MENDES. <b>ESTUDOS DOS EXTRATOS DOS GALHOS, FOLHAS E FRUTOS DA ESPÉCIE EUGENIA UNIFLORA L (Myrtaceae) EM FORMULAÇÕES COSMÉTICAS FOTOPROTETORAS</b>. Iniciação científica (Graduando em Fármacia) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2522406207908377">Christiane Mapheu Nogueira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Henrique de Souza Pamponet. <b>Construção de rocha digital com base em dados laboratoriais</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0135753370482918">Lenise Queiroz Pereira</a>. <b>Almir Queiroz nas águas do Rio Cricaré: a química nos anos iniciais do Ensino Fundamental.</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Matheus dos Santos Netto. <b>Estratégias utilizadas atualmente para o planejamento de poços de petróleo e acompanhamento do poço durante a fase de produção</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, SEBRAE. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>PETRONILHO DE ARAUJO NETO. <b>O estudo de modelagem molecular da piperina e de análogos como potenciais inibidores da enzima urease</b>. Iniciação científica (Graduando em Química) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9664531819814847">Débora Pereira Araujo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5997501808053691">Thayara Vieira Tellaroli</a>. <b>AVALIAÇÃO DA APRENDIZAGEM NA DISCIPLINA DE QUÍMICA DO ENSINO MÉDIO NAS ESCOLAS PÚBLICAS DE LINHARES: TEORIA E PRÁTICA EM SALA DE AULA</b>. Dissertação (Mestrado em Ensino na Educação Básica) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8266113579775016">Ana Nery Furlan Mendes</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BEATRIZ GIRARDI GOMES. <b>Estudo analítico da produção de areia segundo estudos apresentados por Garolera 2019 verificando a viabilidade de melhorias</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>VICTORIA ALMEIDA CONRADO. <b>Elaboração da interpretação automática de fraturas nos perfis de imagem utilizando Inteligência Artificial.</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Gabriel Lacerda Soares. <b>Avaliação dos parâmetros de perfilagem petrofísica do poço A do Campo de Marimbá.</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Gilberto Scandian. <b>Uma abordagem sobre o ensino de Energia e suas transformações</b>. Dissertação (Mestrado profissional em Ensino de Física) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6464661567161861">Gustavo Viali Loyola</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Jader Carlos Moreira. <b>Excitações topológicas em sistemas nanomagnéticos.</b>. Tese (Doutorado em Física) - Universidade Federal de Viçosa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2021.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2598314759854581">Ricardo Lopes da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1769432014132133">Jéferson Fortunato</a>. <b>Fast Radio Burts and Cosmological Models</b>. Tese (Doutorado em Doutorado Internacional em Astrofísica, Cosmologia e Gravitação - PPGCosmo) - Universidade Federal do Espírito Santo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0293080746483402">Wiliam Santiago Hipólito Ricaldi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Luana Negris Zanelato. <b>Desenvolvimento de métodos eletroanalíticos em sistemas microemulsionados para determinação de metais e cloretos em petróleo.</b>. Tese (Doutorado em Química) - Universidade Federal do Espírito Santo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2021.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0376041929696875">Maria de Fatima Pereira dos Santos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Mariana Ferri de Oliveira. <b>Estudo analítico dos carbonatos do tipo estromatólitos da região da Lagoa Vermelha - Campos dos Goytacazes</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Patrícia Sanches Alfredo. <b>Estudo do comportamento do CO2 reinjetado em reservatório carbonático de óleo leva</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6838038881434963">Mariléa Gomes dos Santos Ribeiro</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Lucas Emanuel Goulart de Carvalho. <b>PERFILAGEM GEOFÍSICA DE POÇOS APLICADA AO CAMPO DE NAMORADO PARA AVALIAÇÃO DE SEU POTENCIAL EXPLORATÓRIO</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>: JAQUELINE FERREIRA JANUÁRIO. <b>PROPRIEDADES DOS FLUIDOS DE PERFURAÇÃO E SUAS INFLUÊNCIAS NA PERFURAÇÃO DE POÇOS DE PETRÓLEO NA ÁREA DO PRÉ-SAL BRASILEIRO</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bianca Aguiar Lana. <b>ESTIMATIVA DO VOLUME DE HIDROCARBONETOS ATRAVÉS DA PERFILAGEM GEOFÍSICA DE POÇOS</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Mirleni de Jesus. <b>Ensino de Física via Aprendizagem Baseada em Projetos: Uma proposta baseada na Teoria Sociocultural de Vigotsky.</b>. Dissertação (Mestrado profissional em Programa de Pós Graduação em Ensino de Física) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6464661567161861">Gustavo Viali Loyola</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Paula Torres Martins. <b>A questão ambiental e a perfuração de poços de petróleo na Bacia do Espírito Santo</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, ufes. In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Thales Vilela Ávilla. <b>O MÉTODO SEISMIC WHILE DRILLING APLICADO A CAMPOS DO PRÉ-SAL EM ÁGUAS PROFUNDAS E ULTRA PROFUNDAS: UMA PROPOSTA A PARTIR DE REVISÃO BIBLIOGRÁFICA</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Vander Junior Biancardi Puttin. <b>Utilização do sistema mwd/lwd para análise de anomalias na perfuração direcional</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Caio Coradini Costa. <b>Determinação do volume de hidrocarbonetos no espaço poroso através da perfilagem geofísica de poços</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Mateus Herzog Pancieri. <b>Determinação da profundidade de assentamento de sapata através da perfilagem geofísica de poços</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Victor Barony Niz. <b>Identificação de reservatórios de hidrocarbonetos através da perfilagem geofísica de poços</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARTHUR BONIOLO DE OLIVEIRA. <b>SIMULAÇÃO NUMÉRICA DO PERFIL SÔNICO UTILIZANDO O SOFTWARE MATLAB</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Larissa Guimarães Rocha. <b>Aplicação da perfilagem geofísica na correlação estratigráfica de poços</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Produção) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>THAIS MOREIRA DE CARVALHO. <b>RECUPERAÇÃO AVANÇADA DE PETRÓLEO EM MEIOS POROSOS ATRAVÉS DE INJEÇÃO DE ÁGUA DE BAIXA SALINIDADE</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alex de Oliveira Porto. <b>Analise de viabilidade da exploração do Shale Gas na Bacia do Paraná</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ANA JULIA RIBEIRO GOMES. <b>DETERMINAÇÃO DA POROSIDADE ATRAVÉS DE PERFIS GEOFÍSICOSDE POÇOS</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Datan Coelho Pereira. <b>Determinação da zona de canhoneio através dos perfis de resistividade, raios gama, neutrão e desndidade</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Estefânia Pinto Canzian. <b>Identificação de fluidos através da perfilagem geofísica de poços</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Felipe Fernandes Menezes. <b>Caracterização petrofísica através da perfilagem geofísica de poços</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Rhuann Luiz Castheloge Rossi. <b>A importância do canhoneio na indústria do petróleo</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Tiago Possato Rocha. <b>Ferramentas de gerenciamento de processos aplicadas em operações envolvendo ROV's na indústria do petróleo</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Luana Dias Mendes. <b>Levantamento de dados e analise das Causas e consequências da Evasão na Escola Estadual de Ensino Fundamental e Médio ?Marita Motta Santos?</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Paulo Sérgio Moscon. <b>Damazio Borba Santana Júnior</b>. Iniciação científica (Graduando em Física) - Universidade Federal do Espírito Santo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0422485640031962">Paulo Sérgio Moscon</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ualas Magalhães Aguiar. <b>Interpretação Integrada de dados Geofísicos da Bacia do Espírito Santo utilizando o software Petrel na Caracterização e modelagem de Reservatórios.</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Vitória Felício Dornelas. <b>Estimativa de Reserva através de Perfis Geofísicos de Poços do Campo de Namorado ? Bacia de Campos</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2014.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AKEMI MOSCON YOSHITOME. <b>TESTE DE POÇOS (WELL TESTING): ESTUDO DOS EQUIPAMENTOS DE SUPERFÍCIE, COM ÊNFASE NOS MEDIDORES DE VAZÃO DO SEPARADOR</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bruno Lopes Maciel. <b>CARACTERIZAÇÃO DE RESERVATÓRIOS A PARTIR DE DADOS GEOFÍSICOS DE POÇOS NO CAMPO DE NAMORADO - BACIA DE CAMPOS - RJ</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bárbara Paulo Moraes. <b>INJEÇÃO DE VAPOR COMO UM MÉTODO DE RECUPERAÇÃO ESPECIAL PARA ÓLEOS PESADOS</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GABRIEL DRUMOND SCOPEL. <b>INSPEÇÃO EM TUBOS DE PERFURAÇÃO: ESTUDO DOS EQUIPAMENTOS DA COLUNA DE PERFURAÇÃO, COM ÊNFASE NA INSPEÇÃO DOS TUBOS.</b>. Trabalho de Conclusão de Curso (Graduação em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2013.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Davi Rodrigues Damasceno. <b>Caracterização Tridimensional de Reservatórios da Bacia do Espírito Santo utilizando dados Geofísicos.</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Vitória Felicio Dornelas. <b>Caracterização de Reservatórios do Campo de Namorado Utilizando Dados de Perfis de Poços Com o Auxílio do Software Petrel</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2012.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Isabela Mendes Carvalho Ribeiro. <b>Reconhecimento da técnica de Ressonância Magnética Nuclear (RMN) aplicada em poços na Bacia de Campos - RJ</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Michael de Souza Santos. <b>Carregamento e interpretação de poços do Campo de Namorado - RJ através do conjunto de curvas dos Perfis Geofísicos de Poços.</b>. Iniciação científica (Graduando em Engenharia de Petróleo) - Universidade Federal do Espírito Santo, . In&iacute;cio: 2011.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6667248292479031">Carlos André Maximiano da Silva</a>.</font></i></td></tr>
+            </table></div>
+                    </table>
+                <br><p>
+<br>Data de processamento: 05/06/2025 19:21:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:thonimar.souza@ufes.br">thonimar.souza@ufes.br</a>         </div> </body></html>
+              
