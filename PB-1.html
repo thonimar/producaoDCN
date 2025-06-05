@@ -1,0 +1,679 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docente do DCN</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docente do DCN</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Total de produção bibliográfica'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2006,
+3],
+[2007,
+8],
+[2008,
+4],
+[2009,
+25],
+[2010,
+28],
+[2011,
+74],
+[2012,
+70],
+[2013,
+82],
+[2014,
+62],
+[2015,
+118],
+[2016,
+78],
+[2017,
+91],
+[2018,
+71],
+[2019,
+80],
+[2020,
+58],
+[2021,
+90],
+[2022,
+65],
+[2023,
+130],
+[2024,
+92],
+[2025,
+17]]}]});
+        });
+        </script>
+        
+                <h3>Total de produção bibliográfica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 1246<br>
+                    
+                    <center>Página: <a href="PB-0.html">1</a> &nbsp;<b>2</b> &nbsp;</center>
+                    <div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>49. &nbsp;</td> <td>POTASIO, M. ; KNOP, M. C. ; Tavares, L. A. ; VELLOSO, M. H. R.. <b>Uma proposta para aulas práticas de Química Orgânica na graduação: Síntese da p-toluilmaleimida</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>POTASIO, M. P. ; KNOP, M. C. ; Tavares, L. A. ; VELLOSO, M. H. R.. <b>Uma proposta para aulas práticas de Química Orgânica na graduação: Síntese da p-toluilmaleimida</b>. Em: 53º Congresso Brasileiro de Quimica, 2013, Rio de Janeiro. 53º Congresso Brasileiro de Quimica, 2013. </td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Proveti, J. R. C. ; Muniz, E. P. ; Pereira, R.D. ; Porto, P. S. S. ; Passamani, E.C. ou Passamani, E. ; YAACOUB, N. ; Greneche, J. M.. <b>Study and characterization of nickel ferrite nanoparticles produced by proteic sol-gel method with two different precursors: coconut water and pectin</b>. Em: 35èmes Journees Annuelles du Groupe Francophone de Spectrometrie Mössbaue, 2013, Nancy. Spectrometrie Mössbauer et Interdisciplinarité: des matériaux aux science environnementales, p. 41, 2013. </td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Proveti, J. R. C. ; Muniz, E.P. ; PEREIRA, R. D. ; Porto, Paulo S.S. ; PASSAMANI, E. ; YAACOUB, N. ; GRENECHE, J. M.. <b>On the use of coconut water and pectin as precursors in the proteic sol-gel method to produce nickel ferrite</b>. 2013. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Proveti, J.R.C. ; Muniz, E.P. ; Pereira, R.D. ; PORTO, P. S. S. ; Passamani, E. C. ; YAACOUB, N. ; Greneche, J. M.. <b>On the use coconut water and pectin as precursors in the proteic sol-gel method to produce nickel ferrite</b>. Em: IX Escola Brasileira de Magnetismo, 2013, Vitória. IX Escola Brasileira de Magnetismo. São Paulo: SBF, p. 34-34, 2013. </td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>R.FILGUEIRA, P. ; POPPI, R. J. ; SAD, C. M. S. ; LOUREIRO, A. R. ; SANTOS, M. F. P. ; CASTRO, E. V. R. ; Dias, JCM. <b>Determinação da densidade API, viscosidade cinemética e teor de água em petróleo por espectroscopia ATR-FTIR e calibração multivariada</b>. Em: III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos, 2013, Rio de Janeiro. III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos. Salvador BA: Universidade Petrobras, v. 01, p. 96-96, 2013. </td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Ramos, Antonio Carlos da Silva ; MOURA, L. G. M. ; Rolemberg, Marlus Pinheiro ; SANTOS, M. F. P. ; ZILIO, E. L.. <b>Determination of solubility parameters and prediction of compatibility of oils</b>. <font color=#330066>JOURNAL OF PETROLEUM SCIENCE AND ENGINEERING</font>. v. 102, p. 36(2013)-40, issn: 0920-4105, 2013. <a href="http://dx.doi.org/10.1016/j.petrol.2013.01.008" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>RIBEIRO, E. A. M. ; MEIRELES, C. S. ; RODRIGUES FILHO, G. ; VIEIRA, J. G. ; ASSUNÇÃO, R. M. N. ; DUARTE, J. ; ZENI, M.. <b>Characterization of Cellulose Acetate Membranes Produced from Recycling Corn Husk for Application in Ultrafiltration</b>. Em: II Simpósio de Processos de Separação com Membranas, 2013, Rio de janeiro. no II Simpósio de Processos de Separação com Membranas, 2013. </td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>RIBEIRO, S.D. ; VIEIRA, J. G. ; RODRIGUES FILHO, G. ; ASSUNCAO, R. M. N. ; MEIRELES, C. S. ; BARUD, H.. <b>USO DE MEMBRANAS DE TRIACETATO DE CELULOSE OBTIDA A PARTIR DO BAGAÇO DE CANA ? DE ? AÇÚCAR EM SISTEMAS DE LIBERAÇÃO CONTROLADA DE FÁRMACOS</b>. Em: 12º Congresso Brasileiro de Polímeros, 2013, Florianópolis. 12º Congresso Brasileiro de Polímeros, 2013. </td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>ROCHA, J. W. S. ; MELO, B. N. ; CARVALHO, B. A. ; SANTOS, M. F. P. ; FREITAS, M. B. J. G. ; FREITAS, S. ; CELANTE, V. G. ; SA, M. C. S.. <b>Propriedades Elétricas de Emulsões de Petróleo Através da Espectroscopia de Impedância Eleroquímica</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>ROCHA, J. W. S. ; MELO, B. N. ; CARVALHO, B. A. ; SANTOS, M. F. P. ; FREITAS, M. B. J. G. ; FREITAS, S. ; CELANTE, V. G. ; SAD, C. M. S.. <b>Avaliação das Propriedades elétricas de Petróleo, Suas Frações e Misturas Através da Espectroscopia de Impedância Eletroquímica</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>RONCH, R. P. ; Melo, Breno Nonato ; Muniz, E. P. ; Flores, Érico Marlon de Moraes ; Schmidt,Lucas ; FROHLICH, A. C. ; SAD, C. M. S. ; CASTRO, E. V. R. ; SANTOS, M. F. P.. <b>Modelagem da síntese de emulsões do tipo óleo em água (O/A) para avaliar a eficiência do ultrassom no processo de separação</b>. Em: III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos, 2013, Rio de Janeiro. III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos. Salvador BA: Universidade Petrobras, v. 01, p. 84-84, 2013. </td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>S.F.PEREIRA, J. ; PEREIRA, L. S.Letícia ; Antes, F.G. ; Gottfried Paniz, José Neri ; Flores, Érico Marlon de Moraes ; SANTOS, M. F. P. ; Guimarães, RCL ; GUARNIERI, R. A. ; FERREIRA, B. M. S.. <b>Tratamento de amostras de petróleo por micro-ondas e ultrassom</b>. Em: III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos, 2013, Rio de Janeiro. III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos. Salvador BA: Universidade Petrobras, v. 01, p. 37-37, 2013. </td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>SAD, C. M. S. ; R.FILGUEIRA, P. ; MORIGAKI, M. K. ; MEDEIROS, E. F. ; CASTRO, E. V. R. ; VICENTE, M. A. ; SANTOS, M. F. P.. <b>Desidratação de petróleos utilizando centrifugação e desemulsificantes comerciais</b>. Em: III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos, 2013, Rio de Janeiro. III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos. Salvador BA: Universidade Petrobras, v. 01, p. 83-83, 2013. </td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>SAD, C. M. S. ; SANTOS, M. F. P. ; MORIGAKI, M. K. ; CASTRO, E. V. R.. <b>Desenvolvimento de metodologia de extração de sais em petróleos assistida por ondas ultrassônicas</b>. Em: III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos, 2013, Rio de Janeiro. III Encontro Petrobras e Universidades de Novas Tecnologias para Avaliação de Petróleos. Salvador BA: Universidade Petrobras, v. 01, p. 11-11, 2013. </td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>SAD, CRISTINA MS ; LACERDA, VALDEMAR ; FILGUEIRAS, PAULO ROBERTO ; RIGONI, VITOR S ; BASSANE, JOÃO FP ; VINICIUS RIBEIRO DE CASTRO, EUSTAQUIO ; PEREIRA, KATIA SILVA ; SANTOS, MARIA FATIMA PEREIRA. <b>The Limitations of the Pour Point Measurement and the Influence of the Oil Composition on its Detection Using Principal Component Analysis</b>. <font color=#330066>Energy & Fuels (Print)</font>. v. 28, p. 131206164224004-1691, issn: 0887-0624, 2013. <a href="http://dx.doi.org/10.1021/ef401962d" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>SANTOS, R. G. ; NOGUEIRA, C. M.. <b>Síntese de Complexos de Cobre de Derivados S-alquilados da Cisteína</b>. Em: I Semana de Ciência e Tecnologia e Inovação de São Mateus, 2013, São Mateus. I Semana de Ciência e Tecnologia e Inovação de São Mateus, 2013. </td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>SANTOS, R. G. ; SILVEIRA, V. C. ; Nogueira, C. M.. <b>Síntese e Caracterização de Novos Complexos de Cobre (II) Derivados da Cisteína com Potencial Atividade Antioxidante</b>. Em: 53º Congresso Brasileiro de Química, 2013, Rio de Janeiro. 53º Congresso Brasileiro de Química - Química: Ampliando Fronteiras, 2013. </td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>SANTOS, R. G. ; Silveira, V. C. ; NOGUEIRA, C. M.. <b>Síntese, caracterização e atividade antioxidante de complexos de cobre com ligantes organossulfurados contendo grupos aromáticos</b>. Em: XXIII Jornada de Iniciação Científica da UFES, 2013, São Mateus/ES. Anais da Jornada de Iniciação Científica da UFES. Vitória/ES, v. 4, 2013. </td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>SCARDINI, R. B. ; DAMASCENO, D. R. ; SILVA, C. A. M.. <b>Caracterização das propriedades do reservatório utilizando curvas de perfilagem geofísica de poços no Campo de Namorado na Bacia de Campos-RJ</b>. Em: <font color=#330066>13th International Congress of the Brazilian Geophysical Society</font>, 2013.</td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Silva, R. L.; Rodrigo D. Pereira. <b>Nanoring Bilayer</b>. Em: XXXVI Encontro Nacional De Física Da Matéria Condensada, 2013, Águas de Lindóia. XXXVI Encontro Nacional De Física Da Matéria Condensada, 2013. </td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>Silva, R. L.; SECCHIN, L. D.. <b>Influence of the vacancies in the formation of the magnetic skyrmion lattice</b>. Em: XXXVI Encontro Nacional De Física Da Matéria Condensada, 2013, Águas de Lindóia. XXXVI Encontro Nacional De Física Da Matéria Condensada, 2013. </td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Silva, R.L. ; Pereira, R.D.. <b>Nanodisco Magnético Multicamadas</b>. Em: IX Escola Brasileira de Magnetismo, 2013, Vitória. IX Escola Brasileira de Magnetismo. São Paulo: SBF, p. 07-07, 2013. </td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>SIQUEIRA, K. G. R. ; BIANCO, G. ; HERMERLY, F.. <b>PIBID Química: Promovendo a autonomia do aluno do ensino médio para uma aprendizagem significativa</b>. Em: IV Encontro Capixaba de Química, 2013, Vitória. IV ENCAQUI - Encontro Capixaba de Química - SBQ/ES, 2013. </td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>STHEL, M. S. ; Muniz, E.P. ; PROVETI, J. R. C. ; PORTO, P. S. S.. <b>Secagem e Extração da Pectina do Albedo da Casca de Laranja</b>. Em: <font color=#330066>X Congresso Brasileiro de Engenharia Química Iniciação Científica</font>, p. 445-449, 2013.</td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>Tavares, L. A. ; POTASIO, M. P. ; VELLOSO, M. H. R.. <b>Estudo da relação estrutura-atividade de maleimidas análogas via cálculos teóricos e análise quimiométrica</b>. Em: 53º Congresso Brasileiro de Quimica, 2013, 2013. </td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>Tavares, L. A. ; POTASIO, M. P. ; VELLOSO, M. H. R.. <b>Estudo da relação estrutura-atividade de maleimidas análogas via cálculos teóricos e análise quimiométrica</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>Tavares, L. A. ; VELLOSO, M. H. R.. <b>Avaliação da atividade antioxidante do café conilon produzido no norte do estado</b>. Em: 53º Congresso Brasileiro de Quimica, 2013, Rio de Janeiro. 53º Congresso Brasileiro de Quimica, 2013. </td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>Tavares, L. A. ; VELLOSO, M. H. R.. <b>Avaliação da atividade antioxidante do café conilon produzido no norte do estado do Espírito Santo</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>VARGAS, M. V. L. ; COTTA, A. J. B.. <b>Avaliação dos impactos decorrentes do lançamento de efluentes urbanos no rio São Mateus - ES: Resultados preliminares</b>. Em: XVI COREEQ - Congresso Regional de Engenharia de Química, 2013. Anais do Coreeq 2013, 2013. </td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>VARGAS, M. V. L. ; De PAULA, N. F. L. ; COTTA, A. J. B.. <b>Avaliação da Capacidade de Autodepuração do Rio São Mateus-ES</b>. Em: IV ENCAQUI | Encontro Capixaba de Química ? SBQ ES, 2013, Vitória-ES. CD de Resumos, v. 1, 2013. </td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>VELLOSO, M. H. R.; MARTINS, J. P. ; Tavares, L. A. ; Baliza, P. X. ; NOGUEIRA, C. M.. <b>Influência de fatores pré-colheita na qualidade do café conilon cultivado no o Espírito Santo</b>. 2013. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>VIGNATTI, A. ; OLIVEIRA, Luiz Gabriel Souza de. <b>Extended thermodynamics, viscoelasticity, and strain of solids</b>. <font color=#330066>Continuum Mechanics and Thermodynamics (Print)</font>. v. 25, p. 559-571, issn: 0935-1175, 2013. <a href="http://dx.doi.org/10.1007/s00161-013-0310-0" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>ZUCATELLI, P. J. ; MENEGUELO, A. P. ; SILVA, C. A. M. ; GIURIATTO, J. L.. <b>Estudo sobre o sequestro geológico de CO2 em aquíferos salinos utilizando simulador com informações de caracterização de reservatórios</b>. Em: <font color=#330066>13th International Congress of the Brazilian Geophysical Society</font>, 2013.</td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Baliza, P. X. ; MENDES, A. N. F. ; MENDES, A. N. F. ; SILVA, T. D. ; OLIVEIRA, L. M.. <b>A percepção dos alunos de uma escola pública de São Mateus/ES a respeito dos resíduos gerados nas aulas experimentais de Química</b>. Em: 52º Congresso Brasileiro de Química, 2012, Recife. Anais do 52º Congresso Brasileiro de Química. Recife, 2012. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Baliza, P. X. ; MENDES, A. N. F. ; MENDES, A. N. F. ; SILVA, T. D. ; OLIVEIRA, L. M.. <b>A percepção dos alunos de uma escola pública de São Mateus/ES a respeito dos resíduos gerados nas aulas experimentais de Química</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Barcellos, C. P. ; Ambrozim, F. M. ; de Jesus Júnior, M. M. ; Silveira, V. C. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Ensino de Conceitos de Química através de oficinas de sabão: Uma proposta metodológica e ambiental</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>COSTA, A. P. O.; Silva, G. A. M. ; Da Rós, P. C. M. ; Souza, L. T. A. ; COSTA, A. P. O. ; CASTRO, H. F. de. <b>Physico-chemical, spectroscopical and thermal characterization of biodiesel obtained by enzymatic route as a tool to select the most efficient immobilized lipase</b>. <font color=#330066>Brazilian Journal of Chemical Engineering (Impresso)</font>. v. 29, p. 39-47, issn: 0104-6632, 2012. <a href="http://dx.doi.org/10.1590/S0104-66322012000100005" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Costa, Ana Paula O. ; Silva, Rafael B. ; Gerbase, Annelise E. ; Petzhold, Cesar L. ; COSTA, A. P. O.. <b>Synthesis and characterization of soybean-oil-based polyurethane composites containing industrial and agricultural residual wastes as fillers</b>. <font color=#330066>JOURNAL OF APPLIED POLYMER SCIENCE</font>. v. 123, p. 1370-1376, issn: 0021-8995, 2012. <a href="http://dx.doi.org/10.1002/app.33379" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>COTTA, A. J. B.; ENZWEILER, J.. <b>Classical and new procedures of whole rock dissolution for trace elements analysis by ICP-MS</b>. <font color=#330066>Geostandards and Geoanalytical Research</font>. v. 36, p. 27-50, issn: 1639-4488, 2012. <a href="http://dx.doi.org/10.1111/j.1751-908X.2011.00115.x" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>COTTA, A. J. B.; ENZWEILER, J.. <b>High temperature acid dissolution of silicate rock samples</b>. Em: 8th International Conference on the Analysis of Geological and Environmental Materials - Geoanalysis 2012, 2012, Búzios-RJ. Abstracts of Geoanalysis 2012, v. 1, p. 56-56, 2012. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>COTTA, A. J. B.; ENZWEILER, J.. <b>High temperature acid dissolution of silicate rock samples</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>D. R. Araujo ; José Rafael Cápua Proveti ; MUNIZ, E. P. ; PEREIRA, R. D. ; PORTO, P. S. S.. <b>OBTENÇÃO DE NiFe2O4 VIA MÉTODO SOL-GEL PROTÉICO COM PECTINAS EXTRAÍDAS DE RESIDUOS AGRO-INDUSTRIAIS</b>. Em: <font color=#330066>XIX Congresso Brasileiro de Engenharia Química</font>, 2012.</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>de Jesus Júnior, M. M. ; JESUS, R. T. S. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Vulcão Químico: Um modelo experimental contruído a partir de materiais alternativos</b>. Em: XVI ENCONTRO NACIONAL DE ENSINO DE QUÍMICA / X ENCONTRO DE EDUCAÇÃO QUÍMICA DA BAHIA / III MOSTRA DE MATERIAIS DIDÁTICOS, 2012, SALVADOR. Anais do XVI Encontro Nacional de Ensino de Química/X Encontro de Educação Química da Bahia e III Mostra de Materiais Didáticos. Salvador, 2012. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>FARIA, Aline Garcias ; SOARES, R. ; MEIRELES, C. S.. <b>Pré-tratamento básico da palha de cana-de-açúcar</b>. Em: XVII Jornada em Engenharia Química, 2012, Uberlândia. XVII Jornada em Engenharia Química, 2012. </td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Hipólito-Ricaldi, W S. <b>A Topologia do Universo e suas Assinaturas</b>. 2012. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Hipólito-Ricaldi, W S. <b>Evolução da Cosmologia: da antiguidade até os tempos modernos</b>. 2012. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Igor Alessandro Silva Carvalho ; MUNIZ, E. P. ; Fernando Soares Lameiras ; Vitor José Pinto Gouveia ; BRANCO, José Roberto Tavares. <b>Optical Absorption Behavior of Nanoparticles Produced from Gamma Irradiated and Unirradiated Quartz by α-Al2O3 Balls Milling for Solar Cells Encapsulation</b>. <font color=#330066>Journal of Materials Science and Engineering A</font>. v. 2, p. 322-333, issn: 2161-6213, 2012.</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Barcellos, C. P. ; Ambrozim, F. M. ; de Jesus Júnior, M. M. ; Silveira, V. C. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>ENSINO DE CONCEITOS DE QUÍMICA ATRAVÉS DE OFICINAS DE SABÃO: UMA PROPOSTA METODOLÓGICA E AMBIENTAL</b>. Em: XVI ENCONTRO NACIONAL DE ENSINO DE QUÍMICA / X ENCONTRO DE EDUCAÇÃO QUÍMICA DA BAHIA, 2012, SALVADOR. Anais do XVI Encontro Nacional de Ensino de Química / X Encontro de Educação Química da Bahia. Salvador, 2012. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>LAMONATO, A. ; BIANCO, G. ; Melo, B. N.. <b>Sintese e Caracterização de Compósitos a partir de Poliuretanos Fléxiveis e Fibra de Coco Modificada com Silanos</b>. Em: 1º encontro Nordeste de Ciência e Tecnologia de Polímeros: Quem Somos?, 2012, Natal. 1º encontro Nordeste de Ciência e Tecnologia de Polímeros: Quem Somos?, p. 104-104, 2012. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>LAVOR, V. F. ; NOGUEIRA, C. M.. <b>Determinação do teor de gordura em hambúrgueres por via úmida e métodos espectroscópicos</b>. Em: XXII Jornada de Iniciação Científica da UFES, 2012, São Mateus/ES. Anais da Jornada de Iniciação Científica da UFES. Vitória/ES, v. 3, 2012. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Loyola G. V. ; Moscon, P. S. ; Passamani, E C ; Takeuchi, A Y ; Larica, C. <b>Magnetic reorientation effectin bi and trlayer-like magnetic sensors</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>MAIOLI, L. M. ; NOGUEIRA, C. M.. <b>Determinação do teor de gordura em carnes bovinas por via úmida e métodos espectroscópicos</b>. Em: XXII Jornada de Iniciação Científica da UFES, 2012, São Mateus/ES. Anais da Jornada de Iniciação Científica da UFES. Vitória/ES, v. 3, 2012. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Melo, B. N. ; BIANCO, G. ; LAMONATO, A. ; ALVES, T. C.. <b>Fibras de Coco Acopladas por MDI</b>. Em: 1º encontro Nordeste de Ciência e Tecnologia de Polímeros: Quem Somos?, 2012, Natal. 1º encontro Nordeste de Ciência e Tecnologia de Polímeros: Quem Somos?, p. 79-79, 2012. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>MENDES, A. N. F.; da Rosa, R. G. ; GREGÓRIO, José Ribeiro. <b>Hidroformilação do oleatodemetila catalisada por complexos de ródio</b>. <font color=#330066>Química Nova (Impresso)</font>. v. 35, p. 1940-1944, issn: 0100-4042, 2012.</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; GREGÓRIO, J. R. ; Rosa,R.G.. <b>Hidroformilação/acetalização do oleato de metila catalisada por complexos de ródio</b>. Em: 52º Congresso Brasileiro de Química, 2012, Recife. Anais do 52º Congresso Brasileiro de Química. Recife, 2012. </td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; GREGÓRIO, J. R. ; Rosa,R.G.. <b>Hidroformilação/acetalização do oleato de metila catalisada por complexos de ródio</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; ROSA, D. L.. <b>A percepção dos professores de Química do município de São Mateus/ES sobre a importância da experimentação no aprendizado de alunos do ensino médio</b>. Em: 52º Congresso Brasileiro de Química, 2012, Recife. Anais do 52º Congresso Brasileiro de Química. Recife, 2012. </td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; ROSA, D. L.. <b>A percepção dos professores de Química do município de São Mateus/ES sobre a importância da experimentação no aprendizado de alunos do ensino médio</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Müller, Aline Lima Hermes ; Picoloto, Rochele Sogari ; Mello, Paola de Azevedo ; Ferrão, Marco Flores ; dos Santos, Maria de Fátima Pereira ; Guimarães, Regina Célia Lourenço ; Müller, Edson Irineu ; Flores, Erico Marlon Moraes. <b>Total sulfur determination in residues of crude oil distillation using FT-IR/ATR and variable selection methods</b>. <font color=#330066>Spectrochimica Acta. Part A, Molecular and Biomolecular Spectroscopy (Print)</font>. v. 89, p. 82-87, issn: 1386-1425, 2012. <a href="http://dx.doi.org/10.1016/j.saa.2011.12.001" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>NASCIMENTO, BARBARA ; Filho, Guimes Rodrigues ; Frigoni, Elaine Selaro ; Soares, Heline Mendes ; da Silva Meireles, Carla ; Valente, Artur José Monteiro ; de Albuquerque Carvalho, Rui ; DE ASSUNÇÃO, Rosana M. Nascimento ; de Castro Motta, Leila Aparecida. <b>Application of cellulose sulfoacetate obtained from sugarcane bagasse as an additive in mortars</b>. <font color=#330066>Journal of Applied Polymer Science (Print)</font>. v. 124, p. 510-517, issn: 0021-8995, 2012. <a href="http://dx.doi.org/10.1002/app.34881" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>NOVOTNY, ETELVINO HENRIQUE ; AUCCAISE, RUBEN ; Velloso, Marcia Helena Rodrigues ; CORRÊA, JULIANO CORULLI ; HIGARASHI, MARTHA MAYUMI ; ABREU, VALÉRIA MARIA NASCIMENTO ; ROCHA, JOSÉ DILCIO ; KWAPINSKI, WITOLD. <b>Characterization of phosphate structures in biochar from swine bones</b>. <font color=#330066>Pesquisa Agropecuária Brasileira (1977. Impressa)</font>. v. 47, p. 672-676, issn: 0100-204X, 2012. <a href="http://dx.doi.org/10.1590/S0100-204X2012000500006" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>OLIVEIRA, Luiz Gabriel Souza de ; OLIVEIRA, Natália Valadares de. <b>Detecção dos modos de Stoneley no núcleo da Terra com base na utilização da gravimetria por supercondutividade</b>. Em: 46o Congresso Brasileiro de Geologia, 2012, Santos. 46o Congresso Brasileiro de Geologia, 2012. </td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>OLIVEIRA, Luiz Gabriel Souza de ; OLIVEIRA, Natália Valadares de ; BAYRAM, E. ; SILVA, C. A. M.. <b>Determinação das oscilações livres da Terra com base no método de Rayleigh-Ritz</b>. Em: V Simpósio Brasileiro de Geofísica, 2012, Salvador. V Simpósio Brasileiro de Geofísica, 2012. </td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>OLIVEIRA, Natália Valadares de; ENDO, Issamu ; SHUKOWSKY, W.. <b>Interpretação das anomalias geomagnéticas na região do cráton São Francisco baseadas na Missão CHAMP</b>. <font color=#330066>REVISTA BRASILEIRA DE GEOFÍSICA (IMPRESSO)</font>. v. 30, p. 93-101, issn: 0102-261X, 2012. <a href="http://dx.doi.org/10.22564/rbgf.v30i1.71" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>OLIVEIRA, Natália Valadares de; ENDO, Issamu ; SHUKOWSKY, W.. <b>INTERPRETATION OF THE GEOMAGNETIC ANOMALIES IN THE SÃO FRANCISCO CRATON REGION BASED ON CHAMP MISSION DATA.</b>. <font color=#330066>Revista Brasileira de Geofísica (Impresso)</font>. v. 30, p. 93, issn: 0102-261X, 2012.</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>OLIVEIRA, Natália Valadares de; OLIVEIRA, Luiz Gabriel Souza de ; ENDO, Issamu. <b>MAGNETOMETRIA POR SATÉLITE E A ESTRUTURA DA LITOSFERA NA REGIÃO DO CRÁTON SÃO FRANCISCO</b>. Em: 46o Congresso Brasileiro de Geologia, 2012, Santos. 46o Congresso Brasileiro de Geologia, 2012. </td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Passamani, E.C. ou Passamani, E. ; Passamani, E C ; LOZANO, E. ; LARICA, C ; MARCEL, C. A. C. ; SCOPEL, W. L. ; ALVES, A. L. ; I L Castro ; Takeuchi, A.Y. ; Nascimento, V.P.. <b>Influence of chemical pressure in Sn-substituted Ni2MnGa Heusler alloy: Experimental and theoretical studies</b>. <font color=#330066>JOURNAL OF APPLIED PHYSICS</font>. v. 112, p. 073921, issn: 0021-8979, 2012. <a href="http://dx.doi.org/10.1063/1.4757951" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Pereira, R.D.; Muniz, E.P. ; Proveti, J. R. C. ; Silva, R.L. ; PASSAMANI, E. C. ; Porto, P. S. S. ; Nascimento, V. P. ; LIMA, W. H.. <b>Utilização do modelo cinético de Avrami para determinação dos parâmetros cinéticos de nucleação e crescimento do processo de crisltalização de ferritas produzidas pelo método Sol-gel</b>. Em: XXX Encontro de Físicos do Norte e Nordeste, 2012, Salvador. XXX Encontro de Físicos do Norte e Nordeste, 2012. </td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Pereira, R.D.; Proveti, J. R. C. ; Porto, P. S. S. ; Muniz, E.P. ; PASSAMANI, E. C. ; Nascimento, V. P. ; Silva, R.L. ; HOLANDA, D. D. F.. <b>A utilização da técnica de diração de raios-x (DRX) no estudo da influência do tempo e da temperatura no processo de formação de Ferritoas produzidas pelo método Sol-gel</b>. Em: XXX Encontro de Físicos do Norte e Nordeste, 2012, Salvador. XXX Encontro de Físicos do Norte e Nordeste, 2012. </td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>PICCIN, L. Z. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Desenvolvimento de uma metodologia rápida e eficiente para determinação de aldeídos obtidos na hidroformilação de ésteres graxos insaturados</b>. Em: Jornada de Iniciação Científica da UFES, 2012, São Mateus. Anais da Jornada de Iniciação Científica da UFES. Vitória: Editora da UFES, 2012. </td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>POLETTO, PATRÍCIA ; Duarte, Jocelei ; LUNKES, MATIAS S. ; SANTOS, VENINA DOS ; ZENI, MÁRA ; MEIRELES, CARLA S. ; R. FILHO, GUIMES ; BOTTINO, ALDO. <b>Avaliação das características de transporte em membranas de poliamida 66 preparadas com diferentes solventes</b>. <font color=#330066>Polímeros (São Carlos. Impresso)</font>. v. 22, p. 273-277, issn: 0104-1428, 2012. <a href="http://dx.doi.org/10.1590/s0104-14282012005000041" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Porto, Paulo Sergio da Silva ; Proveti, José Rafael C. ; Muniz, E.P. ; PEREIRA, R. D. ; Araujo, D.R.. <b>Applications of Fourier Transform Infrared and X-Ray Techniques to Analyze Nickel Ferrite Nanoparticles Produced</b>. <font color=#330066>Materials Science Forum (Online)</font>. v. 727-728, p. 884-887, issn: 1662-9752, 2012. <a href="http://dx.doi.org/10.4028/www.scientific.net/MSF.727-728.884" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Proveti, José Rafael C. ; Porto, Paulo Sergio da Silva ; Muniz, E.P. ; Pereira, R.D. ; Gobbi, L.C.A.. <b>Investigation and Structural Characterization of Nickel Ferrite Nanoparticles Produced by Proteic Sol-Gel Method Using Two Kinds of Organic Precursors</b>. <font color=#330066>Materials Science Forum (Online)</font>. v. 727-728, p. 1574-1578, issn: 1662-9752, 2012. <a href="http://dx.doi.org/10.4028/www.scientific.net/MSF.727-728.1574" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>R.FILGUEIRA, P. ; SAD, C. M. S. ; LOUREIRO, A. R. ; SANTOS, M. F. P. ; CASTRO, E. V. R. ; Dias, JCM ; POPPI, R. J.. <b>Determinação da gravidade API, viscosidade cinemática e teor de água em petróleos por espectroscopia ATR-FTIR e regressão por vetores de suporte</b>. Em: 5º CIAQA Congresso Iberoamericano de Química Analítica, 2012, Montevideo. 5º CIAQA Congresso Iberoamericano de Química Analítica, 2012. </td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>RIBEIRO, I. M. C. ; SILVA, C. A. M. ; Carrasquilla, A. ; SILVA, A. ; RIOS, E. H. ; FIGUEIREDO, I.. <b>Evolução da Perfilagem por Ressonância Magnética Nuclear</b>. Em: 46º Congresso Brasileiro de Geologia e 1º Congresso de Geologia dos Países de Língua Portuguesa, 2012, Santos - SP. 46º Congresso Brasileiro de Geologia e 1º Congresso de Geologia dos Países de Língua Portuguesa, 2012. </td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>ROSA, D. L. ; JESUS, R. T. S. ; GOMES, W. G. B. ; JESUS, M. M. J. ; SILVA, T. D. E. ; BARCELLOS, C. P. ; BIANCO, G.. <b>Curríuclo Básico Comum no Espírito Santo. uma análise acerca de sua aplicação</b>. Em: XVI Encontro Nacional de Ensino de Química, 2012, Salvador. O ensino de Química: consolidação dos avanços e perspectivas futuras, 2012. </td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Dominó Químico Táctil: Deficientes visuais sem limitações para uma aprendizagem significativa em Química</b>. Em: XVI ENCONTRO NACIONAL DE ENSINO DE QUÍMICA / X ENCONTRO DE EDUCAÇÃO QUÍMICA DA BAHIA, 2012, SALVADOR. Anais do XVI Encontro Nacional de Ensino de Química e X Encontro de Educação Química da Bahia. Salvador, 2012. </td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>A Música no ensino de Química: Uma forma divertida e dinâmica de abordar os conteúdos do ensino médio</b>. Em: XVI ENCONTRO NACIONAL DE ENSINO DE QUÍMICA / X ENCONTRO DE EDUCAÇÃO QUÍMICA DA BAHIA, 2012, SALVADOR. Anais do XVI Encontro Nacional de Ensino de Química e X Encontro de Educação Química da Bahia. Salvador, 2012. </td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Construção de um Dominó Químico Tátil com materiais alternativos como forma de auxiliar a aprendizagem em Química Orgânica de deficientes visuais</b>. Em: XVI ENCONTRO NACIONAL DE ENSINO DE QUÍMICA / X ENCONTRO DE EDUCAÇÃO QUÍMICA DA BAHIA / III MOSTRA DE MATERIAIS DIDÁTICOS, 2012, SALVADOR. Anais do XVI Encontro Nacional de Ensino de Química/X Encontro de Educação Química da Bahia/III Mostra de Materiais Didáticos. Salvador, 2012. </td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>A Música no ensino de Química: Uma forma divertida e dinâmica de abordar os conteúdos do ensino médio</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Dominó Químico Táctil: Deficientes visuais sem limitações para uma aprendizagem significativa em Química</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>SAD, C. M. S. ; CASTRO, E. V. R. ; MEDEIROS, E. F. ; R.FILGUEIRA, P. ; Dias, JCM ; SANTOS, M. F. P.. <b>Chemometric Tools Application for Monitoring of Blends of Offshore Petroleum</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>SAD, C. M. S. ; CASTRO, E. V. R. ; MEDEIROS, E. F. ; VICENTE, M. A. ; Dias, JCM ; R.FILGUEIRA, P. ; SANTOS, M. F. P.. <b>Experimental design and surface response methodology for optimization of ultrasound assisted salt extraction from petroleum</b>. Em: XIII. Chemometrics in Analytical Chemistry Conference CAC-2012, 2012, Budapest. XIII. Chemometrics in Analytical Chemistry Conference CAC-2012, 2012. </td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>SAD, C. M. S. ; CASTRO, E. V. R. ; MEDEIROS, E. F. ; VICENTE, M. A. ; Dias, JCM ; R.FILGUEIRA, P. ; Santos, Maria F.P.. <b>Otimização da metodologia de extração de sais em petróleos utilizando ultrassom</b>. Em: Seminário de Ultrassom e Micro-ondas para Intensificação de Processos, 2012, Rio de Janeiro. Seminário de Ultrassom e Micro-ondas para Intensificação de Processos, 2012. </td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>SAD, C. M. S. ; CASTRO, E. V. R. ; R.FILGUEIRA, P. ; Dias, JCM ; SANTOS, M. F. P.. <b>Chemometric Tools Application for Monitoring of Blends of OFFSHORE PETROLEUM</b>. Em: 13 th International Conference on Petroleum Phase Behavior and Fouling, 2012, Florida. 13 th International Conference on Petroleum Phase Behavior and Fouling, v. 13, p. 87-88, 2012. </td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>SAD, C. M. S. ; MEDEIROS, E. F. ; MORIGAKI, M. K. ; CASTRO, E. V. R. ; Santos, Maria F.P.. <b>Determinação de enxofre total em petróleos e derivados por fluorescência de Raios X: otimização de metodologia</b>. Em: 35ª Reunião Anual Sociedade Brasileira de Química, 2012, Águas de Lindóia. 35ª Reunião Anual Sociedade Brasileira de Química, 2012. </td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>SAD, C. M. S. ; MORIGAKI, M. K. ; R.FILGUEIRA, P. ; VICENTE, M. A. ; MEDEIROS, E. F. ; CASTRO, E. V. R. ; SANTOS, M. F. P.. <b>Proposta de metodologia de correlação para determinação de cloreto em águas de produção de petróleos</b>. Em: 5º CIAQA Congresso Iberoamericano de Química Analítica, 2012, Montevideo. 5º CIAQA Congresso Iberoamericano de Química Analítica, 2012. </td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>SAD, C. M. S. ; R.FILGUEIRA, P. ; MORIGAKI, M. K. ; MEDEIROS, E. F. ; CASTRO, E. V. R. ; VICENTE, M. A. ; SANTOS, M. F. P.. <b>Desidratação de petróleos utilizando desemulsificantes comerciais e centrifugação</b>. Em: 5º CIAQA Congresso Iberoamericano de Química Analítica, 2012, Montevideo. 5º CIAQA Congresso Iberoamericano de Química Analítica, 2012. </td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>SANTOS, M. F. P.; RONCH, R. P. ; Flores, Érico Marlon de Moraes ; DIEHL, L. O. ; MORAES, D. P. ; Antes, F.G. ; S.F.PEREIRA, J. ; Guimarães, RCL. <b>Procedimento de separação de emulsões com o uso de radiação micro-ondas para caracterização de petróleo extrapesado</b>. Em: Seminário de Ultrassom e Micro-ondas para Intensificação de Processos, 2012, Rio de Janeiro. Seminário de Ultrassom e Micro-ondas para Intensificação de Processos, 2012. </td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>SANTOS, M. S. ; SILVA, C. A. M.. <b>Aplicação dos Perfis Geofísicos de Poços para a Determinação de Hidrocarbonetos</b>. Em: 46º Congresso Brasileiro de Geologia e 1º Congresso de Geologia dos países de Língua Portuguesa, 2012, Santos - SP. 46º Congresso Brasileiro de Geologia e 1º Congresso de Geologia dos Países de Língua Portuguesa, 2012. </td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>SILVA, Jader de Oliveira ; Filho, Guimes Rodrigues ; da Silva Meireles, Carla ; Ribeiro, Sabrina Dias ; VIEIRA, Júlia Graciele ; da SILVA, Cleuzilene Vieira. <b>Thermal analysis and FTIR studies of sewage sludge produced in treatment plants. The case of sludge in the city of Uberlândia-MG, Brazil</b>. <font color=#330066>Thermochimica Acta (Print)</font>. v. 528, p. 72-75, issn: 0040-6031, 2012. <a href="http://dx.doi.org/10.1016/j.tca.2011.11.010" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Silva, R. <b>L.; Rodrigo D. Pereira . Nanoanel bicamada</b>. 2012. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Silva, R. L.; Rodrigo D. Pereira. <b>Vórtices Antiferromagnéticos</b>. 2012. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Silva, R.L. ; Pereira, R.D.. <b>Nanoanel bicamada</b>. Em: XXX Encontro de Físicos do Norte e Nordeste, 2012, Salvador. XXX Encontro de Físicos do Norte e Nordeste, 2012. </td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Silva, R.L. ; Pereira, R.D.. <b>Vórtices Antiferromagnéticos</b>. Em: XXX Encontro de Físicos do Norte e Nordeste, 2012, Salvador. XXX Encontro de Físicos do Norte e Nordeste, 2012. </td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>SOARES, R. ; ACEVEDO MIRANDA, Ronald Alexander ; MEIRELES, C. S. ; CAMPOS, A. F.. <b>Reação de oxidação do glicerol utilizando caalisadores de MoVOx suportados em diferentes óxidos ácidos</b>. Em: XXIII Congresso Iberoamericano de Catálisis, 2012, Santa Fé. XXIII Congresso Iberoamericano de Catálisis, 2012. </td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>SOARES, V. R. N. ; MEIRELES, C. S. ; SOARES, R.. <b>Pré-tratamento básico para separação dos constituintes ligno-celulósicos da palha de cana-de-açúcar</b>. Em: XVII Jornada em Engenharia Química, 2012, Uberlândia. XVII Jornada em Engenharia Química, 2012. </td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>STHEL, M. S. ; Muniz, E.P. ; PROVETI, J. R. C. ; PORTO, P. S. S.. <b>DRYING OF ALBEDO OF ORANGE SKIN: DEPENDENCE OF APPARENT MOISTURE DIFUSIVITY WITH TEMPERATURE AND AIR VELOCITY</b>. Em: <font color=#330066>18th International Drying Symposium</font>, 2012.</td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Vargas, Cristofher ZuÃ±iga ; Hipólito-Ricaldi, W. S. ; Zimdahl, W. <b>Perturbations for transient acceleration</b>. <font color=#330066>JOURNAL OF COSMOLOGY AND ASTROPARTICLE PHYSICS</font>. v. 2012, p. 032-032, issn: 1475-7516, 2012. <a href="http://dx.doi.org/10.1088/1475-7516/2012/04/032" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>VARGAS, T. V. ; SILVEIRA, V. C.. <b>Caracterização dos compostos organossulfurados presentes no alho (Allium Sativum)</b>. Em: Jornada de Iniciação Científica da UFES, 2012, São Mateus ES. Anais da Jornada de Iniciação Científica da UFES. Vitória ES, v. 3, 2012. </td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>VIEIRA, Júlia G. ; RODRIGUES FILHO, Guimes ; MEIRELES, C. S. ; Faria, Fernanda A. C. ; Gomide, Dayane D. ; Pasquini, Daniel ; Cruz, Sebastião F. da ; ASSUNÇÃO, R. M. N. ; Motta, Leila A. de C.. <b>Synthesis and characterization of methylcellulose from cellulose extracted from mango seeds for use as a mortar additive</b>. <font color=#330066>Polímeros (São Carlos. Impresso)</font>. v. 22, p. 80-87, issn: 0104-1428, 2012. <a href="http://dx.doi.org/10.1590/S0104-14282012005000011" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Zanetti, M.G. ; Baliza, P. X. ; MENDES, A. N. F. ; MENDES, A. N. F. ; LEMOS, V. A. ; SANTOS, M. J. S.. <b>Determinação do teor de minerais em amostras de pimenta-rosa cultivadas no norte do Espírito Santo utilizando ICP-OES</b>. Em: 52º Congresso Brasileiro de Química, 2012, Recife. Anais do 52º Congresso Brasileiro de Química. Recife, 2012. </td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>Zanetti, M.G. ; Baliza, P. X. ; MENDES, A. N. F. ; MENDES, A. N. F. ; LEMOS, V. A. ; SANTOS, M. J. S.. <b>Determinação do teor de minerais em amostras de pimenta-rosa cultivadas no norte do Espírito Santo utilizando ICP-OES</b>. 2012. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AHUMADA, C. B. ; Nogueira, C. M. ; SILVEIRA, V. C.. <b>Avaliação do potencial antioxidatixo de diferentes extratos de allho (Allium sativum)</b>. Em: 34º Reunião Anual da Sociedade Brasileira de Química, 2011, Florianópolis/SC. 34º Reunião Anual da Sociedade Brasileira de Química, 2011. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AHUMADA, C. B. ; NOGUEIRA, C. M. ; Silveira, V. C.. <b>Avaliação do potencial antioxidativo de diferentes extratos de alho (Allium sativum)</b>. Em: 34ª. Reunião Anual da Sociedade Brasileira de Química, 2011, Florianópolis. 34ª. Reunião Anual da Sociedade Brasileira de Química - Quimica para um mundo melhor, p. 99-99, 2011. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>AHUMADA, C. B. ; VARGAS, T. V. ; Nogueira, C. M. ; SILVEIRA, V. C.. <b>Investigação da atividade antioxidante de extratos de alho (Allium sativum) no óleo de soja</b>. Em: III Encontro Capixaba de Química, 2011, Vitória. III Encontro Capixaba de Química - Programação Oficial, p. QO16-QO16, 2011. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ambrozim, F. M. ; de Jesus Júnior, M. M. ; Barcellos, C. P. ; Silveira, V. C. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Produção de sabão a partir do óleo de fritura: uma proposta ecológica para o ensino de química</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ambrozim, F. M. ; de Jesus Júnior, M. M. ; Barcellos, C. P. ; Silveira, V. C. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Produção de sabão a partir do óleo de fritura: Uma proposta ecológica para o ensino de química</b>. Em: II Encontro Capixaba de Química, 2011, Vitória/ES. Anais do III Encontro capixaba de Química, 2011. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Antes, Fabiane Goldschmidt ; dos Santos, Maria de Fátima Pereira ; Lourenço Guimarães, Regina Célia ; Gottfried Paniz, José Neri ; Moraes Flores, Erico Marlon ; Dressler, Valderi Luiz ; SANTOS, M. F. P.. <b>Heavy crude oil sample preparation by pyrohydrolysis for further chlorine determination</b>. <font color=#330066>Analytical Methods</font>. v. 3, p. 288-293, issn: 1757-5958, 2011. <a href="http://dx.doi.org/10.1039/c0ay00463d" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Araujo, D.R ; José Rafael Cápua Proveti ; MUNIZ, E. P. ; PORTO, P. S. S.. <b>EVOLUÇÃO ESTRUTURAL DE FERRITAS DE NÍQUEL OBTIDAS POR MÉTODO SOL-GEL PROTÉICO COM A UTILIZAÇÃO DE PECTINA DE MAÇÃ</b>. Em: <font color=#330066>IX Congresso Brasileiro de Engenharia Química - Iniciação Científica</font>, 2011.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Araujo, D.R ; José Rafael Cápua Proveti ; MUNIZ, E. P. ; PORTO, P. S. S.. <b>OBTENÇÃO E ESTUDO DA FORMAÇÃO DE NANOPARTÍCULAS MAGNÉTICAS A PARTIR DO SOL-GEL PROTÉICO</b>. Em: <font color=#330066>XXXV Congresso Brasileiro de Sistemas Particulados</font>, 2011.</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>BIANCO, G.; SIQUEIRA, K. G. R. ; Carvalho, S. J.J. C. de. <b>A importância da interdisciplinaridade no ensino de química</b>. 2011. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>CARVALHO, B. A. ; FREITAS, S. ; CASTRO, E. V. R. ; Melo, Breno Nonato ; Freitas, M.B.J.G. ; SANTOS, M. F. P.. <b>?Aplicação de espectroscopia de impedância eletroquímica (EIE) em determinação de propriedades elétricas de petróleo e suas frações?</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>CARVALHO, B. A. ; ROCHA, J. W. S. ; FREITAS, S. ; Freitas, M.B.J.G. ; CASTRO, E. V. R. ; Melo, Breno Nonato ; SANTOS, M. F. P.. <b>Estudo do efeito da composição do petróleo na determinação de condutividade elétrica</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>CARVALHO, B. A. ; ROCHA, J. W. S. ; FREITAS, S. ; Freitas, M.B.J.G. ; CELANTE, V.G. ; Melo, Breno Nonato ; Santos, Maria F.P.. <b>Estudo do efeito da composição do petróleo na determinação de condutividade elétrica</b>. Em: III ENCAQUI - Encontro Capixaba de Química ? SBQ ES, 2011, Vitória. III ENCAQUI - Encontro Capixaba de Química ? SBQ ES, 2011. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>CASTRO, E. V. R. ; MEDEIROS, E. F. ; MORIGAKI, M. K. ; SAD, C. M. S. ; SANTOS, M. F. P.. <b>?Desidratação de Petróleos Utilizando Centrifugação e Desemulsificantes Comerciais?</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>COSTA, A. P. O.; GERBASE, A. E. ; PETZHOLD, C.. <b>Investigação da Cinética de Cura por Calorimetria Diferencial de Varredura (DSC) de Resinas Epóxi Preparadas a Partir de Óleo de Soja Epoxidado com Diferentes Anidridos e Aminas Terciárias.</b>. <font color=#330066>Polímeros (São Carlos. Impresso)</font>. v. xx, p. xxx-xxxx, issn: 0104-1428, 2011. <a href="http://dx.doi.org/10.1590/S0104-14282011005000022" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>COTTA, A. J. B.; ENZWEILER, J.. <b>Aplicação da determinação direta de lantanídeos em águas por ICP-MS</b>. Em: III Encontro Capixaba de Química, 2011, Vitória-ES. Anais do III ENCAQUI, v. 1, p. 1-2, 2011. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>de Jesus Júnior, M. M. ; Ambrozim, F. M. ; Krueger, A. R. ; Barcellos, C. P. ; Silveira, V. C. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Oficina de sabão: proposta de conscientização ambiental e de geração de renda para alunos de comunidades carentes de São Mateus/ES</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Diehl, Liange ; Moraes, Diogo ; Antes, Fabiane ; Pereira, Juliana ; Santos, Maria de Fatima ; Guimaraes, Regina ; Paniz, Jose Neri ; Flores, Erico ; Santos, Maria de Fa?tima P.. <b>Separation of Heavy Crude Oil Emulsions Using Microwave Radiation for Further Crude Oil Analysis</b>. <font color=#330066>Separation Science and Technology (Print)</font>. v. 46, p. 1358-1364, issn: 0149-6395, 2011. <a href="http://dx.doi.org/10.1080/01496395.2011.560590" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>GOBI, L. C. A. ; MUNIZ, E. P. ; José Rafael Cápua Proveti ; PEREIRA, R. D. ; PORTO, P. S. S.. <b>ESTUDO DO PROCESSO DE FORMAÇÃO DE NANOPARTÍCULAS DE FERRITA DE NÍQUEL ATRAVÉS DO PRECURSOR DE ÁGUA DE COCO</b>. Em: <font color=#330066>IX Congresso Brasileiro de Engenharia Química - Iniciação Científica</font>, 2011.</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Gregório, José Ribeiro ; Rosa, Ricardo Gomes ; Mendes, Ana Néry Furlan ; MENDES, A. N. F. ; Bayón, Joan Carles. <b>PEGPHOT: A New Well-Defined Molecular Weight Polyether-Substituted Triphenylphosphite and its Application in Biphasic Hydroformylation</b>. <font color=#330066>Catalysis Letters</font>. v. 141, p. 977-981, issn: 1011-372X, 2011. <a href="http://dx.doi.org/10.1007/s10562-011-0603-5" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Gregório, José Ribeiro ; Rosa, Ricardo Gomes ; Mendes, Ana Néry Furlan ; MENDES, A. N. F. ; Bayón, Joan Carles. <b>Síntese do ligante PEGPHOT e sua aplicação na hidroformilação bifásica de olefinas</b>. Em: 34ª Reunião Anual da Sociedade Brasileira de Química, 2011, Florianópolis. Anais da 34ª Reunião Anual da Sociedade Brasileira de Química, 2011. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Igor Alessandro Silva Carvalho ; Ricardo Luis Ribeiro ; André Luis Pimenta Faria ; MUNIZ, E. P. ; BRANCO, J. R.. <b>Raman Spectroscopy Mapping of Plasma Thermally Sprayed Silicon Sheet for Solar Cells Substrate</b>. <font color=#330066>Journal of Materials Science and Engineering</font>. v. 5, p. 561-569, issn: 1934-8959, 2011.</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>de Jesus Júnior, M. M. ; Ambrozim, F. M. ; Krueger, A. R. ; Barcellos, C. P. ; Silveira, V. C. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Oficina de sabão: proposta de conscientização ambiental e de geração de renda para alunos de comunidades carentes de São Mateus/ES</b>. Em: II Encontro Capixaba de Química, 2011, Vitória/ES. Anais do III Encontro Capixaba de Química, 2011. </td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Loss, Rebeca D. ; Santos, Isaac P. ; MUNIZ, E. P. ; Proveti, José R.C. ; Porto, Paulo S.S.. <b>Finite difference solutions for heat transfer during drying of cubic papaya particles</b>. <font color=#330066>Procedia Food Science</font>. v. 1, p. 753-761, issn: 2211-601X, 2011. <a href="http://dx.doi.org/10.1016/j.profoo.2011.09.114" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>MELO, B. N.; CARVALHO, B. A. ; ROCHA, J. W. S. ; SANTOS, M. F. P. ; FREITAS, M. B. J. G. ; CELANTE, V. G. ; FREITAS, S.. <b>Avaliação das Propriedades Eletricas de Petróleo e suas Frações por Espectroscopia de Impedância Eletroquímica</b>. Em: 2º encontro Petrobrás e Universidades de Novas tecnologias para Avaliação de Petróleos, 2011, Rio de Janeiro. 2º encontro Petrobrás e Universidades de Novas tecnologias para Avaliação de Petróleos, v. 2, p. 70-70, 2011. </td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; Silveira, V. C. ; Fassarella, S.S. ; Cavalcante, M.S.D. ; Krueger, A. R. ; Barcellos, C. P. ; Ambrozim, F. M. ; de Jesus Júnior, M. M.. <b>Oficina de sabão ecológico: método alternativo para aumentar a renda de comunidades carentes do município de São Mateus/ES</b>. Em: <font color=#330066>5º Congresso Brasileiro de Extensão Universitária</font>, 2011. <a href="http://dx.doi.org/10.22533/at.ed.0742021077" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; GREGÓRIO, J. R. ; Rosa,R.G.. <b>Hidroformilação do oleato de metila catalisada por complexos de ródio</b>. Em: III Encontro Capixaba de Química, 2011, Vitória. Anais do III Encontro Capixaba de Química, 2011. </td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; GREGÓRIO, J. R. ; Rosa,R.G.. <b>Hidroformilação do oleato de metila catalisada por complexos de ródio</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; GREGÓRIO, J. R. ; Rosa,R.G. ; BAYON, J. C.. <b>Aplicação do ligante PEGPHOT na hidroformilação bifásica de olefinas</b>. Em: III Encontro Capixaba de Química, 2011, Vitória. Anais do III Encontro Capixaba de Química, 2011. </td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; GREGÓRIO, J. R. ; Rosa,R.G. ; BAYON, J. C.. <b>Aplicação do ligante PEGPHOT na hidroformilação bifásica de olefinas</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>MENDES, A. N. F.; MENDES, A. N. F. ; Silveira, V. C. ; Fassarella, S.S. ; Cavalcante, M.S.D. ; Krueger, A. R. ; Barcellos, C. P. ; Ambrozim, F. M. ; de Jesus Júnior, M. M.. <b>Ofician de sabão ecológico: método alternativo para aumentar a renda de comunidades carentes do município de São Mateus/ES</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>MOURA, L. G. M. ; SANTOS, M. F. P. ; ZILIO, E. L. ; Ramos, A.C.S. ; Rolemberg, M.P.. <b>Avaliação das incertezas associadas à determinação do parâmetro de solubilidade de Hildebrand de petróleos</b>. <font color=#330066>QUIMICA NOVA</font>. v. 34, p. 226-231, issn: 0100-4042, 2011. <a href="http://dx.doi.org/10.1590/s0100-40422011000200011" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>MUNIZ, E. P.; José Rafael Cápua Proveti ; PEREIRA, R. D. ; PORTO, P. S. S.. <b>Estudo do Deslocamento da Banda de Absorção Devido a Estiramento Fe-O em Sitios Tetraédricos em Ferrita de Níquel com o Aumento no Tamanho das Partículas</b>. 2011. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>MUNIZ, E. P.; Romulo Augusto Mantovani Margotto ; José Rafael Cápua Proveti ; PEREIRA, R. D. ; PORTO, P. S. S.. <b>Structural Dependence on Packing Factor in Nickel Ferrite Films Deposited by Dip Coating</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>MUNIZ, E. P.; Romulo Augusto Mantovani Margotto ; José Rafael Cápua Proveti ; PEREIRA, R. D. ; PORTO, P. S. S.. <b>Structural Dependence on Packing Factor in Nickel Ferrites Films Deposited by Dip Coating</b>. Em: Encontro de Física 2011: Integração da Física na América Latina, 2011, Foz do Iguaçu. Encontro de Física 2011, 2011. </td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>MUNIZ, E. P.; PEREIRA, R. D. ; Lorena Cristina Abrahão Gobbi ; PORTO, P. S. S. ; José Rafael Cápua Proveti. <b>A Fourrier Transform Infrared Spectroscopy Study of the Process of Formation of Nickel Ferrite Nanoparticles from Coconut Water Precursor</b>. Em: Encontro de Física 2011, 2011, Foz do Iguaçu. Encontro de Física 2011, 2011. </td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Muniz, Eduardo P.; PEREIRA, R. D. ; Lorena Cristina Abrahão Gobbi ; PORTO, P. S. S. ; PROVETI, J. R. C.. <b>A Fourrier Transform Infrared Spectroscopy Study of the Process of Formation of Nickel Ferrite Nanoparticles from Coconut Water Precursor</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>NOGUEIRA, C. M.; PAULINO, B. N. ; LAVOR, V. F. ; QUEIROZ, F. C. ; AZEREDO, R. B. V.. <b>Determinação do teor de lipídeos em salsichas através da espectroscopia na região do infravermelho</b>. Em: III Encontro Capixaba de Química, 2011, Vitória. III Encontro Capixaba de Química - Programação Oficial, p. 17, 2011. </td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>NOGUEIRA, C. M.; QUEIROZ, F. C. ; PAULINO, B. N. ; LAVOR, V. F. ; AZEREDO, R. B. V.. <b>Determinação do teor de gordura em diversos cortes de carne bovina por MID-IR</b>. Em: III Encontro Capixaba de Química, 2011, Vitória. III Encontro Capixaba de Química - Programação Oficial, p. 20, 2011. </td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>P.F. Pinheiro ; A V Costa ; V T Queiroz ; L M Alvarenga ; MUNIZ, E. P. ; F L Partelli. <b>AÇUCARES E ESPECTROMETRIA NO INFRAVERMELHO DE CAFÉ CONILON SECO DE FORMAS DISTINTAS: TERREIRO NORMAL E DE ESTUFA E SECADOR</b>. Em: Congresso Brasileiro de Pesquisas Cafeeiras, 2011, Poços de Caldas. Mais tecnologia, mais café: trabalhos apresentados / XXXVII Congresso Brasileiro de Pesquisas Cafeeiras. Brasilia: Embrapa Café, 2011. </td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Passamani, E. C. ; Larica, C. ; Moscon, P. S. ; Mendoza Ze¿lis, P. ; Sa¿nchez, F. H.. <b>Out-of-plane anisotropy and low field induced magnetic domain reorientation in Al/Metglas-2605S2/Al trilayer sensors</b>. <font color=#330066>Journal of Applied Physics</font>. v. 110, p. 043906, issn: 0021-8979, 2011. <a href="http://dx.doi.org/10.1063/1.3622339" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>PASSAMANI, E.C ; NASCIMENTO, V. P ; LARICA, C. ; TAKEUCHI, A.Y ; ALVES, A. L. ; PROVETI, J. R. C. ; PEREIRA, M. C. ; FABRIS, J. D.. <b>The influence of chemical disorder enhancement on the martensitic transformation of the Ni50Mn36Sn14 Heusler-type alloy</b>. <font color=#330066>Journal of Alloys and Compounds</font>. v. 509, p. 7826-7832, issn: 0925-8388, 2011. <a href="http://dx.doi.org/10.116/i.jallcom.2011.05.018" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>PAULINO, B. N. ; QUEIROZ, F. C. ; LAVOR, V. F. ; AZEREDO, R. B. V. ; NOGUEIRA, C. M.. <b>Espectroscopia de infravermelho e calibração multivariada na determinação do teor de lipídeos em salsichas</b>. Em: 34ª. Reunião Anual da Sociedade Brasileira de Química, 2011, Florianópolis. 34ª. Reunião Anual da Sociedade Brasileira de Química - Quimica para um mundo melhor, p. 43-43, 2011. </td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>PORTO, P. S. S. ; José Rafael Cápua Proveti ; MUNIZ, E. P. ; PEREIRA, R. D. ; Araujo, D.R. <b>Applications of Fourier Transform Infrared and X-ray techniques to analyze nickel ferrite nanoparticles produced by proteic sol-gel method</b>. Em: <font color=#330066>Eighth International Latin American Conference on Powder Technology ? PTECH 2011</font>, 2011.</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Proveti, J.R.C. ; Muniz, E.P. ; PEREIRA, R. D. ; Porto, P. S. S. ; Gobi, L.C.A.. <b>Investigate the structural characterization of nickel ferrite nanoparticles produced by proteic sol-gel method using two kinds of organic precursors</b>. Em: <font color=#330066>Eighth International Latin American Conference on Powder Technology PTECH 2011</font>, 2011.</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Proveti, J.R.C. ; Muniz, E.P. ; PEREIRA, R. D. ; Porto, P. S. S. ; Gobi, L.C.A. ; ARAUJO, D. R. ; Nascimento, V.P.. <b>Structural Characterization of Nickel Ferrite Nanoparticles produced by proteic sol-gel method</b>. Em: Encontro de Física 2011: Integração da Física na América Latina, 2011, Foz do Iguaçu. Encontro de Física 2011, 2011. </td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>ROCHA, J. G. ; FONSECA, M. S. ; Oliveira, L. M. ; BIANCO, G. ; CHAVES, M. A. L.. <b>A percepção do aluno acerca do ensino de química aos olhos dos bolsistas do PIBID</b>. Em: 9 Simpósio Brasileiro de Educação em Química, 2011, Natal. Formação do Educador Químico, 2011. </td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>ROCHA, J. W. S. ; CARVALHO, B. A. ; FREITAS, S. ; Freitas, M.B.J.G. ; Melo, Breno Nonato ; SANTOS, M. F. P.. <b>Condutividade Elétrica em Emulsões de Petróleos</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>ROCHA, J. W. S. ; CARVALHO, B. A. ; Melo, Breno Nonato ; Santos, Maria F.P. ; Freitas, M.B.J.G. ; CELANTE, V.G. ; FREITAS, S.. <b>Condutividade Elétrica em Emulsões de Petróleos</b>. Em: III ENCAQUI - Encontro Capixaba de Química ? SBQ ES, 2011, Vitória. III ENCAQUI - Encontro Capixaba de Química ? SBQ ES, 2011. </td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Teatro científico: um método alternativo para abordar a radioatividade</b>. Em: I Simpósio Mineiro de Educação em Química, 2011, Viçosa. I Simpósio Mineiro de Educação em Química. Viçosa, 2011. </td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Ensino de química e atividades experimentais: práticas elaboradas por alunos do ensino médio</b>. Em: III Encontro Capixaba de Química, 2011, Vitória. Anais do III Encontro Capixaba de Química, 2011. </td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Jogo do ?Quimilhão?: Atividade lúdica envolvendo conteúdos de química orgânica do ensino médio</b>. Em: III Encontro Capixaba de Química, 2011, Vitória. Anais do III Encontro Capixaba de Química, 2011. </td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Teatro científico: um método alternativo para abordar a radioatividade</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Ensino de química e atividades experimentais: práticas elaboradas por alunos do ensino médio</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>ROSA, D. L. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Jogo do ?Quimilhão?: Atividade lúdica envolvendo conteúdos de química orgânica do ensino médio</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Rosa,R.G. ; GREGÓRIO, J. R. ; MENDES, A. N. F. ; MENDES, A. N. F. ; BAYON, J. C.. <b>Síntese do ligante PEGPHOT e sua aplicação na hidroformilação bifásica de olefinas</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>SAD, C. M. S. ; MEDEIROS, E. F. ; MORIGAKI, M. K. ; SANTOS, M. F. P. ; Freitas, M.B.J.G.. <b>?Estudo da classificação reológica de alguns óleos pesados?</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>SAD, C. M. S. ; PINTO, A. C. G. ; MORIGAKI, M. K. ; CASTRO, E. V. R. ; MEDEIROS, E. F. ; Dias, JCM ; SANTOS, M. F. P.. <b>Estudo da Estabilidade de Blends de Petróleos sob Armazenamento em Escala Laboratorial</b>. Em: III Encontro Capixaba de Química - SBQ, 2011, Vitória. III Encontro Capixaba de Química - SBQ, 2011. </td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>SAD, C. M. S. ; PINTO, A. C. G. ; MORIGAKI, M. K. ; Freitas, M.B.J.G. ; CASTRO, E. V. R. ; MEDEIROS, E. F. ; SANTOS, M. F. P.. <b>Estudo da estabilidade de Blend de petróleo sob armazenamento em escala laboratorial</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>SAD, C. M. S. ; R.FILGUEIRA, P. ; MEDEIROS, E. F. ; MORIGAKI, M. K. ; SANTOS, M. F. P. ; Freitas, M.B.J.G.. <b>Classificação Reológica de Alguns Petróleos Leves e Médios</b>. Em: III Encontro Capixaba de Química - SBQ, 2011, Vitória. III Encontro Capixaba de Química - SBQ, 2011. </td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>SAD, C. M. S. ; R.FILGUEIRA, P. ; MEDEIROS, E. F. ; MORIGAKI, M. K. ; SANTOS, M. F. P. ; Freitas, M.B.J.G. ; CASTRO, E. V. R.. <b>Estudo da Classificação Reológica de Alguns Óleos Pesados</b>. Em: III Encontro Capixaba de Química - SBQ, 2011, Vitória. III Encontro Capixaba de Química - SBQ, 2011. </td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>SAD, C. M. S. ; R.FILGUEIRA, P. ; MEDEIROS, E. F. ; MORIGAKI, M. K. ; SANTOS, M. F. P. ; Freitas, M.B.J.G. ; CASTRO, E. V. R.. <b>Classificação Reológica de Alguns Petróleos Leves e Médios</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>SAGRILLO, F. S. ; RISCADO, C. S. ; NOGUEIRA, C. M. ; CUNHA, A. C. ; FARO, L. V. ; LOURENÇO, M. C. S. ; FERREIRA, V. F. ; Santos F. C. ; SOUZA, M. C. B. V. de. <b>Novos derivados 1,2,3-triazolil-4-oxoquinolínicos: síntese e avaliação biológica frente ao Mycobacterium tuberculosis</b>. Em: 34ª. Reunião Anual da Sociedade Brasileira de Química, 2011, Florianópolis. 34ª. Reunião Anual da Sociedade Brasileira de Química - Quimica para um mundo melhor, p. 122-122, 2011. </td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>SILVA, C. A. M.; Carrasquilla, A.. <b>Simulation of Nuclear Magnetic Resonance (NMR) log using conventional well logs and Fuzzy Logic</b>. Em: <font color=#330066>Brasil Offshore Conference and Exhibition</font>, 2011.</td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>SILVA, C. A. M.; Carrasquilla, A.. <b>Simulação do Perfil de Ressonância Magnética Nuclear (RMN), Utilizando Perfis Geofísicos de Poços Convencionais Através da Lógica Fuzzy</b>. Revista Brasileira de Geofísica (Impresso). 2011. </td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>SILVEIRA, V. C.; Benezra, H. ; Luz, J. S. ; GEORG, R. C. ; Oliveira, C. C. ; Ferreira, Ana Maria da Costa. <b>Binding of Oxindole-Schiff Base Copper(II) Complexes to DNA and its Modulation by the Ligand.</b>. <font color=#330066>Journal of Inorganic Biochemistry</font>. v. 105, p. 1692-1703, issn: 0162-0134, 2011. <a href="http://dx.doi.org/10.1016/j.jinorgbio.2011.09.016" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>YONEDA, J. D. ; LEAL, K. Z. ; VELLOSO, M. H. R. ; LINDGREN, E. B. ; SEIDL, P. R.. <b>INTRODUCING 17O NMR IN STERIC EFFECT STUDIES USING NMR AND MOLECULAR MODELING</b>. Em: 13th Nuclear Magnetic Ressonance User Meetting, 2011, Angra dos Reis. 13th Nuclear Magnetic Ressonance User Meetting - Extended Abstracts BooK, p. 150-151, 2011. </td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Yoneda, Julliane D. ; Velloso, Marcia Helena R. ; Leal, Kátia Z. ; Azeredo, Rodrigo B. de V. ; Sugiura, Makiko ; Albuquerque, Magaly G. ; Santos, Fernanda da C. ; Souza, Maria Cecília B.V. de ; Cunha, Anna Claudia ; Seidl, Peter R.. <b>Conformational analysis of a quinolonic ribonucleoside with anti-HSV-1 activity</b>. <font color=#330066>Journal of Molecular Structure (Print)</font>. v. 985, p. 1-4, issn: 0022-2860, 2011. <a href="http://dx.doi.org/10.1016/j.molstruc.2010.01.044" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>ZANETTI, M. G. ; CARVALHO, B. A. ; MELLO, E. B. ; CHAGAS, C. P. ; SANTOS, M. F. P.. <b>Aspectos técnicos de tratamento e descarte final de resíduos químicos e inorgânicos em laboratório de ensino</b>. Em: III Encontro Capixaba de Química - SBQ, 2011, Vitória. III Encontro Capixaba de Química - SBQ, 2011. </td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>ZANETTI, M. G. ; CARVALHO, B. A. ; MELLO, E. B. ; CHAGAS, C. P. ; SANTOS, M. F. P.. <b>Aspectos técnicos de tratamento e descarte final de resíduos químicos e inorgânicos em laboratório de ensino</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>Zanetti, M.G. ; Baliza, P. X. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Determinação do teor de minerais presentes na aroeira cultivada no norte do espírito santo utilizando ICP-OES</b>. Em: III Encontro Capixaba de Química, 2011, Vitória. Anais do III Encontro Capixaba de Química, 2011. </td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Zanetti, M.G. ; Baliza, P. X. ; MENDES, A. N. F. ; MENDES, A. N. F.. <b>Determinação do teor de minerais presentes na aroeira cultivada no norte do espírito santo utilizando ICP-OES</b>. 2011. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>Zimdahl, W ; Borges, H.A ; Carneiro, S ; Fabris, J.C ; Hipólito-Ricaldi, W. S.. <b>Non-adiabatic perturbations in decaying vacuum cosmology</b>. <font color=#330066>Journal of Cosmology and Astroparticle Physics</font>. v. 2011, p. 028-028, issn: 1475-7516, 2011. <a href="http://dx.doi.org/10.1088/1475-7516/2011/04/028" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>Zimdahl, W ; Hipólito-Ricaldi, W S ; Velten, H E S. <b>Unified models of the cosmological dark sector</b>. <font color=#330066>Journal of Physics. Conference Series (Online)</font>. v. 314, p. 012057, issn: 1742-6596, 2011. <a href="http://dx.doi.org/10.1088/1742-6596/314/1/012057" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>ZIMDAHL, WINFRIED ; VELTEN, HERMANO E. S. ; HIPÓLITO-RICALDI, WILIAM S.. <b>VISCOUS DARK FLUID UNIVERSE: A UNIFIED MODEL OF THE DARK SECTOR?</b>. <font color=#330066>International Journal of Modern Physics: Conference Series</font>. v. 03, p. 312, issn: 2010-1945, 2011. <a href="http://dx.doi.org/10.1142/S2010194511001413" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Kassius V. S. Bezerra ; Gabriela C. Brito ; Silva, R. L. ; Rodrigo D. Pereira. <b>Termodinâmica do modelo XY- planar sobre as redes Honeycomb e Kagomé</b>. Em: XXVIII Encontro de Físicos do Norte e Nordeste, 2010, Teresina- PI. XXVIII Encontro de Físicos do Norte e Nordeste, p. 71-71, 2010. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Gabriela C. Brito ; Kassius V. S. Bezerra ; Silva, R. L. ; Rodrigo D. Pereira. <b>Excitações topológicas no modelo "spin-ice" 2D</b>. Em: XXVIII Encontro de Físicos do Norte e Nordeste, 2010, Teresina - PI. XXVIII Encontro de Físicos do Norte e Nordeste, p. 211-212, 2010. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CALDEIRA, J. E. ; Corval, Artur ; OLIVEIRA, Luiz Gabriel Souza de ; Valente, Sérgio de Castro ; OLIVEIRA, Natália Valadares de. <b>Thermal Modeling for basaltic dykes of Três Rios - RJ</b>. Em: 45 Congresso Brasileiro de Geologia, 2010, Belém. 45 Congresso Brasileiro de Geologia, 2010. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERREIRA, A. M. D. ; SILVEIRA, V. C. ; Cavicchioli, M ; GONCALVES, M. B. ; PETRILLI, H. M. ; CARAMORI, G. F.. <b>A di-imine copper(II) complex exhibiting a peculiar reactivity regarding its binding to albumin protein</b>. 2010. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ferreira, Ana Maria da Costa ; SILVEIRA, V. C. ; Cavicchioli, M ; GONCALVES, M. B. ; PETRILLI, H. M. ; CARAMORI, G. F.. <b>A di-imine copper(II) complex exhibiting a peculiar reactivity regarding its binding to albumin protein</b>. Em: 39th International Conference on Coordination Chemistry, 2010, Adelaide. 39th International Conference on Coordination Chemistry, 2010. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FERREIRA, B. M. S. ; GUARNIERI, R. A. ; Guimarães, Regina C.L. ; Santos, Maria F.P. ; Fontes, R.O ; SIMIAO, T. N. ; RAMALHO, J. B. ; Flores, Érico M.M. ; Gottfried Paniz, José Neri. <b>Association of microwave and gravitational separation technologies in a continuous system for primary processing of heavy petroleum water-in-oil emulsions</b>. Em: <font color=#330066>Rio Oil & Gas</font>, 2010.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>FERREIRA, B. M. S. ; RAMALHO, J. B. ; Guimarães, Regina C.L. ; GUARNIERI, R. A. ; Lucas, F. E. ; Fontes, R.O ; SIMIAO, T. N. ; Santos, Maria F.P.. <b>Aplicação da Radiação Micro-ondas para o Processamento Primário de Emulsões de Petróleos Pesados do tipo Água-em-Óleo - Testes Estáticos</b>. Em: <font color=#330066>Rio Oil & Gas</font>, 2010.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Flores, Érico Marlon de Moraes ; Antes, F.G. ; Pereira, J.S.F ; Diehl, Liange O. ; Medeiros, M.C. ; GUARNIERI, R. A. ; FERREIRA, B. M. S. ; Guimarães, RCL ; SANTOS, M. F. P.. <b>Uso da radiação micro-ondas em sistema fechado para remoção e quantificação de sedimentos em emulsões de petróleo pesado</b>. 2010. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>FURTADO, R. G. <b>Física 1B - Sistemas de Partículas e Corpos Rígidos</b>. 1 ed. Vitória: Nea@ad - Ufes, 2010. v. 1, p. 124. </td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>GUARNIERI, R. A. ; FERREIRA, B. M. S. ; Guimarães, Regina C.L. ; Santos, Maria F.P. ; Fontes, R.O ; SIMIAO, T. N. ; BRITO, E. A. ; Flores, Érico M.M. ; Paniz,J.N.G.. <b>Adaptação de Unidade Piloto para Estudo do Efeito do Aquecimento Micro-ondas no Tratamento de Emulsões de Água-em-Petróleo</b>. Em: <font color=#330066>Rio Oil & Gas Expo and Conference 2010</font>, 2010.</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>H.E.S. Velten ; W. Zimdahl ; Hipólito-Ricaldi, W. S.. <b>Viscous dark fluid universe</b>. 2010. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Hipólito-Ricaldi, W. S.; Velten, H. ; ZIMDAHL, W.. <b>Viscous dark fluid universe</b>. <font color=#330066>Physical Review. D, Particles, Fields, Gravitation, and Cosmology</font>. v. 82, p. 063507, issn: 1550-7998, 2010. <a href="http://dx.doi.org/10.1103/PhysRevD.82.063507" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>LOURENÇO, JOSE ANDRE. Loop Quantization of the Jackiw-Teitelboim model in the Temporal Gauge. <b>In: 4th International Conference on Fundamental Interactions, 2011, Viçosa. Proceedings of 4th International Conference on Fundamental Interactions ¿ PoS(ICFI 2010). Trieste: Sissa Medialab</b>. p. 025, 2010. <a href="http://dx.doi.org/10.22323/1.124.0025" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Moura, L.G.M. ; Santos, M.F.P. ; Zilio, E.L. ; Rolemberg, M.P. ; Ramos, A.C.S. ; SANTOS, M. F. P.. <b>Evaluation of indices and of models applied to the prediction of the stability of crude oils</b>. <font color=#330066>Journal of Petroleum Science & Engineering</font>. p. 77-87, issn: 0920-4105, 2010. <a href="http://dx.doi.org/10.1016/j.petrol.2010.08.011" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>MULLER, E. I. ; Flores, Érico Marlon de Moraes ; Picoloto, R. S. ; Muller, A.L.H. ; Diehl, Liange O. ; SANTOS, M. F. P. ; GUARNIERI, R. A. ; Guimarães, RCL. <b>Investigação da interferência de Ca e Mg na determinação do número de acidez total (NAT) em resíduos da destilação do petróleo a partir de dados por FTIR e ICP OES</b>. 2010. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>MUNIZ, E. P.; PEREIRA, R. D. ; GOBI, L. C. A. ; PORTO, P. S. S. ; José Rafael Cápua Proveti. <b>Study of the Crystalization of Ferrite Nanoparticles produced by Proteic Sol-Gel Method</b>. Em: XXXIII Encontro Nacional de Física da Matéria Condensada, 2010, Águas de Lindóia. XXXIII Encontro Nacional de Física da Matéria Condensada, 2010. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Parisotto, Graciele ; Ferra?o, Marco F. ; Mu?ller, Aline L. H. ; Mu?ller, Edson I. ; Santos, Maria F. P. ; Guimara?es, Regina C. L. ; Dias, Julio C. M. ; Flores, E?rico M. M. ; Santos, Maria F.P.. <b>Total Acid Number Determination in Residues of Crude Oil Distillation Using ATR-FTIR and Variable Selection by Chemometric Methods</b>. <font color=#330066>Energy & Fuels (Print)</font>. v. 24, p. 5474-5478, issn: 0887-0624, 2010. <a href="http://dx.doi.org/10.1021/ef1002974" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Pereira, Juliana S.F. ; Antes, Fabiane G. ; Diehl, Liange O. ; Schmidt,Lucas ; Barin, Juliano.S ; SANTOS, M. F. P. ; Guimarães, Regina C.L. ; GUARNIERI, R. A. ; FERREIRA, B. M. S. ; Flores, Érico M.M.. <b>Remoção de sedimentos de petróleo pesado utilizando radiação micro-ondas</b>. Em: <font color=#330066>Rio Oil & Gas Expo and Conference 2010</font>, 2010.</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Pereira, Juliana S.F. ; Moraes, Diogo P. ; Antes, Fabiane G. ; Diehl, Liange O. ; SANTOS, M. F. P. ; Guimarães, Regina C.L. ; Fonseca, Teresa C.O. ; Dressler, Valderi L. ; Flores, Érico M.M.. <b>Determination of metals and metalloids in light and heavy crude oil by ICP-MS after digestion by microwave-induced combustion</b>. <font color=#330066>Microchemical Journal (Print)</font>. p. 148-158, issn: 0026-265X, 2010. <a href="http://dx.doi.org/10.1016/j.microc.2009.12.016" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>PEREIRA, R. D.; Muniz, E.P. ; Proveti, J.R.C. ; MOSCON, Paulo ; Silva, R.L. ; Porto, P. S. S. ; NAUMANN, A. K. Z. ; FRANCA, R. L. ; Nascimento, V.P.. <b>Investigação da influência da temperatura de tratamento térmico no processo de cristalização de Ferritas produzidas pela técnica de Sol-gel</b>. Em: XXVIII Encontro de Físicos do Norte e Nordeste, 2010, Teresina. XXVIII Encontro Nacional de Físicos do Norte e Nordeste, p. 212-212, 2010. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>PEREIRA, R. D.; PASSAMANI, E. C.. <b>Aplicação do modelo de Johnson-Mehl-Avrami no estudo da cinética de cristalização de ligas tipo Nanoperm produzidas por Mecanossíntese</b>. Em: XXVIII Encontro de Físicos do Norte e Nordeste, 2010, Teresina. XXVII Encontro de Físicos do Norte e Nordeste, p. 212-212, 2010. </td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>PEREIRA, R. D.; Proveti, J.R.C. ; Muniz, E.P. ; Silva, R.L. ; Nascimento, V.P. ; Porto, P. S. S.. <b>Mössbauer Espectroscopy for the Inverse Spinel NiFe2O4 Obtained by a Simple Method: Sol-Gel Protetic</b>. Em: XXXIII Encontro Nacional de Física da Matéria Condensada, 2010, Águas de Lindoia. XXXIII Encontro Nacional de Física da Matéria Condensada, 2010. </td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>PORTO, P. S. S. ; MUNIZ, E. P. ; Rebeca Deteman Loss ; I.P. Santos ; José Rafael Cápua Proveti. <b>Analysis of Heat Transfer During Convective Drying of Cubic Particles of Papaya</b>. Em: <font color=#330066>17th International Drying Symposium</font>, p. 17-17, 2010.</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>PORTO, P. S. S. ; MUNIZ, E. P. ; PEREIRA, R. D. ; D. R. Araujo ; José Rafael Cápua Proveti. <b>Esterification of Carboxylic Groups During Infrared Drying of Passion Fruit Peel</b>. Em: <font color=#330066>17th International Drying Symposium</font>, 2010.</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>PORTO, P. S. S. ; MUNIZ, E. P. ; José Rafael Cápua Proveti ; PEREIRA, R. D. ; NASCIMENTO, V. P. ; Lorena Cristina Abrahão Gobbi. <b>Utilização de Precursor Orgânico na Obtenção de Ferrita de Níquel: Uma Abordagem Simples</b>. Em: <font color=#330066>Congresso Brasileiro de Engenharia Química</font>, 2010.</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>José Rafael Cápua Proveti ; GOBI, L. C. A. ; FERREIRA, T. D. ; MUNIZ, E. P. ; PEREIRA, R. D. ; SILVA, R. L. ; NASCIMENTO, V. P. ; PORTO, P. S. S.. <b>Nickel Ferrite Powders Produced by Proteic Sol-Gel Method: A simple route for the nanoparticles obtention</b>. Em: XXXIII Encontro Nacional de Física da Matéria Condensada, 2010, Águas de Lindóia. XXXIII Encontro Nacional de F¶³sica da Mat¶eria Condensada, 2010. </td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>SILVA, R. L.; Gabriela C. Brito ; Kassius V. S. Bezerra ; Rodrigo D. Pereira. <b>Um modelo para nanodisco magnético com configuração antiferromagnética</b>. Em: XXVIII Encontro de Físicos do Norte e Nordeste, 2010, Teresina - PI. XXVIII Encontro de Físicos do Norte e Nordeste, p. 91-92, 2010. </td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Valente, Sérgio de Castro ; CALDEIRA, J. E. ; Corval, Artur ; OLIVEIRA, Luiz Gabriel Souza de ; OLIVEIRA, Natália Valadares de. <b>Modelagem Termal e Sistemas Petrolíferos Atípicos em Bacias Paleozóicas do Brasil</b>. Em: 45 Congresso Brasileiro de Geologia, 2010, Belém. 45 Congresso Brasileiro de Geologia, 2010. </td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AMARAL, M. A. ; SILVA, R. L. ; PEREIRA, A. R. ; Moura-Melo W. A.. <b>Discrete double core skyrmions in magnetic thin films</b>. <font color=#330066>JOURNAL OF MAGNETISM AND MAGNETIC MATERIALS</font>. v. 321, p. 3360-15, issn: 0304-8853, 2009. <a href="http://dx.doi.org/10.1016/j.jmmm.2009.06.015" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Apolonio, F. A. ; Moura-Melo, W. A. ; Crisafuli, F. P. ; PEREIRA, A. R. ; Silva, R. L.. <b>A model for structural defects in nanomagnets</b>. <font color=#330066>Journal of Applied Physics</font>. v. 106, p. 084320, issn: 0021-8979, 2009. <a href="http://dx.doi.org/10.1063/1.3247542" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BIANCO, G.; Paula, A. F. ; Alvarega, L.M.. <b>Estudo da Degradação de Compostos Orgânicos presente no Óleo Pesado através de Reações Fotoquímicas</b>. Em: 32 Reunião Anual da Sociedade Brasileira de Química, 2009, Fortaleza. Impresso e mídia eletrônico, 2009. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Flores, Érico Marlon de Moraes ; Pereira, J.S.F ; Antes, F.G. ; MORAES, D. P. ; Diehl, Liange O. ; Paniz,J.N.G. ; DRESSLER, V. L. ; SANTOS, M. F. P. ; Guimarães, RCL. <b>Demulsification of heavy crude oils for salt extraction using closed vessels microwave heating and further chlorine determination by ion selective electrode or titration</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FURTADO, R. G. <b>Seminários Integrados de Pesquisa e Extensão I</b>. 1 ed. Vitória: NE@AD - UFES, 2009. p. 70. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GOBI, L. C. A. ; MUNIZ, E. P. ; NASCIMENTO, V. P. ; José Rafael Cápua Proveti. <b>Study of Temperature E®ects on the Composition of Nickel Ferrite Powders produced by Proteic Sol-gel Method</b>. Em: VII Escola Brasileira de Magnetismo, 2009, Natal. VII Escola Brasileira de Magnetismo, 2009. </td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Igor Alessandro Silva Carvalho ; Ricardo Luis Ribeiro ; MUNIZ, E. P. ; BRANCO, J. R. T.. <b>Semi Quantitative Analysis of Oxygen to Silicon Ratio and Oxygen Content Determination in Thermally Sprayed pc-Si Sheet for Solar Cells Substrate</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Lima, G.B. ; Carvalho, L.C. ; PEREIRA, R. D.. <b>Estudo Preliminar do Potencial das Variedades de Cana-de-Açúcar: RB 72454, RB 928064, SP 791011 e SP 801816 Para a Produção de Etanol no Espírito Santo</b>. Em: <font color=#330066>Congresso Brasileiro de Resíduos Orgânicos</font>, v. 1, 2009.</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MORAES, D. P. ; Antes, F.G. ; Pereira, J.S.F ; SANTOS, M. F. P. ; Guimarães, RCL ; Barin, Juliano.S ; Mesko, Márcia.F. ; Paniz,J.N.G. ; Flores, Érico Marlon de Moraes. <b>Microwave-Assisted Procedure for Salinity Evaluation of Heavy Crude Oil Emulsions</b>. <font color=#330066>Energy & Fuels</font>. v. 24, p. 2227-2232, issn: 0887-0624, 2009. <a href="http://dx.doi.org/10.1021/ef9007906" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MOURA, L. G. M. ; SANTOS, M. F. P. ; ZILIO, E. L. ; Rolemberg, Marlus Pinheiro ; Ramos, Antonio Carlos da Silva. <b>Estimativa das incertezas associadas à determinação experimental dos parâmetros de solubilidade de petróleos brasileiros</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MULLER, E. I. ; PARIZOTTO, G. ; Muller, A.L.H. ; SANTOS, M. F. P. ; Guimarães, RCL ; FERRAO, M. F. ; Flores, Érico Marlon de Moraes. <b>Total acid number determination in vacuum and atmospheric residue of petroleum using Attenuated Total Reflectance Fourier transform Infrared Spectroscopy and Different partial least quares algorithms</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>MÓL, L. A. S. ; Silva, R. L. ; Silva, R. C. ; PEREIRA, A. R. ; Moura-Melo, W. A. ; Costa, B. V.. <b>Magnetic monopole and string excitations in two-dimensional spin ice</b>. <font color=#330066>Journal of Applied Physics</font>. v. 106, p. 063913, issn: 0021-8979, 2009. <a href="http://dx.doi.org/10.1063/1.3224870" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>OLIVEIRA, Luiz Gabriel Souza de. <b>Viscoelasticidade da litosfera continental: variação temporal da rigidez flexural na região do Cráton São Francisco Meridional</b>. Em: XII Simpósio Nacional de Estudos Tectônicos/VI International Symposium on Tectonics, 2009, Ouro Preto. XII Simpósio Nacional de Estudos Tectônicos/VI International Symposium on Tectonics, 2009. </td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>OLIVEIRA, Luiz Gabriel Souza de ; OLIVEIRA, Natália Valadares de ; Valente, Sérgio de Castro ; ENDO, Issamu ; Corval, Artur. <b>Provincialidade geoquímica e variações da espessura litosférica no enxame de Diques da Serra do Mar</b>. Em: XII SNET, 2009, Ouro Preto. XII Simpósio Nacional de Estudos Tectônicos/VI International Symposium on Tectonics, 2009, Ouro Preto. XII Simpósio Nacional de Estudos Tectônicos/VI International Symposium on Tectonics, 2009. </td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>OLIVEIRA, Natália Valadares de ; OLIVEIRA, Luiz Gabriel Souza de ; CORVAL, Artur. <b>Estudos preliminares do magmatismo na região de Nova Venécia, norte do Espírito Santo</b>. Em: XII Simpósio Nacional de Estudos Tectônicos/VI International Symposium on Tectonics, 2009, Ouro Preto. XII Simpósio Nacional de Estudos Tectônicos/VI International Symposium on Tectonics, 2009. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Oliveira-Neto, N M ; Alves, S G ; Silva, R L ; Pereira, A R ; Moura-Melo, W A. <b>On the topological phase transition of the two-dimensional XY-model on the Voronoi¿Delaunay lattice</b>. <font color=#330066>Journal of Physics. A, Mathematical and Theoretical (Print)</font>. v. 42, p. 385002, issn: 1751-8113, 2009. <a href="http://dx.doi.org/10.1088/1751-8113/42/38/385002" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Pereira, J.S.F ; Antes, F.G. ; Flores, Érico Marlon de Moraes ; SANTOS, M. F. P. ; Gottfried Paniz, José Neri ; Medeiros, M.C. ; Guimarães, RCL ; MORAES, D. P. ; Diehl, Liange O.. <b>Determinação de metais por ICP OES em emulsões de petróleos extrapesados após decomposição por MIC</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Pereira, Juliana S. F. ; Mello, Paola A. ; Duarte, Fa?bio A. ; Santos, Maria de Fa?tima P. ; Guimara?es, Regina C. L. ; Knapp, Gu?enter ; Dressler, Valderi L. ; Flores, E?rico M. M.. <b>Feasibility of Microwave-Induced Combustion for Digestion of Crude Oil Vacuum Distillation Residue for Chlorine Determination</b>. <font color=#330066>Energy & Fuels</font>. v. 23, p. 6015-6019, issn: 0887-0624, 2009. <a href="http://dx.doi.org/10.1021/ef900707n" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>PEREIRA, R. D.; PASSAMANI, E. C.. <b>Produção e cinética de formação de nanoestruturas de α-Fe em ligas tipo Nanoperm</b>. Em: XVI Encontro Jacques Danon de Espectroscopia Mössbauer, 2009, Fortaleza. XVI Encontro Jacques Danon de Espectroscopia Mössbauer, v. 1, p. 45-45, 2009. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>PEREIRA, R. D.; PASSAMANI, E. C.. <b>Produção e cinética de formação de naoestruturas α-Fe em ligas tipo Nanoperm</b>. 2009. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>PEREIRA, R. D.; PASSAMANI, E. C. ; LARICA, C. ; TAKEUCHI, A. Y. ; FREITAS, J. C. C.. <b>Nanostructured FeMCuB (M = Zr, Nb) alloys prepared by mechanosynthesis</b>. Em: XXXII Encontro Nacional de Física da matéria condensada, 2009, Águas de Lindóia. XXXII Encontro Nacional de Física da matéria condensada. São Paulo: SBF, v. 1, 2009. </td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Rebeca Deteman Loss ; José Rafael Cápua Proveti ; MUNIZ, E. P. ; PORTO, P. S. S.. <b>Influência da Geometria na Cinética de Secagem de Frutas em um Secador Convectivo</b>. Em: XXXIV Congresso Brasileiro de Sistemas Particulados, 2009, Campinas. XXXIV Congresso Brasileiro de Sistemas Particulados, p. 368-368, 2009. </td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Ribeiro, Pablo ; OLIVEIRA, Luiz Gabriel Souza de ; OLIVEIRA, Natália Valadares de ; Corval, Artur. <b>Análise isostática do Complexo Vulcânico de Abrolhos</b>. Em: XII Simpósio Nacional de Estudos Tectônicos/VI International Symposium on Tectonics, 2009, Ouro Preto. XII Simpósio Nacional de Estudos Tectônicos/VI International Symposium on Tectonics, 2009. </td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>SANTOS, M. F. P.; TAMANQUEIRA, J. B. ; Dias, JCM ; Pereira, J.S.F ; Flores, Érico Marlon de Moraes. <b>Caracterização analítica de petróleos extrapesados após preparo de amostra por radiação micro-ondas</b>. 2009. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Silva, R. L.; PEREIRA, A. R. ; Moura-Melo, W. A.. <b>Magnetization reversals in a disk-shaped small magnet with an interface</b>. <font color=#330066>Journal of Applied Physics</font>. v. 105, p. 014314, issn: 0021-8979, 2009. <a href="http://dx.doi.org/10.1063/1.3057018" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>COSTA, R. F. ; ENDO, Issamu ; OLIVEIRA, Luiz Gabriel Souza de. <b>Estudos litosféricos na região de Carajás, Cráton Amazonas, com base em anomalias do geóide</b>. Em: 44 Congresso Brasileiro de Geologia, 2008, Curitiba. 44 Congresso Barsileiro de Geologia, 2008. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>OLIVEIRA, Luiz Gabriel Souza de ; OLIVEIRA, Natália Valadares de ; ENDO, Issamu. <b>Topografia dinâmica do Cráton São Francisco: evidências de um possível fluxo sublitosférico?</b>. Em: III Simpósio Brasileiro de Geofísica, 2008, Belém. III Simpósio Brasileiro de Geofísica, 2008. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>OLIVEIRA, Luiz Gabriel Souza de; ENDO, Issamu ; BLITZKOW, Denizar. <b>Estimativa da espessura elástica efetiva da litosfera do sul do Cráton São Francisco usando dados da missão GRACE</b>. <font color=#330066>Revista Brasileira de Geofísica</font>. v. 26, p. 555-568, issn: 0102-261X, 2008.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, C. W. M. E. ; BRANCO, J. R. T. ; MUNIZ, E. P. ; M. Rinke ; M. Stüber ; A. Cavaleiro. <b>Influence of W content and substrate bias in the microstructure and tribological properties of W doped carbon films</b>. Em: 9th International Conference on Nanostructured Materials, 2008, Rio de Janeiro. 9th International Conference on Nanostructured Materials, p. 300-300, 2008. </td></tr>
+            </table></div><div id="dv-year-2007"><h3 class="year">2007</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Igor Alessandro Silva Carvalho ; Gislene Custódio ; MUNIZ, E. P. ; BRANCO, José Roberto Tavares. <b>Preparação e Estudo da Fotodegradação de Compostos de Matriz Polimérica para Encapsulamento de Células Fotovoltaícas</b>. 2007. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Igor Alessandro Silva Carvalho ; Gislene Custódio ; MUNIZ, E. P. ; BRANCO, José Roberto Tavares. <b>UV-VIS-NIR spectroscopy analysis of gamma rays radiated and non radiated quartz particles for use as additive in solar cells encapsulants composites</b>. 2007. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Igor Alessandro Silva Carvalho ; MUNIZ, E. P. ; BRANCO, José Roberto Tavares. <b>Efeito da Cominuição de Quartzo Irradiado com Raios Gama para Absorção de Radiação Ultravioleta (UV) em Filmes Encapsulantes de Células Fotovoltaícas</b>. Em: <font color=#330066>I CBENS - I Congresso Brasileiro de Energia Solar</font>, 2007.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>OLIVEIRA, Luiz Gabriel Souza de ; ENDO, Issamu ; OLIVEIRA, Natália Valadares de. <b>Isostasia termal na porção meridional do Cráton São Francisco?</b>. Em: XIV Simpósio de Geologia de Minas Gerais e X Simpósio de Geologia do Sudeste, 2007, Diamantina. XIV Simpósio de Geologia de Minas Gerais e X Simpósio de Geologia do Sudeste, 2007. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>OLIVEIRA, Luiz Gabriel Souza de ; Freire ; OLIVEIRA, Natália Valadares de. <b>Experimentos numéricos em halocinese</b>. Em: X Congresso Internacional da Sociedade Brasileira de Geofísica, 2007, Rio de Janeiro. X Congresso Internacional da Sociedade Brasileira de Geofísica, 2007. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>OLIVEIRA, Luiz Gabriel Souza de; FREIRE, F. B. ; OLIVEIRA, Natália Valadares de. <b>Experimentos numéricos em halocinese</b>. Em: <font color=#330066>X Congresso Internacional da Sociedade Brasileira de Geofísica</font>, 2007. <a href="http://dx.doi.org/10.47402/ed.ep.c202161434966" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>OLIVEIRA, Natália Valadares de; ENDO, Issamu. <b>Modelagem e Inversão 2D de dados magnetométricos aplicados na caracterização da geometria do Sinclinal Gandarela e Homoclinal Curral - Quadrilátero Ferrífero, MG</b>. Em: XIV Simpósio de Geologia de Minas Gerais e X Simpósio de Geologia do Sudeste, 2007, Diamantina. XIV Simpósio de Geologia de Minas Gerais e X Simpósio de Geologia do Sudeste, 2007. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>OLIVEIRA, Natália Valadares de ; ENDO, Issamu ; OLIVEIRA, Luiz Gabriel Souza de. <b>Levantamento Magnetométrico Terrestre na região do Quadrilátero Ferrífero, Cráton São Francisco Meridional</b>. Em: XIV Simpósio de Geologia de Minas Gerais e X Simpósio de Geologia do Sudeste, 2007, Diamantina. XIV Simpósio de Geologia de Minas Gerais e X Simpósio de Geologia do Sudeste, 2007. </td></tr>
+            </table></div><div id="dv-year-2006"><h3 class="year">2006</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BIANCO, G.; OGLIARI, CECÍLIA ; SALVADOR, F. S. ; PEREIRA, N. C. ; CHERIAF, M. ; ROCHA, J. C.. <b>DETERMINAÇÃO DE METAIS PESADOS EM RESÍDUOS DE CONSTRUÇÃO E DEMOLIÇÃO</b>. Em: VII Seminário Desenvolvimento Sustentável e a Reciclagem na Construção Civil, 2006, São Paulo. VII Seminário Desenvolvimento Sustentável e a Reciclagem na Construção Civil, v. 1, 2006. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MARQUES, P ; LIMA, A ; Bianco, G ; LAURINDO, J ; BORSALI, R ; LEMEINS, J ; SOLDI, V ; BIANCO, G.. <b>Thermal properties and stability of cassava starch films cross-linked with tetraethylene glycol diacrylate</b>. <font color=#330066>Polymer Degradation and Stability</font>. v. 91, p. 726-732, issn: 0141-3910, 2006. <a href="http://dx.doi.org/10.1016/j.polymdegradstab.2005.05.020" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SILVA, Marcos Vinícius da Costa e ; OLIVEIRA, Luiz Gabriel Souza de. <b>Geoid Anomalies: Exploration Tool of Petroleum Systems</b>. Em: Workshop Petroleum Sciences, 2006, Brasília. Workshop Petroleum Sciences, 2006. </td></tr>
+            </table></div>
+                    </table>
+                <br><p>
+<br>Data de processamento: 05/06/2025 19:21:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:thonimar.souza@ufes.br">thonimar.souza@ufes.br</a>         </div> </body></html>
+              
