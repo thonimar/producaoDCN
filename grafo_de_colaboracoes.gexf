@@ -1,0 +1,941 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-12-02">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="url" type="string" />
+      <attribute id="1" title="publicacoesEmCoautoria" type="long" />
+      <attribute id="2" title="atualizacaoCV" type="string" />
+      <attribute id="3" title="resumo" type="string" />
+      <attribute id="4" title="rotulo" type="string" />
+      <attribute id="5" title="periodo" type="string" />
+      <attribute id="6" title="nomePrimeiraGrandeArea" type="string" />
+      <attribute id="7" title="nomePrimeiraArea" type="string" />
+      <attribute id="8" title="instituicao" type="string" />
+      <attribute id="9" title="enderecoProfissional" type="string" />
+      <attribute id="10" title="artigosPeriodicos" type="long" />
+      <attribute id="11" title="artigosEventos" type="long" />
+      <attribute id="12" title="capitulosDeLivros" type="long" />
+      <attribute id="13" title="livros" type="long" />
+      <attribute id="14" title="color" type="string" />
+      <attribute id="15" title="fontColor" type="string" />
+      <attribute id="16" title="degree" type="long" />
+      <attribute id="17" title="x" type="double" />
+      <attribute id="18" title="y" type="double" />
+      <attribute id="19" title="size" type="long" />
+    </attributes>
+    <nodes>
+      <node id="0" label="Aloísio José Bueno Cotta">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/3298545143757892" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="29/10/2025" />
+          <attvalue for="3" value="I hold a Bachelors degree in Chemistry from the Federal University of Viçosa (2005), a Masters (2007), and a Ph.D. (2010) in Geosciences from UNICAMP. Since 2011, I have been a professor of General, Environmental, Analytical, and Instrumental Chemistry at the Department of Natural Sciences (DCN) at CEUNES/UFES.My expertise includes reference material certification (RM), in-house RM preparation, and quality assurance protocols for chemical assays. I have extensive experience in ICP-MS, AAS, HPLC, and GC methodologies, ensuring compliance with SANTE and ISO guidelines. Additionally, I specialize in FTIR, Zeta Potential, XRD, and XRF analysis, as well as statistical tools for data processing, spatial modeling, and experimental design.I have worked on water quality modeling to evaluate urban organic loads in river systems, considering nutrient cycling (N and P), self-purification capacity, and saline intrusion. My research also includes groundwater contamination assessment at Guriri beach resort, leading to the implementation of chlorination treatment solutions.Other research areas involve oil sample preparation for inorganic constituent analysis, struvite synthesis and characterization, and chromatographic methods (HPLC-DAD, GC-MS) for pesticide determination. Currently, I am leading projects on recycling, water treatment, and bioactive compound analysis in coffee and black pepper.Contact: aloisio.cotta@ufes.br | ORCID: orcid.org/0000-0002-7084-0705 (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2011-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Centro Universitário Norte do Espírito Santo, DCN - Departamento de Ciências Naturais" />
+          <attvalue for="9" value="Centro Universitário Norte do Espírito Santo, DCN - Departamento de Ciências Naturais. Rodovia BR 101 Norte, Km. 60, Bairro Litorâneo Campus Universitário Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (027) 33121666 URL da Homepage: http://cienciasnaturais.saomateus.ufes.br/" />
+          <attvalue for="10" value="15" />
+          <attvalue for="11" value="17" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="4" />
+          <attvalue for="17" value="0.0033010538549638" />
+          <attvalue for="18" value="-0.025390606971212468" />
+          <attvalue for="19" value="5" />
+        </attvalues>
+      </node>
+      <node id="1" label="Ana Nery Furlan Mendes">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/8266113579775016" />
+          <attvalue for="1" value="22" />
+          <attvalue for="2" value="13/11/2025" />
+          <attvalue for="3" value="Doutora em Química pela Universidade Federal do Rio Grande do Sul, com período sanduíche na Universidad Autonoma de Barcelona. Graduada em Química Industrial e Bacharelado em Química pela Universidade Federal do Rio Grande do Sul. Docente de Química do Departamento de Ciências Naturais da Universidade Federal do Espírito Santo (campus São Mateus). Participa como Membro permanente do corpo docente do Programa de Pós-Graduação em Ensino na Educação Básica (PPGEEB) da Universidade Federal do Espírito Santo (UFES), na qual, atualmente, exerce o cargo de Coordenadora Adjunta. Participa como coordenadora de área do Programa Institucional de Bolsas de Iniciação à Docência (PIBID), do curso de Química Licenciatura da UFES, campus São Mateus. As principais linhas de pesquisa são: Ensino de Química (desenvolvimento de materiais pedagógicos e metodologias diferenciadas; uso de metodologias ativas; formação de professores); Uso de resíduos agrícolas como bioadsorvente. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2010-HOJE" />
+          <attvalue for="6" value="Ciências Humanas" />
+          <attvalue for="7" value="Educação" />
+          <attvalue for="8" value="" />
+          <attvalue for="9" value="" />
+          <attvalue for="10" value="55" />
+          <attvalue for="11" value="54" />
+          <attvalue for="12" value="29" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="7" />
+          <attvalue for="17" value="0.031679159294109256" />
+          <attvalue for="18" value="-0.05208262873214841" />
+          <attvalue for="19" value="8" />
+        </attvalues>
+      </node>
+      <node id="2" label="Ana Paula Oliveira Costa">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/0380297522790929" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="04/10/2025" />
+          <attvalue for="3" value="Possui graduação em Licenciatura em Química pela Universidade Católica de Pelotas, mestrado em Química pela Universidade Federal do Rio Grande do Sul e doutorado em Ciências dos Materiais pela Universidade Federal do Rio Grande do Sul. Desenvolve projeto com ênfase em Oleoquímica e Química Verde atuando principalmente nos seguintes temas: biodiesel, óleos vegetais e polímeros obtidos a partir da modificação química de óleos vegetais, estudo da biomassa brasileira..Exerce o cargo de chefe de departamento desde: 1 - mandato: 10/08/2021 a 09/08/2023. 2 - mandato: 10/08/2023 a 09/08/2025. 3 - mandato: 11/08/2025 a 10/08/2027. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2011-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Centro Universitário do Norte do Espírito Santo, DEPARTAMENTO DE CIÊNCIAS NATURAIS" />
+          <attvalue for="9" value="Centro Universitário do Norte do Espírito Santo, DEPARTAMENTO DE CIÊNCIAS NATURAIS. Rodovia BR-101 Norte - do km 50,000 ao km 58,990 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121665" />
+          <attvalue for="10" value="13" />
+          <attvalue for="11" value="2" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="3" />
+          <attvalue for="17" value="0.033966837141078114" />
+          <attvalue for="18" value="-0.07252031809786555" />
+          <attvalue for="19" value="4" />
+        </attvalues>
+      </node>
+      <node id="3" label="Andre Gonçalves de Lima">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/4496654673061366" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="22/10/2025" />
+          <attvalue for="3" value="Possui graduação em Física pela Universidade Federal de Juiz de Fora (2005), mestrado em Física pela Universidade Federal da Paraíba (2007) e doutorado em Doutorado em Física pela Universidade Federal do Espírito Santo (2015). Atualmente é professor Adjunto II do Departamento de Ciências Naturais da Universidade Federal do Espírito Santo - UFES. Tem experiência em Física, com ênfase em Física Geral. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2018-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. Rodovia BR 101, km 60 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121672 URL da Homepage: http://www.ceunes.ufes.br" />
+          <attvalue for="10" value="3" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="0" />
+          <attvalue for="17" value="-0.673777549867178" />
+          <attvalue for="18" value="0.10537454433724197" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="4" label="Andre Luíz Alves">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/5320330508972933" />
+          <attvalue for="1" value="20" />
+          <attvalue for="2" value="11/09/2025" />
+          <attvalue for="3" value="Possui graduação em Bacharelado em Física pela Universidade Federal do Espírito Santo (2005), graduação em Licenciatura Plena em Física pela Universidade Federal do Espírito Santo (2009), mestrado em Física pela Universidade Federal do Espírito Santo (2007) e doutorado em Física pela Universidade Federal do Espírito Santo (2010). Atualmente é professor adjunto iii da Universidade Federal do Espírito Santo, comissão de recursos humanos da Universidade Federal do Espírito Santo e coordenador laboratório óptica da Universidade Federal do Espírito Santo. Tem experiência na área de Física Geral/ Magnetismo e caracterização de materiais com as técnicas de DRX, EXAFS, Microscopias, Espectroscopia Mössbauer e Magnetometria. Por outro lado possui experiências na área do Ensino de Física/ Instrumentação para para o ensino. Coordena trabalhos de pesquisa em ensino de Física. Atualmente é professor efetivo do Programa de Pós Graduação em Ensino da Educação Básica da UFES/ CEUNES. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2011-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Departamento de Ciências Naturais" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Departamento de Ciências Naturais. Rodovia BR-101 Norte - do km 60 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121652 Ramal: 1652 URL da Homepage: ceunes.ufes.br" />
+          <attvalue for="10" value="25" />
+          <attvalue for="11" value="10" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="9" />
+          <attvalue for="17" value="-0.03185490252469341" />
+          <attvalue for="18" value="-0.03291243746188725" />
+          <attvalue for="19" value="10" />
+        </attvalues>
+      </node>
+      <node id="5" label="Breno Nonato de Melo">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/3410912882231783" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="05/10/2025" />
+          <attvalue for="3" value="Possui graduação (1998) e doutorado (2008) em Química , ambos pela Universidade Federal de Minas Gerais. Atualmente é professor associado IV da Universidade Federal do Espírito Santo, vinculado ao Centro Universitário do Norte do Espírito santo (CEUNES). Tem experiência na área de Físico-Química e química orgânica com ênfase em Polímeros, atuando principalmente nos seguintes temas: piche vegetal, poliuretanos, fibras vegetais, caracterização de materiais, compósitos de fontes renováveis, biodegradação, extração de produtos naturais, reciclagem terciária de plásticos e emulsões de petróleo. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2009-HOJE" />
+          <attvalue for="6" value="Engenharias" />
+          <attvalue for="7" value="Engenharia Química" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. Rodovia BR-101 Norte - km 60 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121673 URL da Homepage: www.ceunes.ufes.br" />
+          <attvalue for="10" value="6" />
+          <attvalue for="11" value="3" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="7" />
+          <attvalue for="17" value="-0.004612930158117466" />
+          <attvalue for="18" value="-0.03270973628003974" />
+          <attvalue for="19" value="8" />
+        </attvalues>
+      </node>
+      <node id="6" label="Carla da Silva Meireles">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/9685470701740945" />
+          <attvalue for="1" value="16" />
+          <attvalue for="2" value="07/10/2025" />
+          <attvalue for="3" value="Graduada em Quimica (Licenciatura e Bacharelado) pela Universidade Federal de Uberlândia(UFU) em 2004. Mestrado (2007) e Doutorado (2011) em Química na UFU, área de Físico Química com período sanduíche/Capes na Università Degli Studi di Genova/ Italia. Atualmente é docente na Universidade Federal do Espírito Santo, Campus de São Mateus, na área de Físico-Química e coordenadora do Programa de Pós-Graduação em Ciências da Natureza. Realiza trabalhos na área de aproveitamento de resíduos lignocelulósicos para produção de derivados, destacando a caracterização de materiais poliméricos e produção de membranas para processos de separação. Na área de educação atua em projetos de ensino e extensão com desenvolvimento de materiais didáticos. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2012-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo/ DCN" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo/ DCN. Rodovia BR 101 Norte, Km. 60 Litorâneo 29932540 - São Mateus, ES - Brasil - Caixa-postal: 29932540 Telefone: (27) 33121670 URL da Homepage: http://www.ceunes.ufes.br" />
+          <attvalue for="10" value="19" />
+          <attvalue for="11" value="8" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="5" />
+          <attvalue for="17" value="0.030572452231727894" />
+          <attvalue for="18" value="-0.04309948362772948" />
+          <attvalue for="19" value="6" />
+        </attvalues>
+      </node>
+      <node id="7" label="Carlos André Maximiano da Silva">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/6667248292479031" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="13/11/2025" />
+          <attvalue for="3" value="Graduado em Geologia pela Universidade Federal do Rio de Janeiro - UFRJ. Mestre em Engenharia de Petróleo pelo LENEP/UENF - Laboratório de Engenharia e Exploração de Petróleo - Universidade Estadual do Norte Fluminense. Doutor em Geofísica pela Universidade Federal Fluminense - UFF. Focalizando seus trabalhos e projetos de pesquisas no seguinte tema: Perfilagem Geofísica de Poços, com ênfase em Ressonância Magnética Nuclear (RMN). Tem experiência nas áreas de Geologia, Geofísica, Meio Ambiente, Engenharia de Petróleo e Perfilagem Geofísica de Poços. Pretende transmitir esses conhecimentos aos mais diferentes grupos sociais, de maneira a oferecer às pessoas informações necessárias para suas formações. Atualmente é Professor Associado da Universidade Federal do Espírito Santo - UFES. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2011-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Geociências" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. BR 101 Norte, Km 60 Litorâneo 29933-415 - Sao Mateus, ES - Brasil Telefone: (27) 33121625 URL da Homepage: http://www.ceunes.ufes.br" />
+          <attvalue for="10" value="5" />
+          <attvalue for="11" value="17" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="1" />
+          <attvalue for="17" value="-0.13877407031321143" />
+          <attvalue for="18" value="-0.027389963970322243" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="8" label="Christiane Mapheu Nogueira">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/2522406207908377" />
+          <attvalue for="1" value="24" />
+          <attvalue for="2" value="07/10/2025" />
+          <attvalue for="3" value="Possui graduação em Química Industrial pela Universidade Federal Fluminense (1994), mestrado em Química Orgânica pela Universidade Federal Fluminense (1996) e doutorado em Ciências pela Universidade Federal de São Carlos (2005). Atualmente é prof. adjunto da Universidade Federal do Espírito Santo. Tem experiência na área de Química, com ênfase em Síntese Orgânica e Espectroscopia de RMN, Espectroscopia na Região do Infravermelho, atuando principalmente nos seguintes temas: carboidratos, heterociclos, avaliação biológica e análises de alimentos. Bolsista de Produtividade em Pesquisa da FAPES (Bolsa Pesquisador Capixaba - Edital FAPES no. 014/2012). (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2010-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Universidade Federal do Espirito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espirito Santo, Centro Universitário Norte do Espírito Santo. Rodovia BR 101 Norte, Km. 60 - CEUNES - DCN Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121659 URL da Homepage: http://www.ceunes.ufes.br" />
+          <attvalue for="10" value="8" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="6" />
+          <attvalue for="17" value="0.020498077349571167" />
+          <attvalue for="18" value="-0.06214136732116115" />
+          <attvalue for="19" value="7" />
+        </attvalues>
+      </node>
+      <node id="9" label="Débora Pereira Araujo">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/9664531819814847" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="09/07/2025" />
+          <attvalue for="3" value="Bacharel em Química pela Universidade Federal de Juiz de Fora (2008). Possui mestrado (2011) e doutorado (2015) em Ciências - Química, com ênfase em Química Orgânica, pela Universidade Federal de Minas Gerais. Trabalhou como pesquisadora no Centro de Desenvolvimento, Inovação, Ciência e Tecnologia (CDICT) desenvolvendo novos produtos para diagnóstico in vitro. É Professora Adjunta no Departamento de Ciências Naturais da Universidade Federal do Espírito Santo, Campus São Mateus (CEUNES). Tem experiência em síntese orgânica, química medicinal e química biológica. ReserchID O-8626-2018 e ORCID.org/0000-0002-9442-3391 (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2017-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo, Departamento de Ciências Naturais" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo, Departamento de Ciências Naturais. CEUNES Litorâneo 29932900 - São Mateus, ES - Brasil Telefone: (027) 33121740" />
+          <attvalue for="10" value="8" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="4" />
+          <attvalue for="17" value="0.0053094055808864974" />
+          <attvalue for="18" value="-0.045153675511328026" />
+          <attvalue for="19" value="5" />
+        </attvalues>
+      </node>
+      <node id="10" label="Eduardo Perini Muniz">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/8285018770645807" />
+          <attvalue for="1" value="25" />
+          <attvalue for="2" value="01/12/2025" />
+          <attvalue for="3" value="Possui graduação em Física pela Universidade Federal do Espírito Santo (1997), mestrado em Física pela Universidade Federal do Espírito Santo (1998) e doutorado em Química (Físico-Química) pela Universidade de São Paulo (2003). Atualmente é professor associado II da Universidade Federal do Espírito Santo. Tem experiência na área de Física, com ênfase em Interações de Fótons com Materiais Nanocristalinos, atuando principalmente nos seguintes temas: filmes finos, espectro no infravermelho, nanopartículas, bases gaussianas e espéctroscopia. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2007-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, CEUNES" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, CEUNES. Rua Humberto de Almeida Francklin 257 Universitário 29933-415 - Sao Mateus, ES - Brasil" />
+          <attvalue for="10" value="30" />
+          <attvalue for="11" value="22" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="7" />
+          <attvalue for="17" value="-0.04843645884559499" />
+          <attvalue for="18" value="-0.03496729166203011" />
+          <attvalue for="19" value="8" />
+        </attvalues>
+      </node>
+      <node id="11" label="George Ricardo Santana Andrade">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/1419428893704446" />
+          <attvalue for="1" value="7" />
+          <attvalue for="2" value="24/11/2025" />
+          <attvalue for="3" value="Possui graduação em Química, mestrado e doutorado em Ciência e Engenharia de Materiais pela Universidade Federal de Sergipe. Realizou um período de Doutorado-Sanduíche entre 2013-2014 no Colloid Chemistry Group - Universidade de Vigo (Espanha) - com bolsa PDSE/CAPES. Entre 2016 e 2019, integrou o Grupo de Química Biológica e Materiais do DCEM/UFS, atuando como pesquisador com bolsa PNPD/CAPES. Atuou como professor auxiliar (substituto) no Departamento de Química (DQI/UFS), professor pesquisador na Universidade Aberta do Brasil (UAB/UFS) e professor voluntário no Programa de Pós-Graduação em Ciência e Engenharia de Materiais (P2CEM) na Universidade Federal de Sergipe. Foi professor permanente do Programa de Pós-Graduação em Energia (PPGEN-UFES). Atualmente é professor adjunto C do Departamento de Ciências Naturais (DCN-UFES) e professor permanente do Programa de Pós-Graduação em Ciências Naturais (PPGCIN-UFES) da Universidade Federal do Espírito Santo, CEUNES, Campus São Mateus. Tem experiência na área de Química, com ênfase em Química Inorgânica dos Materiais, atuando principalmente nos seguintes temas: Química Supramolecular e Nanotecnologia. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2019-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. Rodovia Governador Mário Covas - do km 50,000 ao km 58,990 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121777 URL da Homepage: http://cienciasnaturais.saomateus.ufes.br/" />
+          <attvalue for="10" value="15" />
+          <attvalue for="11" value="2" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="2" />
+          <attvalue for="17" value="0.0457067516582931" />
+          <attvalue for="18" value="-0.04599464720053864" />
+          <attvalue for="19" value="3" />
+        </attvalues>
+      </node>
+      <node id="12" label="Gilmene Bianco">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/0111900440522917" />
+          <attvalue for="1" value="7" />
+          <attvalue for="2" value="27/08/2025" />
+          <attvalue for="3" value="Graduação em Química pela Universidade Federal de Santa Catarina (1994), mestrado em Química pela Universidade Federal de Santa Catarina (1997) e doutorado em Química (Físico-Química) no Instituto de Química de São Carlos da Universidade de São Paulo (2001). Atualmente, professora Titular da Universidade Federal do Espírito Santo, no Campus São Mateus, e pertence ao programa de Pós-graduação em Ensino na Educação Básica como professora permanente na área de Ensino de Química e Ensino de Ciências. Tem experiência na área de Química, com ênfase Polímeros, atuando principalmente nos seguintes temas: polimerização, energia de ativação, degradação térmica, fibras vegetais e isotermas de adsorção. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2006-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário do Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário do Norte do Espírito Santo. Rodovia BR-101 Norte - do km 50,000 ao km 58,990 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121665 URL da Homepage: http://www.ceunes.ufes.br" />
+          <attvalue for="10" value="20" />
+          <attvalue for="11" value="11" />
+          <attvalue for="12" value="8" />
+          <attvalue for="13" value="2" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="3" />
+          <attvalue for="17" value="0.02355183736642715" />
+          <attvalue for="18" value="-0.035494136285587" />
+          <attvalue for="19" value="4" />
+        </attvalues>
+      </node>
+      <node id="13" label="Gustavo Viali Loyola">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/6464661567161861" />
+          <attvalue for="1" value="9" />
+          <attvalue for="2" value="11/11/2025" />
+          <attvalue for="3" value="Professor Adjunto IV do Departamento de Ciências Naturais (DCN) da Universidade Federal do Espírito Santo (UFES) e Professor Permanente do Programa de Pós-Graduação em Ensino de Física (PPGENFIS-UFES). Possui Graduação em Física Licenciatura pelo Centro Universitário São Camilo - ES (2008). Mestrado em Física (2011) e Doutorado em Física (2015) ambos pela Universidade Federal do Espírito Santo. Realizou Doutorado Sanduíche na Université du Maine - França (2012). Desenvolve pesquisa na área de Ensino de Física e Física da Matéria Condensada. Trabalha com temas relacionados a Divulgação e Popularização da Ciência com ênfase no Ensino de Física e Robótica Educacional e atua também com nanociência com ênfase em Materiais Magnéticos e Propriedades Magnéticas. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2015-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Centro Universitário Norte do Espirito Santo, Departamento de Ciências Naturais" />
+          <attvalue for="9" value="Centro Universitário Norte do Espirito Santo, Departamento de Ciências Naturais. Rodovia Governador Mário Covas - do km 50,000 ao km 58,990 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121577 Ramal: 1577 URL da Homepage: gustavoviali@gmail.com" />
+          <attvalue for="10" value="8" />
+          <attvalue for="11" value="4" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="4" />
+          <attvalue for="17" value="-0.04544275992750329" />
+          <attvalue for="18" value="-0.026661606332913663" />
+          <attvalue for="19" value="5" />
+        </attvalues>
+      </node>
+      <node id="14" label="Jefferson Lima Fernandes André">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/6632598745671715" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="09/07/2025" />
+          <attvalue for="3" value="Possui graduação em geologia pela Universidade Federal Rural do Rio de Janeiro (2007), mestrado (2009) e doutorado em geociências pela Universidade do Estado do Rio de Janeiro (2014), estudando o Complexo Juiz de Fora na Faixa Ribeira atraves de dados de litogeoquímca, geocronologia U-Pb em zircão e geoquímica isotópica de Rb-Sr e Sm-Nd. Atualmente é professor adjunto da Universidade Federal do Espírito Santo, constituindo experiência em temas sobre Bacia Sedimentar do Espírito Santo, como a Formação Rio Doce e Formação Barreiras, mas também em reservatórios de hidrocarbonetos. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2014-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Geociências" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. Rodovia Governador Mário Covas - do km 50,000 ao km 58,990 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121802" />
+          <attvalue for="10" value="3" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="0" />
+          <attvalue for="17" value="0.017296693692544073" />
+          <attvalue for="18" value="-0.7" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="15" label="José André Lourenço">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/2699117520955351" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="17/09/2025" />
+          <attvalue for="3" value="Professor Associado III do Departamento de Ciências Naturais (DCN) da Universidade Federal do Espírito Santo. Possui graduação em Física pela Universidade Federal do Espírito Santo (2003), mestrado em Física pela Universidade Federal do Espírito Santo (2005), doutorado em Física pela Universidade Federal do Espírito Santo (2009), pós-doutorado em Física pela Universidade Federal de Viçosa - UFV (2010), pós-doutorado em Física pelo Centro Brasileiro de Pesquisas Físicas - CBPF (2017). Tem experiência em Teoria Quântica de Campos (TQC), atuando principalmente nos seguintes temas: Teorias de Yang-Mills Topológicas, Parasupersimetria, Gravitação Quântica de Laços, TQC à Temperatura Finita, Aspectos Construtivos da TQC, Métodos Não-perturbativos e Análise Ressurgente em TQC. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2010-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. Rodovia BR 101 Norte, Km 60 Litorâneo 29932540 - Sao Mateus, ES - Brasil Telefone: (27) 33121672 URL da Homepage: http://www.ceunes.ufes.br" />
+          <attvalue for="10" value="8" />
+          <attvalue for="11" value="3" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="0" />
+          <attvalue for="17" value="0.3860493728896146" />
+          <attvalue for="18" value="-0.5569232734848815" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="16" label="Luiz Gabriel Souza de Oliveira">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/5722300748929381" />
+          <attvalue for="1" value="17" />
+          <attvalue for="2" value="07/10/2025" />
+          <attvalue for="3" value="Possui graduação em Geologia pela Universidade de Brasília (2000), mestrado em Tectônica/Geofísica pela Universidade Federal de Ouro Preto (2003) e doutorado em Tectônica/Geofísica pela Universidade Federal de Ouro Preto (2009). Atualmente é professor associado do Departamento de Ciências Naturais, da Universidade Federal do Espírito Santo. Atua na área de Geofísica Global e Métodos Numéricos em Geofísica. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2006-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Geociências" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. Rodovia BR-101 Norte - do km 50,000 ao km 58,990 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121647 URL da Homepage: http://www.ceunes.ufes.br" />
+          <attvalue for="10" value="8" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="4" />
+          <attvalue for="17" value="-0.10309135426189901" />
+          <attvalue for="18" value="-0.030589565852892468" />
+          <attvalue for="19" value="5" />
+        </attvalues>
+      </node>
+      <node id="17" label="Luiz Gustavo Ferreira Soares">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/4517059757920195" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="16/04/2025" />
+          <attvalue for="3" value="Fiz iniciação científica no subprojeto Estudo de Gás Monoatômico Clássico de Partículas Interagentes através da comparação com os parâmetros fenomenológicos da equação de van der Waals e suas possíveis aplicações no projeto Transições de Fases em Sistemas Magnéticos Clássicos e Quânticos. Monitor da disciplina Física Básica I, no 2º Período Letivo de 2011, para o curso de Engenharia Florestal. Estagiário no laboratório de Física no Colégio Oficina no Período Letivo de 2013. Monitor da disciplina Física Geral II, no 2º Período Letivo de 2013, para o curso de Física. Monitor da disciplina Física Geral I, no 1º Período Letivo de 2013, para o curso de Física. Monitor da disciplina Métodos Matemáticos, no 2º Período Letivo de 2014, para o curso de Física. Atuei nos coletivos de educação COLEP por três como professor (2018-2020) de física e matemática e no projeto de extensão PROGRAMA TRANSENEM como participante da organização e professor de física durante dois anos (2018-2019) Mestrado na UFRGS (2017) Doutorado na UFRGS (2021) Professor do Magistério Superior - Adjunto A (Dez-2021) Tenho experiência com condensados de Bose-Einstein, plasmas de uma componente, método variacional dependente do tempo, resolução de equações diferenciais parciais não-lineares e não-locais, MOTs e hidrodinâmica. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2021-HOJE" />
+          <attvalue for="6" value="[sem-grandeArea]" />
+          <attvalue for="7" value="[sem-area]" />
+          <attvalue for="8" value="" />
+          <attvalue for="9" value="" />
+          <attvalue for="10" value="3" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="0" />
+          <attvalue for="17" value="0.5970632076501549" />
+          <attvalue for="18" value="0.2267158112648157" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="18" label="Marcia Helena Rodrigues Velloso">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/9991164750729669" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="25/10/2024" />
+          <attvalue for="3" value="Possui graduação em Química Industrial pela Universidade Federal Fluminense (1994), mestrado em Química pelo Instituto Militar de Engenharia (1997) e doutorado em Química pelo Instituto Militar de Engenharia (2004). Atualmente é professor associado da Universidade Federal do Espírito Santo. Tem experiência na área de Química, com ênfase em Espectroscopia (Ressonância Magnética Nuclear), atuando principalmente nos seguintes temas: Programação e implementação de sequencias de pulsos, estudos de interações inter e intramoleculares por RMN, estudos relacionados a relação estrutura-atividade por RMN, estudos de interações de drogas-receptores por RMN, estudos de interação drogas-micelas por RMN. Além da área de modelagem e dinâmica molecular, onde atua em estudos de desenvolvimento de fármacos para tratamento de diversas doenças, como as neurodegenerativas. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2010-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo, Departamento de Ciências Naturais - DCN" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo, Departamento de Ciências Naturais - DCN. Rodovia BR 101 Norte, Km. 60 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (027) 33121666 URL da Homepage: http://www.ceunes.ufes.br/" />
+          <attvalue for="10" value="10" />
+          <attvalue for="11" value="8" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="6" />
+          <attvalue for="17" value="-0.008803453338752357" />
+          <attvalue for="18" value="-0.04830045058513908" />
+          <attvalue for="19" value="7" />
+        </attvalues>
+      </node>
+      <node id="19" label="Marcio Solino Pessoa">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/2752782453011955" />
+          <attvalue for="1" value="20" />
+          <attvalue for="2" value="27/11/2025" />
+          <attvalue for="3" value="Possui graduação em Física pela Universidade Federal de Goiás e doutorado em Física pela Universidade Federal de Goiás. Atualmente é Professor Associado da Universidade Federal do Espírito Santo (CEUNES/DCN). Desenvolve atividades de pesquisa na área de Magnetismo e Materiais Magnéticos, com ênfase na aplicação da técnica de Ressonância Ferromagnética, magnetometria por amostra vibrante, a susceptibilidade magnética AC parra investigar as propriedades magnéticas de ferrofluidos, filmes finos magnéticos, nanopartículas magnéticas e multicamadas magnéticas. Possui também experiências na aplicação da técnica de ressonância magnética eletrônica aplicada ao estudo de materiais orgânicos, tais como café e petróleo. Atualmente, lidera um Plano de Inovação selecionado no edital nacional Catalisa ICT - Ciclo 02, uma iniciativa do Sebrae para transformar conhecimento científico em inovações de alto impacto. Atua como bolsista de Estímulo à Inovação com o objetivo de validar a solução no mercado e estruturar a criação de uma startup deeptech. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2013-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. Rodovia BR-101 Norte - do km 50,000 ao km 58,990 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121735 URL da Homepage: http://www.ceunes.ufes.br" />
+          <attvalue for="10" value="20" />
+          <attvalue for="11" value="4" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="8" />
+          <attvalue for="17" value="-0.0351241184529541" />
+          <attvalue for="18" value="-0.03714946147492789" />
+          <attvalue for="19" value="9" />
+        </attvalues>
+      </node>
+      <node id="20" label="Maria de Fatima Pereira dos Santos">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/0376041929696875" />
+          <attvalue for="1" value="34" />
+          <attvalue for="2" value="20/11/2025" />
+          <attvalue for="3" value="Possui graduação de Bacharel em Química com Orientação Tecnológica (1990), Licenciatura em Química (1991) e aperfeiçoamento em Metodologia do Ensino Superior (1995) pela Fundação Técnico Educacional Souza Marques. Possui aperfeiçoamento na área de Engenharia de Petróleo pela Universidade Estácio de Sá, (2001), mestrado em Química Analítica pela Universidade Federal do Rio de Janeiro, (2004) e doutorado em Química Analítica pela Universidade Federal de Santa Maria, (2009). Foi professora de nível técnico e superior em instituições particulares, desde 1991. Foi Técnica em Química e Química na Gerência de Refino e pesquisadora na Gerência de Processamento Primário e Avaliação de Petróleo do Centro de Pesquisas e Desenvolvimento Leopoldo Américo Miguez de Mello, desde 1992. Foi consultora em normas da Associação Brasileiras de Normas Técnicas na comissão de estudos de combustíveis e produtos especiais. Participou em grupos de trabalhos na área de precisão de métodos e na área de qualidade segundo ISO 17025 no Instituto Brasileiro de Petróleo, Gás e Biocombustíveis, desde 2000. Participou em projetos de pesquisa com integração entre a Petrobras S.A e as seguintes Universidades : UFRJ, UFMA, UFSM, UFPI, UFRN e UNIT. Atualmente é professora Titular em Química Analítica do Petróleo. Coordenou o Programa de Pós-Graduação em Energia na Universidade Federal do Espírito Santo de 2016 até 2017. Tem experiência na área de Química do Petróleo, com ênfase em controle de qualidade , validação de métodos e caracterização utilizando técnicas de medidas físico-químicas, combustão, extração por solvente, gravimétricas, potenciométricas, fluorescência de Raios-X, infravermelho, ultravioleta, quimiluminescência e temogravimetria. Participa como membro permanente do PPGEN, Mestrado em ENERGIA, linha de pesquisa Petróleo, gás e energias renováveis. Atua principalmente no estudo dos seguintes temas: comportamento de misturas e determinações de parâmetros de solubilidade em petróleos Brasileiros, uso de energias alternativas de micro-ondas e ultrassom na separação de emulsões de petróleos pesados e no desenvolvimento, otimização e validação de métodos na caracterização de petróleos extrapesados, desenvolvimento de métodos para a determinação de propriedades Dielétricas e Elétricas em Petróleos e Emulsões de Petróleos. Em 10 de Novembro de 2016 foi homenageada pelo Laboratório de Análises Químicas Industriais e Ambientais da Universidade Federal de Santa Maria pelo incentivo à pesquisa e apoio ao CEPETRO. Possui quatro concessões de patentes e oito pedidos de depósitos de patentes de inovação tecnológica na área de petróleo. Destaca-se o deferimento pela Universidade Federal do Espírito Santo, integrante da 5 e 10 Patente publicada no Instituto Nacional de Propriedade Industrial (INPI). O invento da 10 Patente publicada refere-se à utilização de ondas ultrassônicas num processo sustentável de recuperação de óleo básico a partir de óleo lubrificante usado, com menor impacto ao meio ambiente. Em junho de 2024, fui indicada para compor o Comitê de Assessoramento de Bolsas de Produtividade em Desenvolvimento Tecnológico e Extensão Inovadora (CA-DT). (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2009-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. Rodovia BR 101 Norte, Km 60 Litorâneo 29932-540 - Sao Mateus, ES - Brasil Telefone: (027) 37638689 Fax: (027) 37638689" />
+          <attvalue for="10" value="37" />
+          <attvalue for="11" value="7" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="5" />
+          <attvalue for="17" value="-0.02214489162122268" />
+          <attvalue for="18" value="-0.022322071978338985" />
+          <attvalue for="19" value="6" />
+        </attvalues>
+      </node>
+      <node id="21" label="Mariléa Gomes dos Santos Ribeiro">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/6838038881434963" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="03/11/2025" />
+          <attvalue for="3" value="?Sou a favor dos psicólogos práticos, a favor do trabalho prático, portanto, em sentido amplo a favor da ousadia e do aprofundamento de nosso ramo de ciência na própria vida?. L.S.Vygotsky (citado em Lontiev e Luria, 1968, p. 367). (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2017-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Geociências" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santos, Centro Universitário Norte do Espírito Santo (Ceunes)" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santos, Centro Universitário Norte do Espírito Santo (Ceunes). Rodovia Governador Mário Covas Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121652 URL da Homepage: http://www.ceunes.ufes.br/" />
+          <attvalue for="10" value="3" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="0" />
+          <attvalue for="17" value="-0.5400077531994126" />
+          <attvalue for="18" value="0.3939661676989196" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="22" label="Maristela de Araujo Vicente">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/1832685910267156" />
+          <attvalue for="1" value="31" />
+          <attvalue for="2" value="20/11/2025" />
+          <attvalue for="3" value="Possui graduação em Farmácia pela Universidade Federal de Ouro Preto (1992), mestrado em Ciências Biológicas pela Universidade Federal de Ouro Preto (2003) e doutorado em Ciências Biológicas pela Universidade Federal de Ouro Preto (2007). Atualmente é professora Associada da Universidade Federal do Espírito Santo, locada no Departamento de Ciências Naturais. Leciona disciplinas de Química Analítica e Análise Instrumental. Tem experiência na área de Química Analítica, com ênfase em Instrumentação Analítica, atuando principalmente nos seguintes temas: preparo de amostra, petróleo, ultrassom, água, remediação. Possui 03 patentes de inovação nacional e 01 internacional. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2014-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo, Departamento de Ciências Naturais -DCN" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo, Departamento de Ciências Naturais -DCN. Rodovia BR 101 Norte, Km. 60 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (027) 3312 Ramal: 1740 URL da Homepage: http://www.ufes.br" />
+          <attvalue for="10" value="20" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="5" />
+          <attvalue for="17" value="-0.02381114860979275" />
+          <attvalue for="18" value="-0.016603173871633892" />
+          <attvalue for="19" value="6" />
+        </attvalues>
+      </node>
+      <node id="23" label="Mellina Damasceno Rachid Santos">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/9434564411683567" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="05/10/2025" />
+          <attvalue for="3" value="Possui licenciatura e bacharelado em Química pela Universidade Federal de Juiz de Fora (2006), mestrado em Química pela Universidade Federal de Juiz de Fora (2009) e doutorado em Química pela Universidade Federal de Juiz de Fora (2014). Atualmente é professora adjunta da Universidade Federal do Espírito Santo, campus de São Mateus (CEUNES). Tem experiência na área de Química Analítica, atuando principalmente nos seguintes temas: preparo de amostras, HPLC-UV, GC/MS, Análise Traços e Química Ambiental. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2017-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Centro Universitário Norte do Espírito Santo, Departamento de Ciências Naturais" />
+          <attvalue for="9" value="Centro Universitário Norte do Espírito Santo, Departamento de Ciências Naturais. Rodovia Governador Mário Covas - do km 50,000 ao km 58,990 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121777 URL da Homepage: http://www.ceunes.ufes.br/" />
+          <attvalue for="10" value="5" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="2" />
+          <attvalue for="17" value="0.013621811988751798" />
+          <attvalue for="18" value="-0.01599530054443339" />
+          <attvalue for="19" value="3" />
+        </attvalues>
+      </node>
+      <node id="24" label="Natália Valadares">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/3689867487273875" />
+          <attvalue for="1" value="14" />
+          <attvalue for="2" value="18/10/2024" />
+          <attvalue for="3" value="Possui graduação em Engenharia Geológica pela Universidade Federal de Ouro Preto (2002), mestrado em Evolução Crustal e Recursos Naturais pela Universidade Federal de Ouro Preto (2005) e doutorado em Evolução Crustal e Recursos Naturais pela Universidade Federal de Ouro Preto (2012). Atualmente é professora associada da Universidade Federal do Espírito Santo. Tem experiência na área de Geociências, com ênfase em Geofísica Aplicada, atuando principalmente nos seguintes temas: Métodos Potenciais e Geotectônica. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2007-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Geociências" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. BR 101 Norte Litorâneo 29933415 - São Mateus, ES - Brasil Telefone: (27) 33121650 URL da Homepage: www.ceunes.ufes.br" />
+          <attvalue for="10" value="5" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="1" />
+          <attvalue for="17" value="-0.11334166066229034" />
+          <attvalue for="18" value="-0.02859168855376543" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="25" label="Paulo Sérgio Moscon">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/0422485640031962" />
+          <attvalue for="1" value="16" />
+          <attvalue for="2" value="29/10/2025" />
+          <attvalue for="3" value="Possui graduação em Licenciatura Em Física pela Universidade Federal do Espírito Santo (2004), graduação em Bacharelado Em Física pela Universidade Federal do Espírito Santo (2004), mestrado em Física pela Universidade Federal do Espírito Santo (2006) e doutorado em Física pela Universidade Federal do Espírito Santo (2009). Atualmente é professor adjunto 1 da UFES, com vínculo empregatício desde Março de 2010. Tem experiência na área de Física, com ênfase em Física da matéria condensada, atuando principalmente nos seguintes temas: tricamadas magnetostrictivas, anisotropia em metais amorfos magnetostrictivos, sensores magnéticos, efeito magnetoelástico, reorientação de spins, distribuição de tensão em fitas magnetostrictivas, espectroscopia Mössbauer. Entre as técnicas experimentais de caracterização que domina destacam-se: espectroscopia Mössbauer, ressonância ferromagnética, microscopia eletrônica de varredura, SPM, magnetometria por amostra vibrande, susceptibilidade magnética AC, magnetorresistência, etc. Possui experiência com as técnicas de mecanossíntese, melt-spinning e sputtering para preparação de amostras. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2010-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro de Ciências Exatas, Departamento de Física e Química" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro de Ciências Exatas, Departamento de Física e Química. Campus Universitário Alaor Queiroz de Araújo Goiabeiras 29075910 - Vitória, ES - Brasil Telefone: (27) 33352472 URL da Homepage: http://www.paulomoscon.com" />
+          <attvalue for="10" value="16" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="8" />
+          <attvalue for="17" value="-0.03637253493823764" />
+          <attvalue for="18" value="-0.03012285728295707" />
+          <attvalue for="19" value="9" />
+        </attvalues>
+      </node>
+      <node id="26" label="Raniella Falchetto Bazoni">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/3349837205962461" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="26/09/2025" />
+          <attvalue for="3" value="Ex-estudante da universidade Federal de Viçosa, na qual completou a graduação, o mestrado, e o doutorado. Todos os três em áreas distintas, trabalhou na graduação com ensino de física (monografia), no mestrado utilizou softwares para analisar medidas de refletividade de raios-x e no doutorado trabalhou na área da física biológica, analisando as propriedades mecânicas de sistêmas biológicos. Trabalhou com ensino de física no IFES de Nova Venécia e no momento, trabalha como professora do magistério superior no CEUNES, campos da Universidade Federal do Espírito Santo. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2016-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. Rodovia Governador Mário Covas Litorâneo 29932540 - São Mateus, ES - Brasil - Caixa-postal: 16 Telefone: (31) 96309026" />
+          <attvalue for="10" value="4" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="0" />
+          <attvalue for="17" value="0.39856560251644463" />
+          <attvalue for="18" value="0.4908850237892863" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="27" label="Raphael Góes Furtado">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/7034365539639197" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="29/10/2025" />
+          <attvalue for="3" value="Possui Bacharelado (1997), Mestrado (2001), Doutorado (2007) e realizou estudos de Pós-Doutorado (2009, 2016 e 2022) em Fisica, todos pela Universidade Federal do Espírito Santo (UFES). É Professor Associado da Universidade Federal do Espírito Santo, lotado no Departamento de Ciências Naturais. Suas pesquisas envolvem fundamentalmente: Gravitação Clássica e Quântica, Cosmologia, Física Matemática e Filosofia da Física. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2009-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. Rodovia BR 101 Norte, Km. 60, DCMN Litorâneo 29932-540 - Sao Mateus, ES - Brasil Telefone: (27) 33121615 URL da Homepage: http://www.ceunes.ufes.br/" />
+          <attvalue for="10" value="4" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="2" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="0" />
+          <attvalue for="17" value="0.08841788209760054" />
+          <attvalue for="18" value="0.6227857190676713" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="28" label="Ricardo Lopes da Silva">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/2598314759854581" />
+          <attvalue for="1" value="30" />
+          <attvalue for="2" value="28/08/2025" />
+          <attvalue for="3" value="Professor Associado III da Universidade Federal do Espírito Santo (UFES), campus de São Mateus. Atua na área de Materiais Magnéticos e Propriedades Magnéticas, com experiência em simulações numéricas de Monte Carlo, dinâmica de spins e diagonalização de Lanczos. Suas pesquisas exploram excitações topológicas como vórtices, skyrmions de Néel e de Bloch, bimerons e biskyrmions em sistemas magnéticos ferro e antiferromagnéticos. Desenvolve modelos e simulações avançadas para investigar transições de fase, fenômenos críticos e a dinâmica de texturas magnéticas em escalas nanométricas, com foco em aplicações emergentes em spintrônica e nanomagnetismo. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2009-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, DCN/UFES" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, DCN/UFES. Rodovia Governador Mário Covas - do km 50,000 ao km 58,990 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (141) 33121647 URL da Homepage: http://cienciasnaturais.saomateus.ufes.br" />
+          <attvalue for="10" value="27" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="3" />
+          <attvalue for="17" value="-0.08138002262837717" />
+          <attvalue for="18" value="-0.04485796506267586" />
+          <attvalue for="19" value="4" />
+        </attvalues>
+      </node>
+      <node id="29" label="Rodrigo da Costa Silva">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/7120418895468591" />
+          <attvalue for="1" value="25" />
+          <attvalue for="2" value="14/10/2025" />
+          <attvalue for="3" value="Possui bacharelado (2010), mestrado (2011) e doutorado (2014) em Física pela Universidade Federal de Viçosa. Atualmente é Professor Assoicado I do Departamento de Ciências Naturais da Universidade Federal do Espírito Santo. Desenvolve pesquisas na área de Física da Matéria Condensada, com ênfase em materiais magnéticos de baixa dimensionalidade. Atua principalmente nos seguintes temas: fenômenos magnéticos em filmes finos; frustração geométrica em nanomateriais, com especial interesse em gelos de spin artificiais; simulações computacionais de modelos magnéticos com interações de longo alcance; transições de fase e fenômenos críticos; excitações topológicas, incluindo skyrmions e vórtices magnéticos, bem como suas propriedades dinâmicas e estabilidade; e análise de modos normais de excitação em sistemas magnéticos confinados. Atualmente é bolsista de Produtividade em Pesquisa da FAPES/CNPq (T.O. 1034/2025). (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2014-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo, Departamento de Ciências Naturais" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo, Departamento de Ciências Naturais. Rodovia BR-101 Norte - do km 50,000 ao km 58,990 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33121672" />
+          <attvalue for="10" value="21" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="1" />
+          <attvalue for="17" value="-0.08813981985334896" />
+          <attvalue for="18" value="-0.04965403954107389" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="30" label="Rodrigo Dias Pereira">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/3414799692619699" />
+          <attvalue for="1" value="27" />
+          <attvalue for="2" value="28/07/2025" />
+          <attvalue for="3" value="Possui graduação em Física pela Universidade Federal do Espírito Santo (2000) e Teologia pela UNICESUMAR (2023), mestrado em Física pela Universidade Federal do Espírito Santo (2003) e doutorado em Física pela Universidade Federal do Espírito Santo (2008). Atualmente é Professor Associado IV da Universidade Federal do Espírito Santo (CEUNES/DCN) e desenvolve pesquisas na Área de Ensino de Física, atuando principalmente nos seguintes temas: O uso da tecnologia no ensino de física, Instrumentação para o ensino de física e Inclusão. Também possui experiência na área de Física, com ênfase em Materiais Magnéticos e Propriedades Magnéticas, tendo atuado principalmente nos seguintes temas: Produção e Caracterização de Ferritas; Cinética de Cristalização; Materiais multicomponentes; Propriedades magnéticas e Espectroscopia Mössbauer. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2009-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo, Departamento de Ciências Matemáticas e Naturais" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo, Departamento de Ciências Matemáticas e Naturais. Rod. BR 101 Norte, Km 60 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (027) 33121655 URL da Homepage: www.ceunes.ufes.br" />
+          <attvalue for="10" value="13" />
+          <attvalue for="11" value="14" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="6" />
+          <attvalue for="17" value="-0.05649817994323902" />
+          <attvalue for="18" value="-0.037318518672096734" />
+          <attvalue for="19" value="7" />
+        </attvalues>
+      </node>
+      <node id="31" label="Thonimar Vieira de Alencar Souza">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/6095468454824366" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="17/10/2025" />
+          <attvalue for="3" value="Possui graduação em Licenciatura em Física pela Universidade Estadual de Santa Cruz (2008), mestrado em Física pela Universidade Federal de Minas Gerais (2010) e doutorado em Física pela Universidade Federal de Minas Gerais (2014). Atualmente é professor adjunto, classe d da Universidade Federal do Espírito Santo. Tem experiência na área de Física, com ênfase em Física da Matéria Condensada, atuando principalmente nos seguintes temas: machine learning, fast radio bursts, espectroscopia de femtosegundos, fotoluminescência e 2d materials. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2021-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Física" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo - CEUNES, Departamento de Ciências Naturais - DCN" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo - CEUNES, Departamento de Ciências Naturais - DCN. Rodovia Governador Mário Covas, km 60 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 936187431 URL da Homepage: https://cienciasnaturais.saomateus.ufes.br/" />
+          <attvalue for="10" value="6" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="0" />
+          <attvalue for="17" value="0.6250243295402143" />
+          <attvalue for="18" value="-0.1911608361819011" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+      <node id="32" label="Vivian Chagas da Silveira">
+        <viz:color r="251" g="128" b="114" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/0811158352700883" />
+          <attvalue for="1" value="25" />
+          <attvalue for="2" value="04/10/2025" />
+          <attvalue for="3" value="Possui graduação em Química Bacharelado pela Universidade Federal do Rio Grande do Sul (2000), mestrado em Biologia Celular e Molecular pela Universidade Federal do Rio Grande do Sul (2003) e doutorado em Química (Química Inorgânica) pela Universidade de São Paulo (2009). Tem experiência na área de Química, com ênfase em química bioinorgânica, atuando principalmente nos seguintes temas: síntese e caracterização de compostos de coordenação; processos oxidativos em biomoléculas. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professora" />
+          <attvalue for="5" value="2010-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Química" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. Rod. BR 101 KM 60 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 37638544 URL da Homepage: http://www.ceunes.ufes.br" />
+          <attvalue for="10" value="13" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#fb8072" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="3" />
+          <attvalue for="17" value="0.029133980830954358" />
+          <attvalue for="18" value="-0.06480472029888272" />
+          <attvalue for="19" value="4" />
+        </attvalues>
+      </node>
+      <node id="33" label="Wiliam Santiago Hipólito Ricaldi">
+        <viz:color r="141" g="211" b="199" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="http://lattes.cnpq.br/0293080746483402" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="16/07/2025" />
+          <attvalue for="3" value="Possui graduação em Fisica na Universidad Nacional de Ingenieria de Lima, Perú (1999), mestrado em Física pela Fundação Instituto de Física Teórica-UNESP (2003) e doutorado em Fisica pela Fundação Instituto de Física Teórica-UNESP (2007). Foi pós doutorado no Departamento de Fisica da Universidade Federal do Espírito Santo (2009), Instituto de Física da Universidade Federal da Bahia (2010) e Physics Department da McGill University, Montreal, Canada (2015). Atualmente é Professor Associado no Departamento de Ciências Naturais da Universidade Federal do Espírito Santo e Professor permanente do Doutorado Internacional em Astrofísica, Cosmologia e Gravitação (PPGCosmo-UFES) desde 2016.Tem experiência na área de Física Teórica, com ênfase em Cosmologia. (Texto informado pelo autor)" />
+          <attvalue for="4" value="Professor" />
+          <attvalue for="5" value="2010-HOJE" />
+          <attvalue for="6" value="Ciências Exatas e da Terra" />
+          <attvalue for="7" value="Astronomia" />
+          <attvalue for="8" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo" />
+          <attvalue for="9" value="Universidade Federal do Espírito Santo, Centro Universitário Norte do Espírito Santo. Rodovia BR 101 Norte, Km. 60 Litorâneo 29932540 - São Mateus, ES - Brasil Telefone: (27) 33151735" />
+          <attvalue for="10" value="24" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="#8dd3c7" />
+          <attvalue for="15" value="#ffffff" />
+          <attvalue for="16" value="0" />
+          <attvalue for="17" value="-0.29814484653751083" />
+          <attvalue for="18" value="0.5711845566824286" />
+          <attvalue for="19" value="2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="0" target="1" id="0" weight="1.0" />
+      <edge source="0" target="9" id="1" weight="1.0" />
+      <edge source="0" target="10" id="2" weight="1.0" />
+      <edge source="0" target="23" id="3" weight="6.0" />
+      <edge source="1" target="2" id="4" weight="2.0" />
+      <edge source="1" target="6" id="5" weight="9.0" />
+      <edge source="1" target="8" id="6" weight="3.0" />
+      <edge source="1" target="11" id="7" weight="4.0" />
+      <edge source="1" target="12" id="8" weight="3.0" />
+      <edge source="1" target="32" id="9" weight="7.0" />
+      <edge source="2" target="8" id="10" weight="5.0" />
+      <edge source="2" target="32" id="11" weight="4.0" />
+      <edge source="4" target="5" id="12" weight="1.0" />
+      <edge source="4" target="10" id="13" weight="1.0" />
+      <edge source="4" target="13" id="14" weight="7.0" />
+      <edge source="4" target="18" id="15" weight="2.0" />
+      <edge source="4" target="19" id="16" weight="14.0" />
+      <edge source="4" target="20" id="17" weight="2.0" />
+      <edge source="4" target="22" id="18" weight="1.0" />
+      <edge source="4" target="25" id="19" weight="11.0" />
+      <edge source="4" target="30" id="20" weight="2.0" />
+      <edge source="5" target="6" id="21" weight="2.0" />
+      <edge source="5" target="10" id="22" weight="1.0" />
+      <edge source="5" target="12" id="23" weight="2.0" />
+      <edge source="5" target="18" id="24" weight="1.0" />
+      <edge source="5" target="20" id="25" weight="3.0" />
+      <edge source="5" target="22" id="26" weight="1.0" />
+      <edge source="6" target="8" id="27" weight="1.0" />
+      <edge source="6" target="11" id="28" weight="6.0" />
+      <edge source="6" target="12" id="29" weight="2.0" />
+      <edge source="7" target="16" id="30" weight="1.0" />
+      <edge source="8" target="9" id="31" weight="1.0" />
+      <edge source="8" target="18" id="32" weight="3.0" />
+      <edge source="8" target="32" id="33" weight="19.0" />
+      <edge source="9" target="18" id="34" weight="5.0" />
+      <edge source="9" target="23" id="35" weight="1.0" />
+      <edge source="10" target="16" id="36" weight="1.0" />
+      <edge source="10" target="19" id="37" weight="3.0" />
+      <edge source="10" target="25" id="38" weight="2.0" />
+      <edge source="10" target="30" id="39" weight="21.0" />
+      <edge source="13" target="19" id="40" weight="2.0" />
+      <edge source="13" target="25" id="41" weight="3.0" />
+      <edge source="13" target="30" id="42" weight="3.0" />
+      <edge source="16" target="24" id="43" weight="14.0" />
+      <edge source="16" target="28" id="44" weight="1.0" />
+      <edge source="18" target="19" id="45" weight="2.0" />
+      <edge source="18" target="25" id="46" weight="1.0" />
+      <edge source="19" target="20" id="47" weight="2.0" />
+      <edge source="19" target="22" id="48" weight="1.0" />
+      <edge source="19" target="25" id="49" weight="16.0" />
+      <edge source="19" target="30" id="50" weight="2.0" />
+      <edge source="20" target="22" id="51" weight="31.0" />
+      <edge source="20" target="25" id="52" weight="2.0" />
+      <edge source="22" target="25" id="53" weight="1.0" />
+      <edge source="25" target="30" id="54" weight="1.0" />
+      <edge source="28" target="29" id="55" weight="25.0" />
+      <edge source="28" target="30" id="56" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

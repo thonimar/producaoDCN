@@ -13,14 +13,14 @@
     }
     </style>
     
-    <h3>Programas de computador sem registro</h3><br>
+    <h3>Supervisão de pós-doutorado</h3><br>
     
         <div id="grafico-producoes" style="width:100%; margin:1em auto;"></div>
         <!-- script src="https://code.highcharts.com/highcharts.js"></script -->
         <script src="./js/highcharts.js"></script>
         <script>
           document.addEventListener('DOMContentLoaded', function () {
-            Highcharts.chart('grafico-producoes', {"chart": {"type": "column", "height": 250}, "title": {"text": ""}, "xAxis": {"categories": ["2017", "2018"], "type": "category"}, "yAxis": {"title": {"text": "Quantidade"}}, "legend": {"enabled": false}, "plotOptions": {"column": {"color": "#4A4A4A", "borderRadius": 2, "pointPadding": 0.1, "groupPadding": 0.1}}, "series": [{"name": "Total", "data": [1, 1]}], "credits": {"enabled": false}});
+            Highcharts.chart('grafico-producoes', {"chart": {"type": "column", "height": 250}, "title": {"text": ""}, "xAxis": {"categories": ["2025"], "type": "category"}, "yAxis": {"title": {"text": "Quantidade"}}, "legend": {"enabled": false}, "plotOptions": {"column": {"color": "#4A4A4A", "borderRadius": 2, "pointPadding": 0.1, "groupPadding": 0.1}}, "series": [{"name": "Total", "data": [2]}], "credits": {"enabled": false}});
           });
         </script>
         
@@ -34,8 +34,8 @@
     <div id="tabela-publicacoes" class="sl-tabela"></div>
     
     <script>
-    const DATA = [{"ano": 2018, "autores": "RIBEIRO, M", "titulo": "G. S.. CAL_Sw_INC"}, {"ano": 2017, "autores": "RIBEIRO, M", "titulo": "G. S.. LOG_Sw_Swirr_So_Soirr"}];
-    const COLUMNS = [{"title": "Ano", "field": "ano", "hozAlign": "center", "sorter": "number", "headerFilter": "input", "headerFilterParams": {"values": true}, "width": 110, "formatter": "fmtAno", "tooltip": true, "resizable": true, "widthGrow": 0}, {"title": "Autores", "field": "autores", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 100, "widthGrow": 0, "width": 120}, {"title": "Título", "field": "titulo", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 140, "widthGrow": 1}];
+    const DATA = [{"ano": 2025, "orientado_a": "Felipe Ravelly Alves de Souza", "titulo_do_trabalho": null, "curso_instituicao": "Universidade Federal do Espírito Santo", "agencia_de_fomento": "Fundação de Amparo à Pesquisa do Espírito Santo.", "tipo_de_orientacao": "Supervisor"}, {"ano": 2025, "orientado_a": "Lucimara Ribeiro Venial", "titulo_do_trabalho": null, "curso_instituicao": "Universidade Federal do Espírito Santo", "agencia_de_fomento": "Fundação de Amparo à Pesquisa do Espírito Santo.", "tipo_de_orientacao": "Supervisor"}];
+    const COLUMNS = [{"title": "Ano", "field": "ano", "hozAlign": "center", "sorter": "number", "headerFilter": "input", "headerFilterParams": {"values": true}, "width": 110, "formatter": "fmtAno", "tooltip": true, "resizable": true, "widthGrow": 0}, {"title": "Orientado(a)", "field": "orientado_a", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 140, "widthGrow": 1}, {"title": "Título do Trabalho", "field": "titulo_do_trabalho", "hozAlign": "left", "sorter": "number", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 70, "widthGrow": 0, "width": 90}, {"title": "Curso/Instituição", "field": "curso_instituicao", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 200, "widthGrow": 2}, {"title": "Agência de Fomento", "field": "agencia_de_fomento", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 200, "widthGrow": 2}, {"title": "Tipo de Orientação", "field": "tipo_de_orientacao", "hozAlign": "left", "sorter": "string", "headerFilter": "input", "tooltip": true, "resizable": true, "minWidth": 100, "widthGrow": 0, "width": 120}];
     
     const LANG_PT = {
       "pt-br": {
